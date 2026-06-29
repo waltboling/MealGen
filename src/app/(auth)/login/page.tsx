@@ -11,6 +11,8 @@ type LoginPageProps = {
     error?: string;
     message?: string;
     inviteCode?: string;
+    status?: string;
+    email?: string;
   }>;
 };
 
@@ -27,7 +29,25 @@ function getLoginErrorMessage(error?: string, message?: string) {
     return "We could not sign you in with those credentials.";
   }
 
+  if (error === "email-not-confirmed") {
+    return "That account exists, but the email has not been confirmed yet. Check your inbox for the confirmation email.";
+  }
+
   return "Please check your email and password.";
+}
+
+function getLoginStatusMessage(status?: string, email?: string) {
+  if (status === "check-email") {
+    return email
+      ? `Check ${email} to confirm your account, then sign in.`
+      : "Check your email to confirm your account, then sign in.";
+  }
+
+  if (status === "password-updated") {
+    return "Your password was updated. Sign in with the new password.";
+  }
+
+  return null;
 }
 
 export default async function LoginPage({ searchParams }: LoginPageProps) {
@@ -58,7 +78,20 @@ export default async function LoginPage({ searchParams }: LoginPageProps) {
         ) : null}
         {params.error ? (
           <div className="mb-4 rounded-md border border-destructive/30 bg-destructive/10 px-3 py-2 text-sm text-destructive">
-            {getLoginErrorMessage(params.error, params.message)}
+            <p>{getLoginErrorMessage(params.error, params.message)}</p>
+            {params.error === "email-not-confirmed" ? (
+              <Link
+                href={`/resend-confirmation${params.email ? `?email=${encodeURIComponent(params.email)}` : ""}`}
+                className="mt-2 inline-block font-medium text-destructive underline-offset-4 hover:underline"
+              >
+                Resend confirmation email
+              </Link>
+            ) : null}
+          </div>
+        ) : null}
+        {getLoginStatusMessage(params.status, params.email) ? (
+          <div className="mb-4 rounded-md border border-primary/20 bg-primary/5 px-3 py-2 text-sm text-primary">
+            {getLoginStatusMessage(params.status, params.email)}
           </div>
         ) : null}
         <form action={signInAction} autoComplete="on" className="space-y-4">
@@ -107,7 +140,13 @@ export default async function LoginPage({ searchParams }: LoginPageProps) {
           </Link>
           .
         </div>
-        <p className="mt-5 text-center text-sm text-muted-foreground">
+        <p className="mt-4 text-center text-sm text-muted-foreground">
+          Forgot your password?{" "}
+          <Link href="/forgot-password" className="font-medium text-primary">
+            Reset it
+          </Link>
+        </p>
+        <p className="mt-3 text-center text-sm text-muted-foreground">
           New here?{" "}
           <Link href="/signup" className="font-medium text-primary">
             Create an account

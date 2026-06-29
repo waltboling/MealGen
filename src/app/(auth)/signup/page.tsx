@@ -41,7 +41,7 @@ export default async function SignupPage({ searchParams }: SignupPageProps) {
         <CardDescription>
           {envStatus.ok && envStatus.mode === "demo"
             ? "Local demo mode is active. Create account opens the demo household."
-            : "Start with an account, then invite the meal planning crew."}
+            : "Create an account. If email confirmation is enabled, you will confirm your email before onboarding."}
         </CardDescription>
       </CardHeader>
       <CardContent>
