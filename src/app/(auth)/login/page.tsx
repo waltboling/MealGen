@@ -61,10 +61,16 @@ export default async function LoginPage({ searchParams }: LoginPageProps) {
             {getLoginErrorMessage(params.error, params.message)}
           </div>
         ) : null}
-        <form action={signInAction} className="space-y-4">
+        <form action={signInAction} autoComplete="on" className="space-y-4">
           <div className="space-y-2">
             <Label htmlFor="email">Email</Label>
-            <Input id="email" name="email" type="email" autoComplete="email" required />
+            <Input
+              id="email"
+              name="email"
+              type="email"
+              autoComplete="username"
+              required
+            />
           </div>
           <div className="space-y-2">
             <Label htmlFor="password">Password</Label>
@@ -84,6 +90,7 @@ export default async function LoginPage({ searchParams }: LoginPageProps) {
               defaultValue={params.inviteCode ?? ""}
               placeholder="Optional"
               autoCapitalize="characters"
+              autoComplete="off"
             />
           </div>
           <Button type="submit" className="w-full">

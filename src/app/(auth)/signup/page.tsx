@@ -61,14 +61,20 @@ export default async function SignupPage({ searchParams }: SignupPageProps) {
             {getSignupErrorMessage(params.error, params.message)}
           </div>
         ) : null}
-        <form action={signUpAction} className="space-y-4">
+        <form action={signUpAction} autoComplete="on" className="space-y-4">
           <div className="space-y-2">
             <Label htmlFor="name">Name</Label>
             <Input id="name" name="name" autoComplete="name" required />
           </div>
           <div className="space-y-2">
             <Label htmlFor="email">Email</Label>
-            <Input id="email" name="email" type="email" autoComplete="email" required />
+            <Input
+              id="email"
+              name="email"
+              type="email"
+              autoComplete="username"
+              required
+            />
           </div>
           <div className="space-y-2">
             <Label htmlFor="password">Password</Label>
@@ -77,6 +83,7 @@ export default async function SignupPage({ searchParams }: SignupPageProps) {
               name="password"
               type="password"
               autoComplete="new-password"
+              minLength={6}
               required
             />
           </div>
@@ -88,6 +95,7 @@ export default async function SignupPage({ searchParams }: SignupPageProps) {
               defaultValue={params.inviteCode ?? ""}
               placeholder="Optional"
               autoCapitalize="characters"
+              autoComplete="off"
             />
           </div>
           <Button type="submit" className="w-full">
