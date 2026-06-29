@@ -8,7 +8,7 @@ type PlanningRequestFormProps = {
   restoreDraft: boolean;
 };
 
-const formDraftKey = "meal-planner.plan-with-ai.form";
+const formDraftKey = "mealgen.plan-with-ai.form";
 
 type DraftField = string | string[];
 

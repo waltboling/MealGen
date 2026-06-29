@@ -8,7 +8,7 @@ type GenerateRecipeRequestFormProps = {
   restoreDraft: boolean;
 };
 
-const draftKey = "meal-planner.generate-recipe.form";
+const draftKey = "mealgen.generate-recipe.form";
 
 type DraftValue = string | boolean;
 

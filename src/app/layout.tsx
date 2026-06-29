@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Meal Planner",
+  title: "MealGen",
   description: "A calm weekly meal planning app for households."
 };
 

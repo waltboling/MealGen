@@ -7,7 +7,7 @@ export function AppNav() {
   return (
     <aside className="hidden w-72 shrink-0 border-r border-border bg-card px-5 py-6 lg:flex lg:flex-col">
       <Link href="/dashboard" className="mb-8 block">
-        <div className="text-lg font-semibold">Meal Planner</div>
+        <div className="text-lg font-semibold">MealGen</div>
         <div className="text-sm text-muted-foreground">Weekly meals, gently handled.</div>
       </Link>
 
