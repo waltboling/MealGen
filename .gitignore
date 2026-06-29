@@ -1,0 +1,23 @@
+# Dependencies
+node_modules
+
+# Next.js build output
+.next
+.next-*
+out
+dist
+
+# Environment files with secrets
+.env
+.env.*
+!.env.example
+!.env.production.example
+
+# Local caches and generated files
+*.tsbuildinfo
+.DS_Store
+outputs
+work
+
+# Local database files
+prisma/dev.db

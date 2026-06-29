@@ -1,0 +1,106 @@
+{
+  "household": {
+    "id": "00000000-0000-4000-8000-000000000001",
+    "name": "Demo Household",
+    "defaultServings": 4
+  },
+  "accountUsers": [
+    {
+      "id": "00000000-0000-4000-8000-000000000002",
+      "email": "jon@example.com",
+      "name": "Jon",
+      "role": "ADMIN",
+      "status": "ACTIVE",
+      "linkedProfileId": "00000000-0000-4000-8000-000000000101"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000003",
+      "email": "amanda@example.com",
+      "name": "Amanda",
+      "role": "MEMBER",
+      "status": "ACTIVE",
+      "linkedProfileId": "00000000-0000-4000-8000-000000000102"
+    }
+  ],
+  "invitations": [
+    {
+      "id": "90000000-0000-4000-8000-000000000001",
+      "email": "partner@example.com",
+      "role": "MEMBER",
+      "status": "PENDING",
+      "token": "DEMO1234"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "00000000-0000-4000-8000-000000000101",
+      "linkedUserId": "00000000-0000-4000-8000-000000000002",
+      "name": "Jon",
+      "profileType": "USER_LINKED",
+      "active": true,
+      "temporary": false,
+      "color": "#1f7668",
+      "initials": "JB",
+      "likes": ["chicken", "rice bowls", "spicy food"],
+      "dislikes": ["raw onion"],
+      "allergies": [],
+      "dietaryPreferences": [],
+      "favoriteCuisines": ["Mexican", "Thai", "Italian"],
+      "preferredSpiceLevel": 4,
+      "notes": "Usually plans dinners and grocery lists."
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000102",
+      "linkedUserId": "00000000-0000-4000-8000-000000000003",
+      "name": "Amanda",
+      "profileType": "USER_LINKED",
+      "active": true,
+      "temporary": false,
+      "color": "#bf6b3f",
+      "initials": "AB",
+      "likes": ["pasta", "salads", "lemon"],
+      "dislikes": ["too much heat"],
+      "allergies": [],
+      "dietaryPreferences": [],
+      "favoriteCuisines": ["Italian", "Mediterranean"],
+      "preferredSpiceLevel": 2,
+      "notes": "Prefers lighter dinners during the week."
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000104",
+      "linkedUserId": null,
+      "name": "Elliot",
+      "profileType": "MANAGED",
+      "active": true,
+      "temporary": false,
+      "color": "#5f7fbf",
+      "initials": "EB",
+      "likes": ["pasta", "chicken"],
+      "dislikes": ["tomatoes"],
+      "allergies": [],
+      "dietaryPreferences": [],
+      "favoriteCuisines": ["American", "Italian"],
+      "preferredSpiceLevel": 1,
+      "notes": "Managed child profile. No app login."
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000103",
+      "linkedUserId": null,
+      "name": "Dinner Guest",
+      "profileType": "GUEST",
+      "active": true,
+      "temporary": true,
+      "activeFrom": "2026-06-22",
+      "activeUntil": "2026-06-29",
+      "color": "#8a6fb0",
+      "initials": "DG",
+      "likes": ["pasta"],
+      "dislikes": [],
+      "allergies": ["tree nuts"],
+      "dietaryPreferences": [],
+      "favoriteCuisines": ["Italian"],
+      "preferredSpiceLevel": 2,
+      "notes": "Temporary guest for this week's dinner."
+    }
+  ]
+}

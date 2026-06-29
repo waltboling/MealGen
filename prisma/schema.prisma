@@ -1,0 +1,428 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+enum HouseholdRole {
+  ADMIN
+  OWNER
+  ADULT
+  MEMBER
+  GUEST
+}
+
+enum HouseholdAccessStatus {
+  ACTIVE
+  INVITED
+  DISABLED
+}
+
+enum HouseholdProfileType {
+  USER_LINKED
+  MANAGED
+  GUEST
+}
+
+enum HouseholdInvitationStatus {
+  PENDING
+  ACCEPTED
+  REVOKED
+  EXPIRED
+}
+
+enum MemberPreferenceType {
+  LIKE
+  DISLIKE
+  ALLERGY
+  DIETARY_PREFERENCE
+  FAVORITE_CUISINE
+}
+
+enum SourceType {
+  WEBSITE
+  CREATOR
+  BLOG
+  PUBLICATION
+  CHANNEL
+}
+
+enum MealPlanStatus {
+  DRAFT
+  ACTIVE
+  COMPLETED
+}
+
+enum MealType {
+  BREAKFAST
+  LUNCH
+  DINNER
+  SNACK
+  MEAL_PREP
+  OTHER
+}
+
+enum GroceryItemSource {
+  GENERATED
+  MANUAL
+}
+
+model UserProfile {
+  id        String   @id @db.Uuid
+  email     String   @unique
+  name      String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  households     HouseholdMembership[]
+  createdRecipes Recipe[]
+  linkedMealProfiles HouseholdMember[]
+}
+
+model Household {
+  id        String   @id @default(uuid()) @db.Uuid
+  name      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  memberships     HouseholdMembership[]
+  members         HouseholdMember[]
+  recipes         Recipe[]
+  importedRecipes ImportedRecipe[]
+  favoriteSources FavoriteSource[]
+  invitations     HouseholdInvitation[]
+  mealStrategies  MealStrategy[]
+  mealPlans       MealPlan[]
+  groceryLists    GroceryList[]
+}
+
+model HouseholdMembership {
+  id          String        @id @default(uuid()) @db.Uuid
+  householdId String        @db.Uuid
+  userId      String        @db.Uuid
+  role        HouseholdRole @default(MEMBER)
+  status      HouseholdAccessStatus @default(ACTIVE)
+  createdAt   DateTime      @default(now())
+
+  household Household   @relation(fields: [householdId], references: [id], onDelete: Cascade)
+  user      UserProfile @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([householdId, userId])
+  @@index([userId])
+}
+
+model HouseholdMember {
+  id                 String   @id @default(uuid()) @db.Uuid
+  householdId        String   @db.Uuid
+  linkedUserId       String?  @db.Uuid
+  profileType        HouseholdProfileType @default(MANAGED)
+  name               String
+  avatarUrl          String?
+  color              String?
+  initials           String?
+  active             Boolean  @default(true)
+  temporary          Boolean  @default(false)
+  activeFrom         DateTime? @db.Date
+  activeUntil        DateTime? @db.Date
+  cookingSkill       String?
+  preferredSpiceLevel Int?
+  likes              String[] @default([])
+  dislikes           String[] @default([])
+  allergies          String[] @default([])
+  dietaryPreferences String[] @default([])
+  favoriteCuisines   String[] @default([])
+  notes              String?
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+
+  household    Household                 @relation(fields: [householdId], references: [id], onDelete: Cascade)
+  linkedUser   UserProfile?              @relation(fields: [linkedUserId], references: [id], onDelete: SetNull)
+  preferences  MemberPreference[]
+  participants MealPlanMealParticipant[]
+
+  @@index([householdId])
+  @@index([linkedUserId])
+}
+
+model HouseholdInvitation {
+  id          String                    @id @default(uuid()) @db.Uuid
+  householdId String                    @db.Uuid
+  email       String
+  role        HouseholdRole             @default(MEMBER)
+  status      HouseholdInvitationStatus @default(PENDING)
+  token       String?
+  expiresAt   DateTime?
+  createdAt   DateTime                  @default(now())
+  updatedAt   DateTime                  @updatedAt
+
+  household Household @relation(fields: [householdId], references: [id], onDelete: Cascade)
+
+  @@index([householdId])
+  @@index([email])
+}
+
+model MemberPreference {
+  id        String               @id @default(uuid()) @db.Uuid
+  memberId  String               @db.Uuid
+  type      MemberPreferenceType
+  value     String
+  weight    Int                  @default(1)
+  createdAt DateTime             @default(now())
+
+  member HouseholdMember @relation(fields: [memberId], references: [id], onDelete: Cascade)
+
+  @@index([memberId, type])
+}
+
+model ImportedRecipe {
+  id              String   @id @default(uuid()) @db.Uuid
+  householdId     String   @db.Uuid
+  providerId      String?
+  externalId      String?
+  title           String
+  imageUrl        String?
+  sourceName      String?
+  authorName      String?
+  sourceUrl       String?
+  ingredientsJson Json
+  instructionsJson Json
+  prepMinutes     Int?
+  cookMinutes     Int?
+  servings        Int?
+  tags            String[] @default([])
+  rawPayload      Json?
+  createdAt       DateTime @default(now())
+
+  household Household @relation(fields: [householdId], references: [id], onDelete: Cascade)
+  recipes   Recipe[]
+
+  @@index([householdId])
+  @@index([providerId, externalId])
+  @@unique([householdId, providerId, externalId])
+}
+
+model Recipe {
+  id               String   @id @default(uuid()) @db.Uuid
+  householdId      String   @db.Uuid
+  importedRecipeId String?  @db.Uuid
+  title            String
+  description      String?
+  imageUrl         String?
+  sourceName       String?
+  sourceUrl        String?
+  authorName       String?
+  prepMinutes      Int?
+  cookMinutes      Int?
+  servings         Int
+  isCustom         Boolean  @default(true)
+  createdByUserId  String?  @db.Uuid
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  household      Household           @relation(fields: [householdId], references: [id], onDelete: Cascade)
+  importedRecipe ImportedRecipe?      @relation(fields: [importedRecipeId], references: [id], onDelete: SetNull)
+  createdBy      UserProfile?         @relation(fields: [createdByUserId], references: [id], onDelete: SetNull)
+  ingredients    RecipeIngredient[]
+  instructions   RecipeInstruction[]
+  notes          RecipeNote[]
+  tags           RecipeTag[]
+  mealPlanMeals  MealPlanMeal[]
+  groceryItems   GroceryListItem[]
+
+  @@index([householdId])
+  @@index([createdByUserId])
+}
+
+model RecipeIngredient {
+  id             String  @id @default(uuid()) @db.Uuid
+  recipeId       String  @db.Uuid
+  displayText    String
+  name           String
+  normalizedName String?
+  quantity       Decimal? @db.Decimal(10, 3)
+  unit           String?
+  position       Int
+
+  recipe Recipe @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+
+  @@index([recipeId])
+}
+
+model RecipeInstruction {
+  id       String @id @default(uuid()) @db.Uuid
+  recipeId String @db.Uuid
+  step     Int
+  text     String
+
+  recipe Recipe @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+
+  @@unique([recipeId, step])
+}
+
+model RecipeNote {
+  id        String   @id @default(uuid()) @db.Uuid
+  recipeId  String   @db.Uuid
+  text      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  recipe Recipe @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+
+  @@index([recipeId])
+}
+
+model RecipeTag {
+  id        String @id @default(uuid()) @db.Uuid
+  recipeId  String @db.Uuid
+  name      String
+
+  recipe Recipe @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+
+  @@unique([recipeId, name])
+}
+
+model FavoriteSource {
+  id           String     @id @default(uuid()) @db.Uuid
+  householdId  String     @db.Uuid
+  type         SourceType
+  name         String
+  url          String?
+  rankingBoost Int        @default(10)
+  notes        String?
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+
+  household Household @relation(fields: [householdId], references: [id], onDelete: Cascade)
+
+  @@index([householdId])
+}
+
+model MealStrategy {
+  id                 String   @id @default(uuid()) @db.Uuid
+  householdId        String   @db.Uuid
+  name               String
+  mealType           MealType
+  weeklyTarget       Int      @default(5)
+  defaultServings    Int      @default(4)
+  prompt             String
+  maxCookTimeMinutes Int?
+  calorieMin         Int?
+  calorieMax         Int?
+  proteinGoal        Int?
+  preferredProteins  String[] @default([])
+  preferredBaseCarbs String[] @default([])
+  vegetables         String[] @default([])
+  avoidIngredients   String[] @default([])
+  sourceTypes        String[] @default(["ai_generated"])
+  active             Boolean  @default(true)
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+
+  household Household      @relation(fields: [householdId], references: [id], onDelete: Cascade)
+  meals     MealPlanMeal[]
+
+  @@index([householdId])
+}
+
+model MealPlan {
+  id            String         @id @default(uuid()) @db.Uuid
+  householdId   String         @db.Uuid
+  weekStartDate DateTime       @db.Date
+  status        MealPlanStatus @default(DRAFT)
+  notes         String?
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
+
+  household   Household     @relation(fields: [householdId], references: [id], onDelete: Cascade)
+  meals       MealPlanMeal[]
+  groceryList GroceryList?
+
+  @@unique([householdId, weekStartDate])
+}
+
+model MealPlanMeal {
+  id             String    @id @default(uuid()) @db.Uuid
+  mealPlanId     String    @db.Uuid
+  recipeId       String    @db.Uuid
+  mealStrategyId String?   @db.Uuid
+  mealType       MealType
+  plannedForDate DateTime? @db.Date
+  servings       Int
+  notes          String?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  mealPlan     MealPlan                  @relation(fields: [mealPlanId], references: [id], onDelete: Cascade)
+  recipe       Recipe                    @relation(fields: [recipeId], references: [id], onDelete: Restrict)
+  mealStrategy MealStrategy?             @relation(fields: [mealStrategyId], references: [id], onDelete: SetNull)
+  participants MealPlanMealParticipant[]
+  groceryItems GroceryListItem[]
+
+  @@index([mealPlanId])
+  @@index([recipeId])
+  @@index([mealStrategyId])
+}
+
+model MealPlanMealParticipant {
+  id              String @id @default(uuid()) @db.Uuid
+  mealPlanMealId  String @db.Uuid
+  householdMemberId String @db.Uuid
+
+  mealPlanMeal    MealPlanMeal    @relation(fields: [mealPlanMealId], references: [id], onDelete: Cascade)
+  householdMember HouseholdMember @relation(fields: [householdMemberId], references: [id], onDelete: Cascade)
+
+  @@unique([mealPlanMealId, householdMemberId])
+}
+
+model GroceryList {
+  id          String   @id @default(uuid()) @db.Uuid
+  householdId String   @db.Uuid
+  mealPlanId  String?  @unique @db.Uuid
+  name        String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  household Household         @relation(fields: [householdId], references: [id], onDelete: Cascade)
+  mealPlan  MealPlan?         @relation(fields: [mealPlanId], references: [id], onDelete: SetNull)
+  items     GroceryListItem[]
+
+  @@index([householdId])
+}
+
+model GroceryListItem {
+  id             String            @id @default(uuid()) @db.Uuid
+  groceryListId  String            @db.Uuid
+  recipeId       String?           @db.Uuid
+  mealPlanMealId String?           @db.Uuid
+  name           String
+  normalizedName String?
+  quantity       Decimal?          @db.Decimal(10, 3)
+  unit           String?
+  category       String?
+  checked        Boolean           @default(false)
+  source         GroceryItemSource @default(GENERATED)
+  sourceRecipeNames String[]       @default([])
+  sourceSummary  String?
+  createdAt      DateTime          @default(now())
+  updatedAt      DateTime          @updatedAt
+
+  groceryList  GroceryList   @relation(fields: [groceryListId], references: [id], onDelete: Cascade)
+  recipe       Recipe?       @relation(fields: [recipeId], references: [id], onDelete: SetNull)
+  mealPlanMeal MealPlanMeal? @relation(fields: [mealPlanMealId], references: [id], onDelete: SetNull)
+
+  @@index([groceryListId])
+  @@index([normalizedName])
+}
+
+model IngredientNormalizationRule {
+  id             String   @id @default(uuid()) @db.Uuid
+  rawName        String   @unique
+  normalizedName String
+  category       String?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}

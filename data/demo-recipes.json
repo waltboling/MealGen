@@ -1,0 +1,2891 @@
+[
+  {
+    "id": "ca2d6d3c-87c4-4b1a-b768-3211a2c88742",
+    "importedRecipeId": null,
+    "title": "Spiced Beef with Quinoa and Roasted Brussels Sprouts",
+    "description": "Seasoned ground beef served with fluffy quinoa and oven-roasted Brussels sprouts.",
+    "imageUrl": null,
+    "sourceName": "AI meal planner",
+    "sourceUrl": null,
+    "authorName": null,
+    "origin": "CUSTOM",
+    "providerId": null,
+    "externalId": null,
+    "prepMinutes": null,
+    "cookMinutes": 40,
+    "servings": 2,
+    "tags": [
+      "beef",
+      "quinoa",
+      "roasted vegetables",
+      "healthy",
+      "meal prep",
+      "lunchtime",
+      "protein rich",
+      "ai planned",
+      "saved_recipe",
+      "mediterranean-inspired"
+    ],
+    "ingredientCount": 7,
+    "noteCount": 4,
+    "ingredients": [
+      {
+        "id": "def69f68-50b3-46bf-b9da-923f4a0a2d84",
+        "displayText": "12 oz lean ground beef",
+        "name": "lean ground beef",
+        "quantity": 12,
+        "unit": "oz",
+        "position": 1
+      },
+      {
+        "id": "ba3d32ff-a1a0-4ab8-811f-fe224e8758d4",
+        "displayText": "1 cup quinoa, rinsed",
+        "name": "quinoa, rinsed",
+        "quantity": 1,
+        "unit": "cup",
+        "position": 2
+      },
+      {
+        "id": "c78a5ea1-dfbe-4335-a329-5c0587bdbe17",
+        "displayText": "2 cups Brussels sprouts, halved",
+        "name": "Brussels sprouts, halved",
+        "quantity": 2,
+        "unit": "cups",
+        "position": 3
+      },
+      {
+        "id": "ca96d0df-c657-42e1-a6d1-f62ec5aa6cc1",
+        "displayText": "1 tablespoon olive oil",
+        "name": "olive oil",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "position": 4
+      },
+      {
+        "id": "145479a9-e9a7-43eb-83b1-0674601605f9",
+        "displayText": "1 teaspoon ground cumin",
+        "name": "ground cumin",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "position": 5
+      },
+      {
+        "id": "15fe58ef-38b4-445b-9e55-7368ad80161a",
+        "displayText": "1 teaspoon smoked paprika",
+        "name": "smoked paprika",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "position": 6
+      },
+      {
+        "id": "7879dc45-2605-48f1-a82e-b116f70ce61c",
+        "displayText": "Salt and pepper to taste",
+        "name": "Salt and pepper to taste",
+        "quantity": null,
+        "unit": null,
+        "position": 7
+      }
+    ],
+    "instructions": [
+      {
+        "id": "3019877f-1d16-4a3d-b06e-47370d187c90",
+        "text": "Preheat oven to 400°F (200°C). Toss Brussels sprouts with half olive oil, salt and pepper; roast 25 minutes until caramelized.",
+        "step": 1
+      },
+      {
+        "id": "ecd7bd8c-e539-4c5c-b652-774b235e8b04",
+        "text": "Cook quinoa according to package instructions.",
+        "step": 2
+      },
+      {
+        "id": "5bafcb60-84da-4e14-b1f6-60a65f41bd82",
+        "text": "In a skillet over medium-high heat, brown ground beef and drain excess fat.",
+        "step": 3
+      },
+      {
+        "id": "7e2a124b-ec52-4619-b65c-281dab050446",
+        "text": "Add cumin, smoked paprika, salt, and pepper to beef; cook 2-3 minutes to develop flavor.",
+        "step": 4
+      },
+      {
+        "id": "ef755e59-b07c-4655-859a-3effe06a0a3d",
+        "text": "Serve beef over quinoa with roasted Brussels sprouts on the side.",
+        "step": 5
+      }
+    ],
+    "notes": [
+      {
+        "id": "0923d4d2-dc7e-4574-a687-27e8563fd465",
+        "text": "Includes preferred protein (beef), healthy carb (quinoa), and vegetable side (substitute Brussels sprouts for broccoli or green beans to ensure variety). Protein and calorie goals met with practical meal prep.",
+        "createdAt": "2026-06-28T21:42:22.965Z"
+      },
+      {
+        "id": "85a8b19c-6ff2-4477-ba61-53baa4205428",
+        "text": "Estimated calories: 670",
+        "createdAt": "2026-06-28T21:42:22.965Z"
+      },
+      {
+        "id": "69f0d841-126f-4438-a10c-ff3e0c9ae49b",
+        "text": "Estimated protein: 38g",
+        "createdAt": "2026-06-28T21:42:22.965Z"
+      },
+      {
+        "id": "5e84a9fd-4848-4675-859f-98b54c495caf",
+        "text": "Calories and protein from lean beef (6 oz per serving), quinoa, and roasted Brussels sprouts with olive oil.",
+        "createdAt": "2026-06-28T21:42:22.965Z"
+      }
+    ],
+    "updatedAt": "2026-06-28T21:42:22.965Z"
+  },
+  {
+    "id": "994b215b-bb2a-4bdb-90d8-342007625367",
+    "importedRecipeId": null,
+    "title": "Korean Pork Bowl with Couscous and Cauliflower",
+    "description": "Savory marinated pork served over fluffy couscous with roasted cauliflower and bell peppers.",
+    "imageUrl": null,
+    "sourceName": "AI meal planner",
+    "sourceUrl": null,
+    "authorName": null,
+    "origin": "CUSTOM",
+    "providerId": null,
+    "externalId": null,
+    "prepMinutes": null,
+    "cookMinutes": 42,
+    "servings": 2,
+    "tags": [
+      "pork",
+      "couscous",
+      "korean-inspired",
+      "healthy",
+      "meal prep",
+      "lunch",
+      "vegetables",
+      "ai planned",
+      "saved_recipe"
+    ],
+    "ingredientCount": 9,
+    "noteCount": 4,
+    "ingredients": [
+      {
+        "id": "43e0d50a-df30-4a95-a9ce-55fb593b36d5",
+        "displayText": "12 oz ground pork",
+        "name": "ground pork",
+        "quantity": 12,
+        "unit": "oz",
+        "position": 1
+      },
+      {
+        "id": "9938fdf9-ff55-4bd6-8c0a-2f2bd266545c",
+        "displayText": "1 cup couscous",
+        "name": "couscous",
+        "quantity": 1,
+        "unit": "cup",
+        "position": 2
+      },
+      {
+        "id": "3e97e1a6-11ad-4a17-a639-7550bf93cf53",
+        "displayText": "1 cup cauliflower florets",
+        "name": "cauliflower florets",
+        "quantity": 1,
+        "unit": "cup",
+        "position": 3
+      },
+      {
+        "id": "d4d44017-be6b-4c12-89f7-a05541780a7e",
+        "displayText": "1 red bell pepper, sliced",
+        "name": "bell pepper, sliced",
+        "quantity": 1,
+        "unit": "red",
+        "position": 4
+      },
+      {
+        "id": "c7c4f086-66ad-4bbf-831d-6a865ee38d2e",
+        "displayText": "1 tablespoon soy sauce",
+        "name": "soy sauce",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "position": 5
+      },
+      {
+        "id": "b8dee140-0117-45e2-8b05-b4ec27935b21",
+        "displayText": "1 teaspoon sesame oil",
+        "name": "sesame oil",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "position": 6
+      },
+      {
+        "id": "e1cd8d01-4151-4294-9ddb-1371edc649bb",
+        "displayText": "1 teaspoon minced garlic",
+        "name": "minced garlic",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "position": 7
+      },
+      {
+        "id": "685256eb-3004-46d0-b436-4174c3ea50a8",
+        "displayText": "1 teaspoon ginger, grated",
+        "name": "ginger, grated",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "position": 8
+      },
+      {
+        "id": "2d647574-9dec-43e7-8cc0-0b57078da62f",
+        "displayText": "Salt and black pepper to taste",
+        "name": "Salt and black pepper to taste",
+        "quantity": null,
+        "unit": null,
+        "position": 9
+      }
+    ],
+    "instructions": [
+      {
+        "id": "df19a45d-e1cd-4988-8610-ba9378c1263e",
+        "text": "Preheat oven to 425°F (220°C). Toss cauliflower florets with half teaspoon olive oil, salt and pepper; roast 20 minutes until golden.",
+        "step": 1
+      },
+      {
+        "id": "4f77c25e-560c-4b6a-b259-82e9cdc47289",
+        "text": "Prepare couscous per package instructions; fluff with fork and keep warm.",
+        "step": 2
+      },
+      {
+        "id": "f61c7d0c-31ba-4adc-acc7-75ac527fe217",
+        "text": "In a skillet over medium heat, cook ground pork with garlic and ginger until browned.",
+        "step": 3
+      },
+      {
+        "id": "36436813-49d3-4a9c-b92b-7c3d78fb6338",
+        "text": "Add soy sauce, sesame oil, salt, and pepper; cook 2 more minutes.",
+        "step": 4
+      },
+      {
+        "id": "5ae0efa0-4be7-4411-be96-ce4672894ea3",
+        "text": "Sauté bell peppers briefly until just softened.",
+        "step": 5
+      },
+      {
+        "id": "f219fc1e-fae1-4e25-b13d-bbf2eeef122c",
+        "text": "Divide couscous between bowls, top with pork, roasted cauliflower and peppers.",
+        "step": 6
+      }
+    ],
+    "notes": [
+      {
+        "id": "2e0bb146-31a9-4700-9cf8-baf3430d43f8",
+        "text": "Includes preferred protein (pork), base (couscous), and vegetable side (cauliflower, peppers) with mildly savory Korean flavors, matching Jon's and household's preferences for practical, interesting lunches.",
+        "createdAt": "2026-06-28T21:42:13.833Z"
+      },
+      {
+        "id": "89f21a68-4c98-4c9a-ad1d-2c1f9c2e0454",
+        "text": "Estimated calories: 680",
+        "createdAt": "2026-06-28T21:42:13.833Z"
+      },
+      {
+        "id": "a3b4c877-6438-4e20-b92d-805a3d4be76d",
+        "text": "Estimated protein: 36g",
+        "createdAt": "2026-06-28T21:42:13.833Z"
+      },
+      {
+        "id": "10d0af16-e7d7-4dbf-82ff-7ee4054ebcd0",
+        "text": "Protein and calorie estimates based on 6oz pork per serving, couscous portion, and roasted vegetables with light oil.",
+        "createdAt": "2026-06-28T21:42:13.833Z"
+      }
+    ],
+    "updatedAt": "2026-06-28T21:42:13.833Z"
+  },
+  {
+    "id": "39cb49b4-b6b1-4901-b520-14e7392b7403",
+    "importedRecipeId": null,
+    "title": "Mediterranean Chicken Quinoa Bowl",
+    "description": "Grilled lemon herb chicken with quinoa, roasted peppers, steamed broccoli, and a yogurt-tahini sauce.",
+    "imageUrl": null,
+    "sourceName": "AI meal planner",
+    "sourceUrl": null,
+    "authorName": null,
+    "origin": "CUSTOM",
+    "providerId": null,
+    "externalId": null,
+    "prepMinutes": null,
+    "cookMinutes": 40,
+    "servings": 2,
+    "tags": [
+      "chicken",
+      "quinoa",
+      "mediterranean",
+      "lemon",
+      "healthy",
+      "meal prep",
+      "lunch",
+      "nut-free",
+      "ai planned",
+      "saved_recipe"
+    ],
+    "ingredientCount": 10,
+    "noteCount": 4,
+    "ingredients": [
+      {
+        "id": "2af7fa0e-9129-4d13-b0ae-61353cd5e624",
+        "displayText": "12 oz boneless skinless chicken breast",
+        "name": "boneless skinless chicken breast",
+        "quantity": 12,
+        "unit": "oz",
+        "position": 1
+      },
+      {
+        "id": "e2e6e543-c7be-4211-a23b-957104ec8a25",
+        "displayText": "1 cup quinoa, rinsed",
+        "name": "quinoa, rinsed",
+        "quantity": 1,
+        "unit": "cup",
+        "position": 2
+      },
+      {
+        "id": "3d4618bb-7d11-4cea-b398-5a69ea694833",
+        "displayText": "1 red bell pepper, quartered",
+        "name": "bell pepper, quartered",
+        "quantity": 1,
+        "unit": "red",
+        "position": 3
+      },
+      {
+        "id": "af92e2d0-7eb5-4048-bdb4-1a2273c915da",
+        "displayText": "1 cup broccoli florets",
+        "name": "broccoli florets",
+        "quantity": 1,
+        "unit": "cup",
+        "position": 4
+      },
+      {
+        "id": "80093407-da53-418f-af58-16b4aa1c1536",
+        "displayText": "1 lemon, zested and juiced",
+        "name": "lemon, zested and juiced",
+        "quantity": 1,
+        "unit": null,
+        "position": 5
+      },
+      {
+        "id": "f1d2ff08-7cc6-486b-84ba-560fc6c06d83",
+        "displayText": "2 tablespoons plain Greek yogurt",
+        "name": "plain Greek yogurt",
+        "quantity": 2,
+        "unit": "tablespoons",
+        "position": 6
+      },
+      {
+        "id": "934e01b0-cdd0-466f-89d6-dac619c73a9a",
+        "displayText": "1 tablespoon tahini",
+        "name": "tahini",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "position": 7
+      },
+      {
+        "id": "86336e70-6c79-4498-b22e-74c5e9fbca27",
+        "displayText": "1 tablespoon olive oil",
+        "name": "olive oil",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "position": 8
+      },
+      {
+        "id": "dbaa09d7-b7bf-477c-a1fe-1b6f2bc16eb8",
+        "displayText": "1 clove garlic, minced",
+        "name": "garlic, minced",
+        "quantity": 1,
+        "unit": "clove",
+        "position": 9
+      },
+      {
+        "id": "85a0b32f-e0cf-4bbc-a260-439f13ab55f1",
+        "displayText": "Salt and pepper to taste",
+        "name": "Salt and pepper to taste",
+        "quantity": null,
+        "unit": null,
+        "position": 10
+      }
+    ],
+    "instructions": [
+      {
+        "id": "b362d868-23a7-4054-9781-543cbf4284e9",
+        "text": "Cook quinoa according to package instructions.",
+        "step": 1
+      },
+      {
+        "id": "fdbafba1-c15a-4f17-9f8b-bccbe2a2d9ec",
+        "text": "Preheat oven to 400°F (200°C). Toss bell pepper with half of olive oil, salt, and pepper; roast 20 minutes until tender.",
+        "step": 2
+      },
+      {
+        "id": "4360279a-cca1-4e57-9870-ba101ba23800",
+        "text": "Season chicken breast with salt, pepper, lemon zest, and half lemon juice. Grill or pan-sear for 6-7 minutes per side until cooked through, rest and slice.",
+        "step": 3
+      },
+      {
+        "id": "f1466b39-9f50-4ee8-9c16-f8f28ef8a5d6",
+        "text": "Steam broccoli until crisp-tender.",
+        "step": 4
+      },
+      {
+        "id": "b0990ef1-e0f1-4a44-9eb0-202d5dee89f4",
+        "text": "Mix Greek yogurt, tahini, remaining lemon juice, and minced garlic to make sauce.",
+        "step": 5
+      },
+      {
+        "id": "ac29cc4c-4615-4a30-a71c-e4ab01b0f55e",
+        "text": "Assemble bowls with quinoa, sliced chicken, roasted peppers, broccoli, and drizzle with yogurt-tahini sauce.",
+        "step": 6
+      }
+    ],
+    "notes": [
+      {
+        "id": "8d9ffb1e-a1a3-4be7-ad7d-402ec62ec2db",
+        "text": "Protein-rich chicken paired with quinoa as healthy carb base, includes preferred vegetables (peppers, broccoli), and features bright lemon herb flavors matching Amanda and Dinner Guest's Mediterranean and Italian preferences.",
+        "createdAt": "2026-06-28T21:42:05.354Z"
+      },
+      {
+        "id": "b4d7884b-fc31-44f1-9a02-3abfa17333d4",
+        "text": "Estimated calories: 600",
+        "createdAt": "2026-06-28T21:42:05.354Z"
+      },
+      {
+        "id": "0a7a980c-79a0-4691-894b-892f821450d6",
+        "text": "Estimated protein: 40g",
+        "createdAt": "2026-06-28T21:42:05.354Z"
+      },
+      {
+        "id": "a7a11df4-dd11-46ea-85ae-a7f895f5da01",
+        "text": "Calories and protein estimated from chicken breast (6oz per serving), cooked quinoa (1 cup cooked per serving), and vegetables with olive oil and sauce monounsaturated fats counted.",
+        "createdAt": "2026-06-28T21:42:05.354Z"
+      }
+    ],
+    "updatedAt": "2026-06-28T21:42:05.354Z"
+  },
+  {
+    "id": "ce355cf3-2126-4c58-b406-acaefbd4d649",
+    "importedRecipeId": null,
+    "title": "Korean-Style Spicy Chicken Rice Bowl",
+    "description": "Grilled chicken marinated in a mildly spicy Korean sauce, served over steamed rice with bell peppers and broccoli.",
+    "imageUrl": null,
+    "sourceName": "AI meal planner",
+    "sourceUrl": null,
+    "authorName": null,
+    "origin": "CUSTOM",
+    "providerId": null,
+    "externalId": null,
+    "prepMinutes": null,
+    "cookMinutes": 35,
+    "servings": 2,
+    "tags": [
+      "chicken",
+      "rice",
+      "spicy",
+      "korean",
+      "healthy",
+      "meal prep",
+      "lunch",
+      "ai planned",
+      "saved_recipe"
+    ],
+    "ingredientCount": 11,
+    "noteCount": 4,
+    "ingredients": [
+      {
+        "id": "58227d0e-93ca-4fc5-9494-09471a8be04b",
+        "displayText": "12 oz boneless skinless chicken thighs",
+        "name": "boneless skinless chicken thighs",
+        "quantity": 12,
+        "unit": "oz",
+        "position": 1
+      },
+      {
+        "id": "272acbe5-434c-49ea-8dbd-c9232737ba82",
+        "displayText": "1 cup uncooked jasmine rice",
+        "name": "uncooked jasmine rice",
+        "quantity": 1,
+        "unit": "cup",
+        "position": 2
+      },
+      {
+        "id": "5103e074-4349-4f7c-ad81-6d71fbf8948e",
+        "displayText": "1 red bell pepper, sliced",
+        "name": "bell pepper, sliced",
+        "quantity": 1,
+        "unit": "red",
+        "position": 3
+      },
+      {
+        "id": "9bc33b22-8c4f-437c-88cd-3957f299ff66",
+        "displayText": "1 cup broccoli florets",
+        "name": "broccoli florets",
+        "quantity": 1,
+        "unit": "cup",
+        "position": 4
+      },
+      {
+        "id": "6ffa1657-c5ed-46df-92be-2d6d9a24e526",
+        "displayText": "2 tablespoons gochujang (Korean chili paste)",
+        "name": "gochujang (Korean chili paste)",
+        "quantity": 2,
+        "unit": "tablespoons",
+        "position": 5
+      },
+      {
+        "id": "b083fd50-3f0e-4220-ab98-660b90e82ed3",
+        "displayText": "1 tablespoon soy sauce",
+        "name": "soy sauce",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "position": 6
+      },
+      {
+        "id": "d66f9e49-eb61-4e50-a4e0-e0672e473a7e",
+        "displayText": "1 teaspoon sesame oil",
+        "name": "sesame oil",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "position": 7
+      },
+      {
+        "id": "7cef9e66-3586-4bf6-883d-aea992f2e42f",
+        "displayText": "1 teaspoon minced garlic",
+        "name": "minced garlic",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "position": 8
+      },
+      {
+        "id": "aaa14b30-3fee-42fc-8909-7c3278f15ce4",
+        "displayText": "1 teaspoon grated ginger",
+        "name": "grated ginger",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "position": 9
+      },
+      {
+        "id": "29c00a88-0659-4c6f-b3f9-94aba5ce2b00",
+        "displayText": "Salt to taste",
+        "name": "Salt to taste",
+        "quantity": null,
+        "unit": null,
+        "position": 10
+      },
+      {
+        "id": "bd3e90f5-c4fa-47ed-9075-dd3f8a4c4e83",
+        "displayText": "Black pepper to taste",
+        "name": "Black pepper to taste",
+        "quantity": null,
+        "unit": null,
+        "position": 11
+      }
+    ],
+    "instructions": [
+      {
+        "id": "0e807355-b494-479e-a690-f1361c1fb022",
+        "text": "Cook rice according to package instructions.",
+        "step": 1
+      },
+      {
+        "id": "47f9d378-855f-43ca-bb87-065faed6490e",
+        "text": "In a bowl, mix gochujang, soy sauce, sesame oil, garlic, ginger, salt, and pepper to make marinade.",
+        "step": 2
+      },
+      {
+        "id": "57b1a00f-2404-4459-bcf8-09c793ca5108",
+        "text": "Add chicken thighs to marinade and let sit for at least 15 minutes.",
+        "step": 3
+      },
+      {
+        "id": "f0051456-c9b4-431d-88de-8570347ddf08",
+        "text": "Heat a grill pan or skillet over medium-high heat. Cook chicken until charred and cooked through, about 6 minutes per side. Let rest, then slice.",
+        "step": 4
+      },
+      {
+        "id": "42647ce5-05bd-4b79-8998-0b5564df65bd",
+        "text": "Steam or sauté broccoli and bell peppers until tender crisp.",
+        "step": 5
+      },
+      {
+        "id": "3c5af53c-89f5-4aa1-9c57-d64a070be161",
+        "text": "Serve sliced chicken over rice topped with peppers and broccoli.",
+        "step": 6
+      }
+    ],
+    "notes": [
+      {
+        "id": "e78dd735-b274-4a6c-a152-55161955c848",
+        "text": "Includes preferred protein (chicken), carb base (rice), and vegetables (broccoli, peppers) with a spicy flavor suited for Jon and moderate spice for others, fitting protein and calorie goals for meal prep.",
+        "createdAt": "2026-06-28T21:41:56.287Z"
+      },
+      {
+        "id": "bf6009e5-97f0-40f8-809c-9ccf19346511",
+        "text": "Estimated calories: 650",
+        "createdAt": "2026-06-28T21:41:56.287Z"
+      },
+      {
+        "id": "db542a66-7648-4a8d-9779-ff8cc9239463",
+        "text": "Estimated protein: 38g",
+        "createdAt": "2026-06-28T21:41:56.287Z"
+      },
+      {
+        "id": "cd732d03-2e22-41d6-ae78-5fe52d22b0c1",
+        "text": "Calories and protein estimated based on typical portions of chicken thigh (6oz per serving), cooked rice (~1 cup cooked per serving), and vegetables portioning with cooking oil accounted for.",
+        "createdAt": "2026-06-28T21:41:56.287Z"
+      }
+    ],
+    "updatedAt": "2026-06-28T21:41:56.287Z"
+  },
+  {
+    "id": "f63e8a37-e698-4984-ac0f-d85329a73960",
+    "importedRecipeId": null,
+    "title": "Japanese-Inspired Chicken Rice Bowl",
+    "description": "Light Japanese-style chicken bowl with steamed rice, teriyaki-glazed chicken, and seasonal vegetables.",
+    "imageUrl": null,
+    "sourceName": "AI meal planner",
+    "sourceUrl": null,
+    "authorName": null,
+    "origin": "CUSTOM",
+    "providerId": null,
+    "externalId": null,
+    "prepMinutes": null,
+    "cookMinutes": 35,
+    "servings": 4,
+    "tags": [
+      "chicken",
+      "rice",
+      "japanese",
+      "teriyaki",
+      "healthy",
+      "light",
+      "dinner",
+      "low spice",
+      "ai planned",
+      "generated"
+    ],
+    "ingredientCount": 11,
+    "noteCount": 4,
+    "ingredients": [
+      {
+        "id": "cdf24991-45b9-4c31-b12c-96ab81193ddb",
+        "displayText": "2 cups uncooked Japanese short-grain rice",
+        "name": "uncooked Japanese short-grain rice",
+        "quantity": 2,
+        "unit": "cups",
+        "position": 1
+      },
+      {
+        "id": "46198e1c-af9d-4ad8-9a21-ed522e424005",
+        "displayText": "16 oz boneless skinless chicken thighs",
+        "name": "boneless skinless chicken thighs",
+        "quantity": 16,
+        "unit": "oz",
+        "position": 2
+      },
+      {
+        "id": "14542327-29c8-48f6-b60f-e2a21ffdae53",
+        "displayText": "1/4 cup soy sauce",
+        "name": "soy sauce",
+        "quantity": 0.25,
+        "unit": "cup",
+        "position": 3
+      },
+      {
+        "id": "3b30ece8-c6a5-4bc6-bd09-f86f694269a7",
+        "displayText": "2 tbsp mirin",
+        "name": "mirin",
+        "quantity": 2,
+        "unit": "tbsp",
+        "position": 4
+      },
+      {
+        "id": "ec5ee92b-f9e7-4f6b-9c5b-47305637d4fc",
+        "displayText": "2 tbsp sake",
+        "name": "sake",
+        "quantity": 2,
+        "unit": "tbsp",
+        "position": 5
+      },
+      {
+        "id": "6ed4e8ae-a760-45da-a2ed-ddb2f16b0164",
+        "displayText": "1 tbsp sugar",
+        "name": "sugar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "position": 6
+      },
+      {
+        "id": "c345cf2b-8123-4c29-be01-c8dcc9ef9b88",
+        "displayText": "1 tbsp vegetable oil",
+        "name": "vegetable oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "position": 7
+      },
+      {
+        "id": "5b91e10d-77e8-46db-8c8e-85948163d21b",
+        "displayText": "1 cup steamed broccoli florets",
+        "name": "steamed broccoli florets",
+        "quantity": 1,
+        "unit": "cup",
+        "position": 8
+      },
+      {
+        "id": "27ea98b1-de4a-4321-a101-e62ce110bae2",
+        "displayText": "1 medium carrot, julienned",
+        "name": "carrot, julienned",
+        "quantity": 1,
+        "unit": "medium",
+        "position": 9
+      },
+      {
+        "id": "e82b7df9-aacf-44da-8496-869bd8abff27",
+        "displayText": "2 scallions, sliced (green parts only)",
+        "name": "scallions, sliced (green parts only)",
+        "quantity": 2,
+        "unit": null,
+        "position": 10
+      },
+      {
+        "id": "705ef9aa-2680-4ae7-87a5-02c216bdedad",
+        "displayText": "Pickled ginger for garnish (optional)",
+        "name": "Pickled ginger for garnish (optional)",
+        "quantity": null,
+        "unit": null,
+        "position": 11
+      }
+    ],
+    "instructions": [
+      {
+        "id": "0fe06385-5fef-4429-b491-d1adcc12e1bc",
+        "text": "Rinse rice under cold water until water runs clear. Cook rice with 2.5 cups water in a rice cooker or on stovetop, then fluff and keep warm.",
+        "step": 1
+      },
+      {
+        "id": "47a644d1-8de6-406c-bf48-8c55de3e39a4",
+        "text": "In a small bowl, combine soy sauce, mirin, sake, and sugar to create teriyaki sauce. Stir until sugar dissolves.",
+        "step": 2
+      },
+      {
+        "id": "04242f97-7db4-4a95-b99a-0a1ef7ce3df4",
+        "text": "Heat vegetable oil in a skillet over medium-high heat. Add chicken thighs and sear until golden brown on both sides, about 5 minutes per side.",
+        "step": 3
+      },
+      {
+        "id": "e96ca9c4-b609-4b87-a28c-10b39331fdc2",
+        "text": "Pour teriyaki sauce over chicken in the pan. Reduce heat to medium and cook, turning occasionally, until sauce thickens slightly and chicken is cooked through, about 8-10 minutes.",
+        "step": 4
+      },
+      {
+        "id": "0b68e24b-34a8-40a3-9515-2f04ce8c3fe0",
+        "text": "While chicken cooks, steam broccoli florets until tender-crisp, about 3-4 minutes. Prepare carrot by peeling and julienning.",
+        "step": 5
+      },
+      {
+        "id": "b01e1b4e-230b-4da4-a9bb-ae22816ec560",
+        "text": "Slice cooked chicken into strips.",
+        "step": 6
+      },
+      {
+        "id": "22f48cfe-7c3e-497b-82cf-056b26c3d489",
+        "text": "Divide steamed rice evenly into 4 bowls. Arrange sliced chicken, steamed broccoli, and julienned carrot on top of rice.",
+        "step": 7
+      },
+      {
+        "id": "8605ffe2-bf40-47b7-92e3-9a48242a49f5",
+        "text": "Drizzle any remaining teriyaki sauce from the pan over the bowls.",
+        "step": 8
+      },
+      {
+        "id": "ee41f675-8239-4c13-96b0-571382c9063f",
+        "text": "Garnish with sliced green parts of scallions and pickled ginger if using.",
+        "step": 9
+      },
+      {
+        "id": "3d66a610-0f9e-4820-9fa1-5516640d32bb",
+        "text": "Serve warm and enjoy.",
+        "step": 10
+      }
+    ],
+    "notes": [
+      {
+        "id": "c2767906-39c9-4a93-832d-81f98c0c0213",
+        "text": "This recipe features chicken and rice as requested, with a Japanese culinary style using teriyaki glaze and simple, fresh ingredients that create a light meal.",
+        "createdAt": "2026-06-28T16:45:08.721Z"
+      },
+      {
+        "id": "02130808-da57-4e35-abb4-3c80e8579f80",
+        "text": "Estimated calories: 450",
+        "createdAt": "2026-06-28T16:45:08.721Z"
+      },
+      {
+        "id": "c7256c07-3394-4ae5-b7fb-56341fa0d510",
+        "text": "Estimated protein: 35g",
+        "createdAt": "2026-06-28T16:45:08.721Z"
+      },
+      {
+        "id": "74f6b10d-96f4-46a9-b96d-fb87dda222e2",
+        "text": "Estimated calories and protein based on typical values for cooked chicken thighs (4 oz per serving), cooked rice (~1 cup per serving), and steamed vegetables. Teriyaki sauce adds minimal calories mostly from sugar and soy sauce.",
+        "createdAt": "2026-06-28T16:45:08.721Z"
+      }
+    ],
+    "updatedAt": "2026-06-28T16:45:08.721Z"
+  },
+  {
+    "id": "9748f195-4975-4f3d-9020-1b1e9977b165",
+    "importedRecipeId": null,
+    "title": "Lemon Herb Grilled Chicken with Caponata",
+    "description": "Grilled lemon herb chicken paired with Sicilian-style caponata featuring eggplant and olives.",
+    "imageUrl": null,
+    "sourceName": "AI meal planner",
+    "sourceUrl": null,
+    "authorName": null,
+    "origin": "CUSTOM",
+    "providerId": null,
+    "externalId": null,
+    "prepMinutes": null,
+    "cookMinutes": 45,
+    "servings": 4,
+    "tags": [
+      "italian",
+      "healthy",
+      "grilled",
+      "chicken",
+      "coastal flavor",
+      "low spice",
+      "dinner",
+      "ai planned",
+      "generated"
+    ],
+    "ingredientCount": 14,
+    "noteCount": 4,
+    "ingredients": [
+      {
+        "id": "fe595e23-364d-42fa-8b51-ce71eef3d68b",
+        "displayText": "4 boneless skinless chicken breasts",
+        "name": "skinless chicken breasts",
+        "quantity": 4,
+        "unit": "boneless",
+        "position": 1
+      },
+      {
+        "id": "497d261a-fc8e-467e-a80b-b4cbdcdd0744",
+        "displayText": "3 tablespoons extra virgin olive oil",
+        "name": "extra virgin olive oil",
+        "quantity": 3,
+        "unit": "tablespoons",
+        "position": 2
+      },
+      {
+        "id": "f7a57266-273b-4774-b1c6-9bb593978df8",
+        "displayText": "juice and zest of 1 large lemon",
+        "name": "juice and zest of 1 large lemon",
+        "quantity": null,
+        "unit": null,
+        "position": 3
+      },
+      {
+        "id": "60e7d24d-2779-4000-87bb-e470eab545aa",
+        "displayText": "3 garlic cloves minced",
+        "name": "cloves minced",
+        "quantity": 3,
+        "unit": "garlic",
+        "position": 4
+      },
+      {
+        "id": "5210d726-710e-4aad-af10-c0c44f8e4297",
+        "displayText": "1 teaspoon dried oregano",
+        "name": "dried oregano",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "position": 5
+      },
+      {
+        "id": "c065075c-4d37-4740-b88e-3cd1bb53c972",
+        "displayText": "1 large eggplant (about 1 pound), diced",
+        "name": "eggplant (about 1 pound), diced",
+        "quantity": 1,
+        "unit": "large",
+        "position": 6
+      },
+      {
+        "id": "d0ad3b5e-3dd3-42ae-a2fd-373a41e73359",
+        "displayText": "1 red bell pepper, diced",
+        "name": "bell pepper, diced",
+        "quantity": 1,
+        "unit": "red",
+        "position": 7
+      },
+      {
+        "id": "7d897a22-9f20-4b4a-9c0e-8e44d93e43a6",
+        "displayText": "1/2 cup pitted green olives, sliced",
+        "name": "pitted green olives, sliced",
+        "quantity": 0.5,
+        "unit": "cup",
+        "position": 8
+      },
+      {
+        "id": "b3a7b67e-fd75-4576-baff-c632bc173bf2",
+        "displayText": "2 tablespoons capers, drained",
+        "name": "capers, drained",
+        "quantity": 2,
+        "unit": "tablespoons",
+        "position": 9
+      },
+      {
+        "id": "412146c4-c721-4ef6-8a6e-2f0d81eb5da1",
+        "displayText": "1/2 cup chopped celery",
+        "name": "chopped celery",
+        "quantity": 0.5,
+        "unit": "cup",
+        "position": 10
+      },
+      {
+        "id": "a1376f7d-67f9-42a2-9258-30d72443e4b8",
+        "displayText": "1/4 cup red wine vinegar",
+        "name": "red wine vinegar",
+        "quantity": 0.25,
+        "unit": "cup",
+        "position": 11
+      },
+      {
+        "id": "f0122bfa-d2a7-49f6-a504-291ba228041c",
+        "displayText": "1 tablespoon sugar",
+        "name": "sugar",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "position": 12
+      },
+      {
+        "id": "873dd1a6-81cd-44b3-a7aa-02ff16af0071",
+        "displayText": "salt and pepper to taste",
+        "name": "salt and pepper to taste",
+        "quantity": null,
+        "unit": null,
+        "position": 13
+      },
+      {
+        "id": "8b251438-69c4-44eb-be29-70671e85cb06",
+        "displayText": "fresh basil for garnish",
+        "name": "fresh basil for garnish",
+        "quantity": null,
+        "unit": null,
+        "position": 14
+      }
+    ],
+    "instructions": [
+      {
+        "id": "edeef89e-05d8-4fd5-8449-8f2de59da451",
+        "text": "Combine lemon juice, lemon zest, garlic, oregano, 2 tablespoons olive oil, salt, and pepper in a bowl and marinate chicken breasts for at least 20 minutes.",
+        "step": 1
+      },
+      {
+        "id": "5a606ab5-791e-48dd-9db8-73390c5e8c75",
+        "text": "Heat a grill or grill pan on medium-high and cook chicken breasts 5-7 minutes per side or until internal temperature reaches 165°F (74°C).",
+        "step": 2
+      },
+      {
+        "id": "fa5e1c87-71bc-4a99-8c83-57ff9ed49ede",
+        "text": "In a large skillet, heat 1 tablespoon olive oil over medium heat. Add eggplant, red bell pepper, celery and cook until tender about 10 minutes.",
+        "step": 3
+      },
+      {
+        "id": "4846a51d-a2d6-45f2-856e-50daeebf960e",
+        "text": "Stir in olives, capers, red wine vinegar, and sugar. Simmer 5 more minutes until flavors meld.",
+        "step": 4
+      },
+      {
+        "id": "ca3f4634-e5d2-439f-b8ae-c0b998409fdd",
+        "text": "Serve grilled chicken topped with warm caponata and garnish with fresh basil.",
+        "step": 5
+      }
+    ],
+    "notes": [
+      {
+        "id": "d9c2230d-1020-4ecb-8210-9fce2de7272c",
+        "text": "This meal brings coastal Italian flavors using lemon and fresh herbs, appealing to preferences for chicken, lemon, and lighter dinners, with mild spice.",
+        "createdAt": "2026-06-28T16:07:15.916Z"
+      },
+      {
+        "id": "9aeb40a0-98ff-4084-821a-24a616510238",
+        "text": "Estimated calories: 650",
+        "createdAt": "2026-06-28T16:07:15.916Z"
+      },
+      {
+        "id": "99502d1b-1522-4394-a90b-41b15b70889a",
+        "text": "Estimated protein: 48g",
+        "createdAt": "2026-06-28T16:07:15.916Z"
+      },
+      {
+        "id": "39c270e8-bd4e-409a-ac53-d6e9d2b09555",
+        "text": "Estimates based on chicken breast protein content, olive oil calories, vegetables, and absence of heavy starches. Estimated calories aim within 500-750 per serving.",
+        "createdAt": "2026-06-28T16:07:15.916Z"
+      }
+    ],
+    "updatedAt": "2026-06-28T16:07:15.916Z"
+  },
+  {
+    "id": "2e179dbd-1b54-48e1-a254-8f78139cc87d",
+    "importedRecipeId": null,
+    "title": "Mediterranean Chicken Quinoa Bowl",
+    "description": "Grilled lemon herb chicken with quinoa, roasted peppers, steamed broccoli, and a yogurt-tahini sauce, inspired by CAVA bowls.",
+    "imageUrl": null,
+    "sourceName": "AI meal planner",
+    "sourceUrl": null,
+    "authorName": null,
+    "origin": "CUSTOM",
+    "providerId": null,
+    "externalId": null,
+    "prepMinutes": null,
+    "cookMinutes": 40,
+    "servings": 2,
+    "tags": [
+      "chicken",
+      "quinoa",
+      "mediterranean",
+      "healthy",
+      "lunch",
+      "nut-free",
+      "meal prep",
+      "ai planned",
+      "generated",
+      "saved_recipe"
+    ],
+    "ingredientCount": 11,
+    "noteCount": 4,
+    "ingredients": [
+      {
+        "id": "172bd583-3aec-4e04-847d-5784daf48a65",
+        "displayText": "200 g grilled lemon herb chicken breast",
+        "name": "grilled lemon herb chicken breast",
+        "quantity": 200,
+        "unit": "g",
+        "position": 1
+      },
+      {
+        "id": "bf881c7c-7cd5-4cc4-8b11-421884293588",
+        "displayText": "1 cup cooked quinoa",
+        "name": "cooked quinoa",
+        "quantity": 1,
+        "unit": "cup",
+        "position": 2
+      },
+      {
+        "id": "992c8343-8279-4d7f-9eda-66d9503c74a9",
+        "displayText": "1 cup roasted red and yellow bell peppers",
+        "name": "roasted red and yellow bell peppers",
+        "quantity": 1,
+        "unit": "cup",
+        "position": 3
+      },
+      {
+        "id": "d404d4ef-87eb-4702-a11f-fb9a5dfc49fb",
+        "displayText": "1 cup steamed broccoli florets",
+        "name": "steamed broccoli florets",
+        "quantity": 1,
+        "unit": "cup",
+        "position": 4
+      },
+      {
+        "id": "aa4b319d-00c7-42d2-aaef-361a98b63a8f",
+        "displayText": "1/4 cup plain Greek yogurt",
+        "name": "plain Greek yogurt",
+        "quantity": 0.25,
+        "unit": "cup",
+        "position": 5
+      },
+      {
+        "id": "85d26c44-c49b-4314-84c8-4ee7c12a8fc8",
+        "displayText": "2 tbsp tahini",
+        "name": "tahini",
+        "quantity": 2,
+        "unit": "tbsp",
+        "position": 6
+      },
+      {
+        "id": "70d91cba-2c43-4db8-bfd9-d4899fc328f9",
+        "displayText": "1 tbsp lemon juice",
+        "name": "lemon juice",
+        "quantity": 1,
+        "unit": "tbsp",
+        "position": 7
+      },
+      {
+        "id": "b5739e83-feab-4fb6-bc61-138e7111c6d7",
+        "displayText": "1 garlic clove, minced",
+        "name": "clove, minced",
+        "quantity": 1,
+        "unit": "garlic",
+        "position": 8
+      },
+      {
+        "id": "bcd7dfd2-c6b8-4a5f-8668-6ca8032fdf81",
+        "displayText": "Salt, pepper to taste",
+        "name": "Salt, pepper to taste",
+        "quantity": null,
+        "unit": null,
+        "position": 9
+      },
+      {
+        "id": "cee4ba51-d0d5-4fd5-b7e5-11f48ac47a63",
+        "displayText": "1 tbsp olive oil for roasting",
+        "name": "olive oil for roasting",
+        "quantity": 1,
+        "unit": "tbsp",
+        "position": 10
+      },
+      {
+        "id": "88304102-93c7-42ba-b5f3-d8f04a8f6568",
+        "displayText": "Fresh parsley, chopped (optional)",
+        "name": "Fresh parsley, chopped (optional)",
+        "quantity": null,
+        "unit": null,
+        "position": 11
+      }
+    ],
+    "instructions": [
+      {
+        "id": "68b192fa-3561-4dd7-b6c2-01453f7435cd",
+        "text": "Preheat oven to 400°F (200°C). Toss bell peppers with 1/2 tbsp olive oil, salt, and pepper; roast for about 20 minutes until tender.",
+        "step": 1
+      },
+      {
+        "id": "1e8f7419-47df-4ac6-bcb3-61a59f54f735",
+        "text": "Cook quinoa according to package instructions.",
+        "step": 2
+      },
+      {
+        "id": "985cd556-7a6a-4865-87e3-152440235281",
+        "text": "Steam broccoli until bright green and tender, about 5 minutes.",
+        "step": 3
+      },
+      {
+        "id": "bc62f096-6a34-49d5-a09f-0bcd9c7a27dd",
+        "text": "Grill chicken breast with lemon herb seasoning until internal temperature reaches 165°F (74°C), about 6–8 minutes per side. Let rest, then slice.",
+        "step": 4
+      },
+      {
+        "id": "95e00677-db4a-4961-bd35-43c22a30bc68",
+        "text": "Prepare yogurt-tahini sauce: mix Greek yogurt, tahini, lemon juice, minced garlic, salt, and pepper until smooth.",
+        "step": 5
+      },
+      {
+        "id": "8ac9699f-d7d2-485e-9e68-f704d241f6e4",
+        "text": "Divide quinoa into bowls, top with sliced chicken, roasted peppers, and broccoli.",
+        "step": 6
+      },
+      {
+        "id": "7be5266d-20e7-4a58-bbb3-0f5f31967b9a",
+        "text": "Drizzle with yogurt-tahini sauce and garnish with chopped parsley.",
+        "step": 7
+      }
+    ],
+    "notes": [
+      {
+        "id": "d45e2bdd-db1b-490f-8993-3d24093bffca",
+        "text": "Matches the preference for chicken protein and quinoa base with Mediterranean flavors and requested vegetables (peppers, broccoli). Nut-free and healthy fitting calorie and protein goals.",
+        "createdAt": "2026-06-27T23:07:05.673Z"
+      },
+      {
+        "id": "bf22020b-5c25-4261-8448-735c41174a07",
+        "text": "Estimated calories: 700",
+        "createdAt": "2026-06-27T23:07:05.673Z"
+      },
+      {
+        "id": "59605c90-7e18-4245-8269-fc9ca9342e15",
+        "text": "Estimated protein: 40g",
+        "createdAt": "2026-06-27T23:07:05.673Z"
+      },
+      {
+        "id": "ef2e91ff-9e75-4c07-95ca-2704f54d82c3",
+        "text": "Estimated calories ~700 and protein ~40g based on typical values for chicken breast, quinoa, vegetables, and yogurt-tahini sauce.",
+        "createdAt": "2026-06-27T23:07:05.673Z"
+      }
+    ],
+    "updatedAt": "2026-06-27T23:07:05.673Z"
+  },
+  {
+    "id": "f9205e4e-2b01-4816-b2ad-1c75a2f2e4b9",
+    "importedRecipeId": null,
+    "title": "Korean-Style Spicy Chicken Rice Bowl",
+    "description": "Grilled chicken marinated in a mildly spicy Korean sauce, served over steamed rice with bell peppers and broccoli.",
+    "imageUrl": null,
+    "sourceName": "AI meal planner",
+    "sourceUrl": null,
+    "authorName": null,
+    "origin": "CUSTOM",
+    "providerId": null,
+    "externalId": null,
+    "prepMinutes": null,
+    "cookMinutes": 35,
+    "servings": 2,
+    "tags": [
+      "chicken",
+      "rice",
+      "korean",
+      "spicy",
+      "healthy",
+      "lunch",
+      "nut-free",
+      "meal prep",
+      "ai planned",
+      "saved_recipe"
+    ],
+    "ingredientCount": 11,
+    "noteCount": 4,
+    "ingredients": [
+      {
+        "id": "1e6b0de8-1773-451a-b2d1-403bea1759de",
+        "displayText": "Chicken breast, 300g",
+        "name": "Chicken breast, 300g",
+        "quantity": null,
+        "unit": null,
+        "position": 1
+      },
+      {
+        "id": "7b0725ca-43e6-49e3-8c2d-13d012a37ba1",
+        "displayText": "Steamed white rice, 1.5 cups (300g)",
+        "name": "Steamed white rice, 1.5 cups (300g)",
+        "quantity": null,
+        "unit": null,
+        "position": 2
+      },
+      {
+        "id": "dfce13e2-db9f-49dd-abb5-83bedc05da39",
+        "displayText": "Red bell pepper, 1 medium",
+        "name": "Red bell pepper, 1 medium",
+        "quantity": null,
+        "unit": null,
+        "position": 3
+      },
+      {
+        "id": "9eb8c415-f8e7-4d20-9958-6f4271436944",
+        "displayText": "Broccoli florets, 1.5 cups (150g)",
+        "name": "Broccoli florets, 1.5 cups (150g)",
+        "quantity": null,
+        "unit": null,
+        "position": 4
+      },
+      {
+        "id": "27b0e2f7-d752-4b00-8d2a-3139daa4734b",
+        "displayText": "Low-sodium soy sauce, 2 tbsp",
+        "name": "Low-sodium soy sauce, 2 tbsp",
+        "quantity": null,
+        "unit": null,
+        "position": 5
+      },
+      {
+        "id": "3fb01321-5100-4cbd-8fce-4a57b2a985f6",
+        "displayText": "Gochujang (Korean chili paste), 1 tbsp",
+        "name": "Gochujang (Korean chili paste), 1 tbsp",
+        "quantity": null,
+        "unit": null,
+        "position": 6
+      },
+      {
+        "id": "f4a89858-396d-4041-86b0-dae7c0d839e5",
+        "displayText": "Honey, 1 tsp",
+        "name": "Honey, 1 tsp",
+        "quantity": null,
+        "unit": null,
+        "position": 7
+      },
+      {
+        "id": "37a9d94f-4982-40a1-bfff-e20b6dfef0af",
+        "displayText": "Garlic, 2 cloves minced",
+        "name": "Garlic, 2 cloves minced",
+        "quantity": null,
+        "unit": null,
+        "position": 8
+      },
+      {
+        "id": "83b4404b-eb81-47e4-99fd-726a0807558b",
+        "displayText": "Sesame oil, 1 tsp",
+        "name": "Sesame oil, 1 tsp",
+        "quantity": null,
+        "unit": null,
+        "position": 9
+      },
+      {
+        "id": "8cc328bd-0020-48a4-8306-2b18d08dd0b5",
+        "displayText": "Green onion (green part only), 1 stalk chopped",
+        "name": "Green onion (green part only), 1 stalk chopped",
+        "quantity": null,
+        "unit": null,
+        "position": 10
+      },
+      {
+        "id": "b70a2d22-3037-4797-8881-29e8723c5a68",
+        "displayText": "Salt and pepper to taste",
+        "name": "Salt and pepper to taste",
+        "quantity": null,
+        "unit": null,
+        "position": 11
+      }
+    ],
+    "instructions": [
+      {
+        "id": "23751d55-fca6-4862-93fe-a3545108dc7f",
+        "text": "In a bowl, mix soy sauce, gochujang, honey, minced garlic, and sesame oil to create marinade.",
+        "step": 1
+      },
+      {
+        "id": "8722c5a1-7452-4e70-8dd2-504157ec01b3",
+        "text": "Slice chicken breast into thin strips and marinate for at least 20 minutes.",
+        "step": 2
+      },
+      {
+        "id": "0ca5df67-c7c7-433c-a076-d060b474b834",
+        "text": "Cook rice per package instructions or use pre-cooked rice.",
+        "step": 3
+      },
+      {
+        "id": "f1add5e8-a682-4b67-bad9-c7d185c58816",
+        "text": "Steam broccoli until bright green and tender, about 5-7 minutes.",
+        "step": 4
+      },
+      {
+        "id": "9bdf7380-02f8-415b-a89e-2e2e805a6585",
+        "text": "Slice bell pepper into strips and lightly sauté or roast until tender-crisp.",
+        "step": 5
+      },
+      {
+        "id": "b5f58bca-a76a-4c89-b263-fa4da4975d7e",
+        "text": "Heat a skillet over medium-high heat and cook marinated chicken strips until cooked through, about 6-8 minutes.",
+        "step": 6
+      },
+      {
+        "id": "c9215d01-7bb9-4ded-a165-38c14f7f1862",
+        "text": "Assemble bowls with steamed rice, chicken, broccoli, and peppers. Garnish with chopped green onion.",
+        "step": 7
+      },
+      {
+        "id": "97ce89a2-2755-4333-912c-7192345ef3b9",
+        "text": "Serve warm.",
+        "step": 8
+      }
+    ],
+    "notes": [
+      {
+        "id": "f76a3f60-bed8-467e-a237-54b2ce0cfbb7",
+        "text": "Includes preferred protein chicken and rice as base carb; broccoli and peppers included as preferred vegetables; spice level moderated for household.",
+        "createdAt": "2026-06-27T23:05:57.005Z"
+      },
+      {
+        "id": "9d72e29c-e0f9-4c7e-a402-62ff1b006b5f",
+        "text": "Estimated calories: 720",
+        "createdAt": "2026-06-27T23:05:57.005Z"
+      },
+      {
+        "id": "44e35016-db0d-4724-98f0-b74bfe4ed5a0",
+        "text": "Estimated protein: 42g",
+        "createdAt": "2026-06-27T23:05:57.005Z"
+      },
+      {
+        "id": "72e5313d-63b6-4957-aa7b-5dc46d9381c3",
+        "text": "Calories and protein estimated using chicken breast portion, steamed rice, vegetables, and marinade ingredients.",
+        "createdAt": "2026-06-27T23:05:57.005Z"
+      }
+    ],
+    "updatedAt": "2026-06-27T23:05:57.005Z"
+  },
+  {
+    "id": "c9fc459f-680c-49ca-af7d-85eab70ef052",
+    "importedRecipeId": null,
+    "title": "Mediterranean Chicken Quinoa Bowl",
+    "description": "Grilled lemon herb chicken with quinoa, roasted peppers, steamed broccoli, and a yogurt-tahini sauce, inspired by CAVA bowls.",
+    "imageUrl": null,
+    "sourceName": "AI meal planner",
+    "sourceUrl": null,
+    "authorName": null,
+    "origin": "CUSTOM",
+    "providerId": null,
+    "externalId": null,
+    "prepMinutes": null,
+    "cookMinutes": 40,
+    "servings": 2,
+    "tags": [
+      "chicken",
+      "quinoa",
+      "mediterranean",
+      "healthy",
+      "lunch",
+      "nut-free",
+      "meal prep",
+      "ai planned",
+      "generated"
+    ],
+    "ingredientCount": 11,
+    "noteCount": 4,
+    "ingredients": [
+      {
+        "id": "1dfa69fc-1255-4c29-86d0-f28f8e687231",
+        "displayText": "Chicken breast, 300g",
+        "name": "Chicken breast, 300g",
+        "quantity": null,
+        "unit": null,
+        "position": 1
+      },
+      {
+        "id": "706f5898-085c-4fa2-aba9-bf69acb4df3b",
+        "displayText": "Quinoa, 1 cup (170g) cooked",
+        "name": "Quinoa, 1 cup (170g) cooked",
+        "quantity": null,
+        "unit": null,
+        "position": 2
+      },
+      {
+        "id": "fbd4b627-65d4-4b19-9c92-6c438eac4957",
+        "displayText": "Red bell pepper, 1 medium",
+        "name": "Red bell pepper, 1 medium",
+        "quantity": null,
+        "unit": null,
+        "position": 3
+      },
+      {
+        "id": "22823a0c-1a14-4f22-93a5-f48b3ee368c0",
+        "displayText": "Broccoli florets, 1.5 cups (150g)",
+        "name": "Broccoli florets, 1.5 cups (150g)",
+        "quantity": null,
+        "unit": null,
+        "position": 4
+      },
+      {
+        "id": "349e1964-59bd-46a9-8b5f-3a0be8845872",
+        "displayText": "Plain Greek yogurt, 0.5 cup",
+        "name": "Plain Greek yogurt, 0.5 cup",
+        "quantity": null,
+        "unit": null,
+        "position": 5
+      },
+      {
+        "id": "007c0b74-c751-4c49-91f6-b4c8231e10ac",
+        "displayText": "Tahini, 1 tbsp",
+        "name": "Tahini, 1 tbsp",
+        "quantity": null,
+        "unit": null,
+        "position": 6
+      },
+      {
+        "id": "b34353fd-e4d8-4df7-9e2b-da3e56013f7c",
+        "displayText": "Lemon juice, 1 tbsp",
+        "name": "Lemon juice, 1 tbsp",
+        "quantity": null,
+        "unit": null,
+        "position": 7
+      },
+      {
+        "id": "7434fc69-a51d-4121-a8d3-a9e12d779f95",
+        "displayText": "Garlic powder, 0.5 tsp",
+        "name": "Garlic powder, 0.5 tsp",
+        "quantity": null,
+        "unit": null,
+        "position": 8
+      },
+      {
+        "id": "87d03deb-fe41-41c3-b277-dea83c6d2e1b",
+        "displayText": "Olive oil, 1.5 tbsp",
+        "name": "Olive oil, 1.5 tbsp",
+        "quantity": null,
+        "unit": null,
+        "position": 9
+      },
+      {
+        "id": "7857d1a3-92ca-4ef8-a49d-2e035d07656b",
+        "displayText": "Salt and pepper to taste",
+        "name": "Salt and pepper to taste",
+        "quantity": null,
+        "unit": null,
+        "position": 10
+      },
+      {
+        "id": "6d899df1-1dbb-4a06-adb5-db1bea94289d",
+        "displayText": "Dried oregano, 0.5 tsp",
+        "name": "Dried oregano, 0.5 tsp",
+        "quantity": null,
+        "unit": null,
+        "position": 11
+      }
+    ],
+    "instructions": [
+      {
+        "id": "9113f6dc-8d6b-4735-9004-c7830b2e3d31",
+        "text": "Preheat oven to 400°F (200°C).",
+        "step": 1
+      },
+      {
+        "id": "b12ef8d6-e732-46a8-9a3e-515c6648b5c7",
+        "text": "Cut bell pepper into strips and toss with half the olive oil, salt, and pepper. Roast on a baking sheet for 20 minutes until tender.",
+        "step": 2
+      },
+      {
+        "id": "b15f5617-488e-4fb9-b99f-9928dfc34fb0",
+        "text": "Steam broccoli until bright green and tender, about 5-7 minutes.",
+        "step": 3
+      },
+      {
+        "id": "dbddca64-626e-422b-b714-6f0d66002cb9",
+        "text": "Season chicken breast with salt, pepper, garlic powder, oregano, and lemon juice.",
+        "step": 4
+      },
+      {
+        "id": "80cc8f12-9d2d-478f-bfb6-126f7cc8b311",
+        "text": "Heat remaining olive oil in a skillet over medium heat. Cook chicken 6-7 minutes per side until internal temperature reaches 165°F (74°C). Let rest and slice.",
+        "step": 5
+      },
+      {
+        "id": "cf1f8e71-6134-447e-87ef-54840a797db0",
+        "text": "Prepare quinoa as package directs or use cooked quinoa.",
+        "step": 6
+      },
+      {
+        "id": "745134b6-8571-44a5-85fd-e381e7d86b0f",
+        "text": "Mix Greek yogurt and tahini with a pinch of salt and lemon juice to create sauce.",
+        "step": 7
+      },
+      {
+        "id": "be6e9ae1-41a0-4ffd-84a9-3f1261950380",
+        "text": "Build bowls by layering quinoa, roasted peppers, broccoli, and sliced chicken. Drizzle with yogurt-tahini sauce.",
+        "step": 8
+      },
+      {
+        "id": "1c1ec714-7b45-4d88-b97c-eaf3b99cb0be",
+        "text": "Serve warm.",
+        "step": 9
+      }
+    ],
+    "notes": [
+      {
+        "id": "241ecc31-e6ff-43ac-b200-fe4119a0fa44",
+        "text": "Matches household preferences by including chicken, quinoa, Mediterranean flavors, broccoli, and peppers. Nut-free and moderate spice to suit all profiles.",
+        "createdAt": "2026-06-27T23:05:39.262Z"
+      },
+      {
+        "id": "c1e371b3-ce75-4c4d-9a13-c7b4a3525dc1",
+        "text": "Estimated calories: 700",
+        "createdAt": "2026-06-27T23:05:39.262Z"
+      },
+      {
+        "id": "367a0a5b-9bab-4207-b80f-d603e4c9da98",
+        "text": "Estimated protein: 45g",
+        "createdAt": "2026-06-27T23:05:39.262Z"
+      },
+      {
+        "id": "664046b0-5cb5-469e-be9e-901a11623c78",
+        "text": "Calories and protein estimated based on 300g chicken breast, cooked quinoa portion, vegetables, and yogurt-tahini sauce typical macros.",
+        "createdAt": "2026-06-27T23:05:39.262Z"
+      }
+    ],
+    "updatedAt": "2026-06-27T23:05:39.262Z"
+  },
+  {
+    "id": "10b938d1-ac4e-43c8-85dd-0c0206227402",
+    "importedRecipeId": null,
+    "title": "Spiced Beef with Quinoa and Roasted Brussels Sprouts",
+    "description": "Seasoned ground beef served with fluffy quinoa and oven-roasted Brussels sprouts.",
+    "imageUrl": null,
+    "sourceName": "AI meal planner",
+    "sourceUrl": null,
+    "authorName": null,
+    "origin": "CUSTOM",
+    "providerId": null,
+    "externalId": null,
+    "prepMinutes": null,
+    "cookMinutes": 40,
+    "servings": 2,
+    "tags": [
+      "beef",
+      "quinoa",
+      "brussels sprouts",
+      "mediterranean",
+      "healthy",
+      "lunch",
+      "meal prep",
+      "ai planned",
+      "generated"
+    ],
+    "ingredientCount": 8,
+    "noteCount": 4,
+    "ingredients": [
+      {
+        "id": "050f3159-24fd-44b1-8a31-61ba712f8ae9",
+        "displayText": "8 ounces lean ground beef",
+        "name": "lean ground beef",
+        "quantity": 8,
+        "unit": "ounces",
+        "position": 1
+      },
+      {
+        "id": "d8896c15-20a4-4fe3-83f8-c5bb0569b615",
+        "displayText": "1 cup dry quinoa",
+        "name": "dry quinoa",
+        "quantity": 1,
+        "unit": "cup",
+        "position": 2
+      },
+      {
+        "id": "c8d2be6e-282a-4021-a6c4-7a0d87d6dc2b",
+        "displayText": "12 ounces Brussels sprouts, halved",
+        "name": "Brussels sprouts, halved",
+        "quantity": 12,
+        "unit": "ounces",
+        "position": 3
+      },
+      {
+        "id": "a4ddaf73-23ae-452b-b8e7-b4a1905eb555",
+        "displayText": "1 tablespoon olive oil",
+        "name": "olive oil",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "position": 4
+      },
+      {
+        "id": "0717decc-0f73-4a87-b309-ffc7c2cf08a5",
+        "displayText": "1 teaspoon ground cumin",
+        "name": "ground cumin",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "position": 5
+      },
+      {
+        "id": "539c05f2-c356-41f7-a013-3c816779c31d",
+        "displayText": "1/2 teaspoon smoked paprika",
+        "name": "smoked paprika",
+        "quantity": 0.5,
+        "unit": "teaspoon",
+        "position": 6
+      },
+      {
+        "id": "2ca25272-4b8c-4a08-b11a-025c582fd01f",
+        "displayText": "Salt and pepper to taste",
+        "name": "Salt and pepper to taste",
+        "quantity": null,
+        "unit": null,
+        "position": 7
+      },
+      {
+        "id": "0e2135eb-902a-451e-95f3-2f706311b492",
+        "displayText": "Fresh parsley for garnish",
+        "name": "Fresh parsley for garnish",
+        "quantity": null,
+        "unit": null,
+        "position": 8
+      }
+    ],
+    "instructions": [
+      {
+        "id": "063c8d2b-44f2-4c36-a450-ba8a95451897",
+        "text": "Preheat oven to 425°F (220°C). Toss Brussels sprouts with half the olive oil, salt, and pepper. Roast for 20-25 minutes until crisp-tender.",
+        "step": 1
+      },
+      {
+        "id": "7a2d2705-81ce-42f8-ace5-a1b6d98c77cb",
+        "text": "Rinse quinoa and cook in 2 cups water until fluffy, about 15 minutes.",
+        "step": 2
+      },
+      {
+        "id": "3507ee84-4dca-430a-873a-8efc875f099f",
+        "text": "While quinoa cooks, heat remaining olive oil in a skillet over medium heat. Add ground beef, cumin, smoked paprika, salt, and pepper. Cook until browned and cooked through, about 8 minutes.",
+        "step": 3
+      },
+      {
+        "id": "25bedf97-f4e2-4435-af5e-41d0c90cad36",
+        "text": "Divide quinoa between bowls, top with spiced beef and roasted Brussels sprouts.",
+        "step": 4
+      },
+      {
+        "id": "06f00444-d35e-49fd-85f5-10e5011cb215",
+        "text": "Garnish with chopped parsley and serve warm.",
+        "step": 5
+      }
+    ],
+    "notes": [
+      {
+        "id": "7c40cd12-782c-4639-ada4-3acfe26dbade",
+        "text": "This bowl uses preferred proteins (beef) and base carbs (quinoa) with Mediterranean flavors featuring roasted Brussels sprouts. It fits the calorie target and protein goal, and the cook time is under 45 minutes.",
+        "createdAt": "2026-06-27T22:52:31.298Z"
+      },
+      {
+        "id": "93729216-02c6-425e-a609-84c59fddcf80",
+        "text": "Estimated calories: 700",
+        "createdAt": "2026-06-27T22:52:31.298Z"
+      },
+      {
+        "id": "a462219d-9312-4559-8fa7-3e543d6753ef",
+        "text": "Estimated protein: 42g",
+        "createdAt": "2026-06-27T22:52:31.298Z"
+      },
+      {
+        "id": "891d0bf7-a3d1-4db9-a8d3-0bbec3fc2e92",
+        "text": "Estimated calories (~700) and protein (~42g) based on typical values for ground beef (lean), cooked quinoa, and roasted Brussels sprouts per serving.",
+        "createdAt": "2026-06-27T22:52:31.298Z"
+      }
+    ],
+    "updatedAt": "2026-06-27T22:52:31.298Z"
+  },
+  {
+    "id": "89a6af15-204c-4d7a-ab89-393794bb0a45",
+    "importedRecipeId": null,
+    "title": "Korean-Style Spicy Chicken Rice Bowl",
+    "description": "Grilled chicken marinated in a mild Korean sauce served over steamed rice with bell peppers and broccoli.",
+    "imageUrl": null,
+    "sourceName": "AI meal planner",
+    "sourceUrl": null,
+    "authorName": null,
+    "origin": "CUSTOM",
+    "providerId": null,
+    "externalId": null,
+    "prepMinutes": null,
+    "cookMinutes": 35,
+    "servings": 2,
+    "tags": [
+      "chicken",
+      "rice",
+      "korean",
+      "spicy",
+      "healthy",
+      "lunch",
+      "meal prep",
+      "ai planned",
+      "generated"
+    ],
+    "ingredientCount": 10,
+    "noteCount": 4,
+    "ingredients": [
+      {
+        "id": "61d41437-d18c-47f5-a3e2-c227202f82b3",
+        "displayText": "12 ounces boneless skinless chicken thighs",
+        "name": "boneless skinless chicken thighs",
+        "quantity": 12,
+        "unit": "ounces",
+        "position": 1
+      },
+      {
+        "id": "bab96809-e682-4e50-9e8e-ddc739222af4",
+        "displayText": "1 cup jasmine rice, uncooked",
+        "name": "jasmine rice, uncooked",
+        "quantity": 1,
+        "unit": "cup",
+        "position": 2
+      },
+      {
+        "id": "d58618d3-fb66-4a68-aad9-84e7adbee3a0",
+        "displayText": "1 cup chopped broccoli florets",
+        "name": "chopped broccoli florets",
+        "quantity": 1,
+        "unit": "cup",
+        "position": 3
+      },
+      {
+        "id": "b58a2d42-42f5-4d8b-b34a-d6aeaf28ec96",
+        "displayText": "1 cup sliced bell peppers",
+        "name": "sliced bell peppers",
+        "quantity": 1,
+        "unit": "cup",
+        "position": 4
+      },
+      {
+        "id": "34af6b00-a93f-48c8-a1b3-80f8e878d120",
+        "displayText": "2 tablespoons gochujang (Korean chili paste)",
+        "name": "gochujang (Korean chili paste)",
+        "quantity": 2,
+        "unit": "tablespoons",
+        "position": 5
+      },
+      {
+        "id": "315dbb2e-685e-4a42-b7f3-835b4f44beec",
+        "displayText": "1 tablespoon soy sauce",
+        "name": "soy sauce",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "position": 6
+      },
+      {
+        "id": "20993605-fe4b-4a90-9f58-8d05a42887ce",
+        "displayText": "1 tablespoon honey",
+        "name": "honey",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "position": 7
+      },
+      {
+        "id": "2b9a5c42-676b-4411-a827-7db2c5bda92a",
+        "displayText": "1 tablespoon sesame oil",
+        "name": "sesame oil",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "position": 8
+      },
+      {
+        "id": "51adafab-35f8-4bd2-8ee0-f7bda02e7f24",
+        "displayText": "1 teaspoon minced garlic",
+        "name": "minced garlic",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "position": 9
+      },
+      {
+        "id": "8f7b21ec-12e8-453b-8118-1971a7cf18ca",
+        "displayText": "1 teaspoon grated ginger",
+        "name": "grated ginger",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "position": 10
+      }
+    ],
+    "instructions": [
+      {
+        "id": "5bc407a6-dd3d-4330-8b8b-82156f4b1c1e",
+        "text": "Cook jasmine rice according to package instructions.",
+        "step": 1
+      },
+      {
+        "id": "d99eefdb-743b-4daa-aaf8-451cfec37e7c",
+        "text": "In a bowl, mix gochujang, soy sauce, honey, sesame oil, garlic, and ginger to make the marinade.",
+        "step": 2
+      },
+      {
+        "id": "5a51667e-6f6a-4f3d-acea-94be8441939d",
+        "text": "Marinate chicken thighs in the sauce for 15 minutes.",
+        "step": 3
+      },
+      {
+        "id": "503745d8-8b92-4b53-a9b1-f6e6dc8471d2",
+        "text": "Heat a grill pan or skillet over medium heat and cook chicken until cooked through, about 5-7 minutes per side.",
+        "step": 4
+      },
+      {
+        "id": "5550c3fc-70d2-4305-99a9-de2c718a43c2",
+        "text": "Steam broccoli and sauté bell peppers lightly until tender-crisp.",
+        "step": 5
+      },
+      {
+        "id": "dd259433-277c-463a-9fb7-69abb1d9e954",
+        "text": "Serve chicken sliced over steamed rice with broccoli and bell peppers on the side.",
+        "step": 6
+      },
+      {
+        "id": "d39c73dc-2012-4488-85d4-31b895c90fa2",
+        "text": "Drizzle any remaining marinade warmed slightly over the bowl for extra flavor.",
+        "step": 7
+      }
+    ],
+    "notes": [
+      {
+        "id": "5fd69018-38dc-4c51-a18d-0b450741da92",
+        "text": "This Korean-inspired bowl features preferred protein chicken, base carb rice, and vegetables bell peppers and broccoli. Spices are adjusted for spice level preferences and no nuts are included.",
+        "createdAt": "2026-06-27T22:52:28.027Z"
+      },
+      {
+        "id": "c71e3d65-f00a-4553-bc18-2bac7167c46f",
+        "text": "Estimated calories: 680",
+        "createdAt": "2026-06-27T22:52:28.027Z"
+      },
+      {
+        "id": "26ed7067-4eaa-40ef-97a3-77880b3e0d04",
+        "text": "Estimated protein: 45g",
+        "createdAt": "2026-06-27T22:52:28.027Z"
+      },
+      {
+        "id": "0a4d211e-da79-4f44-bffd-6026651e21ff",
+        "text": "Estimated calories (~680) and protein (~45g) based on chicken thighs, jasmine rice, vegetables, and gochujang sauce per serving.",
+        "createdAt": "2026-06-27T22:52:28.027Z"
+      }
+    ],
+    "updatedAt": "2026-06-27T22:52:28.027Z"
+  },
+  {
+    "id": "1cf77415-c335-4629-a89f-8e0ca784e312",
+    "importedRecipeId": null,
+    "title": "Korean Pork Bowl with Couscous and Cauliflower",
+    "description": "Savory marinated pork served over fluffy couscous with roasted cauliflower and bell peppers.",
+    "imageUrl": null,
+    "sourceName": "AI meal planner",
+    "sourceUrl": null,
+    "authorName": null,
+    "origin": "CUSTOM",
+    "providerId": null,
+    "externalId": null,
+    "prepMinutes": null,
+    "cookMinutes": 42,
+    "servings": 2,
+    "tags": [
+      "pork",
+      "couscous",
+      "cauliflower",
+      "korean",
+      "lunch",
+      "healthy",
+      "meal prep",
+      "ai planned",
+      "generated"
+    ],
+    "ingredientCount": 10,
+    "noteCount": 4,
+    "ingredients": [
+      {
+        "id": "95f71f4a-b1e6-4dff-b79d-4768afe567ec",
+        "displayText": "10 ounces pork loin, thinly sliced",
+        "name": "pork loin, thinly sliced",
+        "quantity": 10,
+        "unit": "ounces",
+        "position": 1
+      },
+      {
+        "id": "8378e78c-7878-48d1-ade5-bc5099e69eb9",
+        "displayText": "1 cup dry couscous",
+        "name": "dry couscous",
+        "quantity": 1,
+        "unit": "cup",
+        "position": 2
+      },
+      {
+        "id": "39a633ca-5e9d-493f-ba7f-0cf90f38880d",
+        "displayText": "1 cup cauliflower florets",
+        "name": "cauliflower florets",
+        "quantity": 1,
+        "unit": "cup",
+        "position": 3
+      },
+      {
+        "id": "dff48077-948b-4704-86d2-104201440954",
+        "displayText": "1 cup sliced bell peppers",
+        "name": "sliced bell peppers",
+        "quantity": 1,
+        "unit": "cup",
+        "position": 4
+      },
+      {
+        "id": "2c64ae08-affc-41bb-9785-2ad87a7a774d",
+        "displayText": "2 tablespoons soy sauce",
+        "name": "soy sauce",
+        "quantity": 2,
+        "unit": "tablespoons",
+        "position": 5
+      },
+      {
+        "id": "4b679462-1645-47b1-8fa8-db8fdebee047",
+        "displayText": "1 tablespoon gochugaru (Korean chili flakes, mild to moderate heat)",
+        "name": "gochugaru (Korean chili flakes, mild to moderate heat)",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "position": 6
+      },
+      {
+        "id": "513d8a6e-c823-4481-aea5-9166e8e36f00",
+        "displayText": "2 teaspoons minced garlic",
+        "name": "minced garlic",
+        "quantity": 2,
+        "unit": "teaspoons",
+        "position": 7
+      },
+      {
+        "id": "1add95d5-06d2-4f8f-a5d8-d5fa6a76defd",
+        "displayText": "1 teaspoon grated ginger",
+        "name": "grated ginger",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "position": 8
+      },
+      {
+        "id": "dc2c99ad-7ad5-488b-9cb8-538438c2e046",
+        "displayText": "1 tablespoon olive oil",
+        "name": "olive oil",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "position": 9
+      },
+      {
+        "id": "497ea2b7-85d2-450f-a044-cfbe5a04605b",
+        "displayText": "Salt and pepper to taste",
+        "name": "Salt and pepper to taste",
+        "quantity": null,
+        "unit": null,
+        "position": 10
+      }
+    ],
+    "instructions": [
+      {
+        "id": "29123679-b75f-4dc3-8b0e-4cf6f2777cf7",
+        "text": "Preheat oven to 425°F (220°C). Toss cauliflower and bell peppers with half the olive oil, salt, and pepper. Roast for 20 minutes until tender and lightly browned.",
+        "step": 1
+      },
+      {
+        "id": "dc848b8e-1351-4d8e-9b04-11a9b51ac11f",
+        "text": "Prepare couscous according to package instructions.",
+        "step": 2
+      },
+      {
+        "id": "bdc6615e-d6c3-4b1d-b71a-a9aa82a37089",
+        "text": "In a bowl, combine soy sauce, gochugaru, garlic, and ginger. Marinate pork slices for 10-15 minutes.",
+        "step": 3
+      },
+      {
+        "id": "c59eb45c-cb31-4391-8cd8-ba4628a66388",
+        "text": "Heat remaining olive oil in a skillet over medium-high heat. Cook pork until browned and cooked through, about 6-8 minutes.",
+        "step": 4
+      },
+      {
+        "id": "ab70fa78-09b6-47de-ae4a-cfd147467906",
+        "text": "Serve pork over couscous, topped with roasted cauliflower and bell peppers.",
+        "step": 5
+      }
+    ],
+    "notes": [
+      {
+        "id": "6e870556-610c-4ee9-9bf2-0ab86b5301cb",
+        "text": "Matches preferred protein (pork), base carb (couscous), and vegetables (cauliflower, bell peppers). Korean flavor profile with moderate spice tailored to household spice preferences. Nut-free and under 45 minutes cook time.",
+        "createdAt": "2026-06-27T22:52:21.371Z"
+      },
+      {
+        "id": "9e709045-f9b4-4688-ade3-e5c4f2dec407",
+        "text": "Estimated calories: 710",
+        "createdAt": "2026-06-27T22:52:21.371Z"
+      },
+      {
+        "id": "1ddcaf37-4afd-4cb4-8c7b-86ad3e52875b",
+        "text": "Estimated protein: 44g",
+        "createdAt": "2026-06-27T22:52:21.371Z"
+      },
+      {
+        "id": "da8a090f-754d-4200-a3c3-90587ea4c6c6",
+        "text": "Estimated calories (~710) and protein (~44g) based on pork loin, couscous, and vegetables per serving.",
+        "createdAt": "2026-06-27T22:52:21.371Z"
+      }
+    ],
+    "updatedAt": "2026-06-27T22:52:21.371Z"
+  },
+  {
+    "id": "6e52fbc7-3d1b-4d74-accb-0356bc1b7a87",
+    "importedRecipeId": "2b06bfdb-b00d-4118-88e9-ee3e6063dcb2",
+    "title": "Italian Tuna Pasta",
+    "description": "Italian Tuna Pastan is a Mediterranean main course. Watching your figure? This dairy free and pescatarian recipe has 464 calories, 38g of protein, and 3g of fat per serving. For $2.09 per serving, this recipe covers 35% of your daily requirements of vitamins and minerals. This recipe serves 3. 1 person found this recipe to be yummy and satisfying. From preparation to the plate, this recipe takes around 20 minutes. It is brought to you by Foodista. A mixture of chillies, pasta shells, juice of lemon, and a handful of other ingredients are all it takes to make this recipe so tasty. Taking all factors into account, this recipe earns a spoonacular score of 93%, which is excellent. Try Italian Tuna Pasta Salad, Pastan and Tuna Salad (Ensalada de Pasta y Atún), and Raw tomato sauce for pasta, the Italian pastan alla crudaiola for similar recipes.",
+    "imageUrl": "https://img.spoonacular.com/recipes/648279-556x370.jpg",
+    "sourceName": "foodista.com",
+    "sourceUrl": "https://www.foodista.com/recipe/4QNQXMDZ/italian-tuna-pasta",
+    "authorName": "foodista.com",
+    "origin": "IMPORTED",
+    "providerId": "spoonacular",
+    "externalId": "648279",
+    "prepMinutes": null,
+    "cookMinutes": 20,
+    "servings": 3,
+    "tags": [
+      "side dish",
+      "lunch",
+      "main course",
+      "main dish",
+      "dinner",
+      "mediterranean",
+      "italian",
+      "european"
+    ],
+    "ingredientCount": 8,
+    "noteCount": 0,
+    "ingredients": [
+      {
+        "id": "77d163b7-e405-42c9-b01d-3039db0a4540",
+        "displayText": "2 fresh chillies",
+        "name": "chillies",
+        "quantity": 2,
+        "unit": "",
+        "position": 1
+      },
+      {
+        "id": "4912164b-72c8-4f8b-b555-2c591d6d8b75",
+        "displayText": "1 tablespoon minced garlic",
+        "name": "garlic",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "position": 2
+      },
+      {
+        "id": "972e59d9-01cb-4e2f-9b54-fedc079d611b",
+        "displayText": "Ground black pepper",
+        "name": "ground pepper",
+        "quantity": 3,
+        "unit": "servings",
+        "position": 3
+      },
+      {
+        "id": "337c3643-261a-4cd6-8579-04060b932044",
+        "displayText": "2 lemons, juiced",
+        "name": "juice of lemon",
+        "quantity": 2,
+        "unit": "",
+        "position": 4
+      },
+      {
+        "id": "c0a90433-1c5b-448a-b4d5-c42cccfdf66b",
+        "displayText": "1/2 cup of chopped parsley leaves",
+        "name": "parsley leaves",
+        "quantity": 0.5,
+        "unit": "cup",
+        "position": 5
+      },
+      {
+        "id": "fa939852-0a8a-4fab-8e19-92f46801a9c5",
+        "displayText": "250 grams of pasta shells (cook pasta according to packet's instructions)",
+        "name": "pasta shells",
+        "quantity": 250,
+        "unit": "grams",
+        "position": 6
+      },
+      {
+        "id": "4b9d3abd-97d3-4ebc-ac97-b747d080d18b",
+        "displayText": "1 red pepper",
+        "name": "bell pepper",
+        "quantity": 1,
+        "unit": "",
+        "position": 7
+      },
+      {
+        "id": "ecd1a6c5-255f-44af-a2d4-033b2d1ee90f",
+        "displayText": "400 grams of tuna, drained and flaked",
+        "name": "tuna",
+        "quantity": 400,
+        "unit": "grams",
+        "position": 8
+      }
+    ],
+    "instructions": [
+      {
+        "id": "5ecc377b-3aa6-412c-8f1f-d5959ef4e881",
+        "text": "Once pasta is cooked, drain and leave to cool for a minute.",
+        "step": 1
+      },
+      {
+        "id": "86a2317a-481d-4ca0-97db-8c149c234c06",
+        "text": "Place small skillet on medium fire, drizzle olive oil, add in red pepper and stir-fry for 1-2 minutes. Put aside.Toss pasta shells, red pepper, tuna, parsley, garlic, chillies and lemon juice. Season with ground black pepper to taste, spoon into serving bowls.",
+        "step": 2
+      }
+    ],
+    "notes": [],
+    "updatedAt": "2026-06-27T22:12:55.077Z"
+  },
+  {
+    "id": "de943b4c-f533-4b55-93b4-c77733a3cf09",
+    "importedRecipeId": "63e467d2-9e1f-4ec6-82c7-1ecba1b3888b",
+    "title": "Easy Cheesy Pizza Casserole",
+    "description": "You can never have too many Mediterranean recipes, so give Easy Cheesy Pizza Casserole a try. This main course has 902 calories, 57g of protein, and 55g of fat per serving. For $3.95 per serving, this recipe covers 37% of your daily requirements of vitamins and minerals. This recipe serves 6. Autumn will be even more special with this recipe. 181 person were impressed by this recipe. From preparation to the plate, this recipe takes around 45 minutes. This recipe from Foodista requires equivalent amount of a ground beef/bulk sausage mix, milk, oregano, and pepperoni. Taking all factors into account, this recipe earns a spoonacular score of 83%, which is spectacular. Easy Cheesy Pizza Casserole, Cheesy Pizza Casserole, and 20 Minute Cheesy Pizza Casserole are very similar to this recipe.",
+    "imageUrl": "https://img.spoonacular.com/recipes/641893-556x370.jpg",
+    "sourceName": "foodista.com",
+    "sourceUrl": "https://www.foodista.com/recipe/ZTHZWCWF/easy-cheesy-pizza-casserole",
+    "authorName": "foodista.com",
+    "origin": "IMPORTED",
+    "providerId": "spoonacular",
+    "externalId": "641893",
+    "prepMinutes": null,
+    "cookMinutes": 45,
+    "servings": 6,
+    "tags": [
+      "side dish",
+      "lunch",
+      "main course",
+      "main dish",
+      "dinner",
+      "mediterranean",
+      "italian",
+      "european"
+    ],
+    "ingredientCount": 19,
+    "noteCount": 0,
+    "ingredients": [
+      {
+        "id": "930173cf-bfd7-4b82-9c79-6516e97776c0",
+        "displayText": "1 lb ground beef or equivalent amount of a ground beef/bulk Italian sausage mix",
+        "name": "equivalent amount of a ground beef/bulk sausage mix",
+        "quantity": 1,
+        "unit": "lb",
+        "position": 1
+      },
+      {
+        "id": "4722918f-9da7-4e16-b931-54015013dcc5",
+        "displayText": "1/2 cup ricotta",
+        "name": "ricotta",
+        "quantity": 0.5,
+        "unit": "cup",
+        "position": 2
+      },
+      {
+        "id": "eb1dbc1e-a2ec-4f85-873d-f7bf267e856d",
+        "displayText": "pinch of oregano",
+        "name": "oregano",
+        "quantity": 1,
+        "unit": "pinch",
+        "position": 3
+      },
+      {
+        "id": "5911b579-d2ca-4001-955f-822969681fc6",
+        "displayText": "pinch of basil",
+        "name": "basil",
+        "quantity": 1,
+        "unit": "pinch",
+        "position": 4
+      },
+      {
+        "id": "694730a8-7339-467a-804c-cc73c58fa555",
+        "displayText": "1 Tbs grated Parmesan cheese",
+        "name": "parmesan cheese",
+        "quantity": 1,
+        "unit": "Tbs",
+        "position": 5
+      },
+      {
+        "id": "042e8e06-adcb-4957-911a-0bf3103b408e",
+        "displayText": "1 - 26 oz jar of pasta sauce",
+        "name": "pasta sauce",
+        "quantity": 26,
+        "unit": "oz",
+        "position": 6
+      },
+      {
+        "id": "4d6fbe52-734c-4685-8504-c3771d2cabd5",
+        "displayText": "1 can pizza sauce",
+        "name": "pizza sauce",
+        "quantity": 1,
+        "unit": "can",
+        "position": 7
+      },
+      {
+        "id": "9c228eaf-232a-40d3-84a0-9601e9aa697e",
+        "displayText": "1/8 - 1/2 tsp crushed red pepper flakes",
+        "name": "pepper flakes",
+        "quantity": 0.125,
+        "unit": "tsp",
+        "position": 8
+      },
+      {
+        "id": "5a515ff2-2f0a-42be-bb9c-c6efb793c789",
+        "displayText": "Pepperoni slices (I used 1/2 of a package of Hormel brand)",
+        "name": "pepperoni",
+        "quantity": 0.5,
+        "unit": "",
+        "position": 9
+      },
+      {
+        "id": "02f41477-33b3-42e0-b884-08d05d8ba284",
+        "displayText": "2 cups shredded mozzarella",
+        "name": "mozzarella",
+        "quantity": 2,
+        "unit": "cups",
+        "position": 10
+      },
+      {
+        "id": "09df87c8-e15d-44d0-a543-9633acbc7988",
+        "displayText": "1/2 cup shredded aged Provolone",
+        "name": "aged provolone",
+        "quantity": 0.5,
+        "unit": "cup",
+        "position": 11
+      },
+      {
+        "id": "e5c19b75-191a-4891-928d-1444287746dd",
+        "displayText": "Herbed Parmesan Drop Biscuits",
+        "name": "herbed parmesan drop biscuits",
+        "quantity": 6,
+        "unit": "servings",
+        "position": 12
+      },
+      {
+        "id": "ec5766ce-1e6b-4f27-a5f3-aa90552a13a1",
+        "displayText": "Additional Parmesan cheese for topping",
+        "name": "additional parmesan cheese",
+        "quantity": 6,
+        "unit": "servings",
+        "position": 13
+      },
+      {
+        "id": "3d7a7eaf-eb2b-4982-a6f4-b28b2690321a",
+        "displayText": "2 1/4 cup baking mix (like Bisquick or Jiffy)",
+        "name": "baking mix",
+        "quantity": 2.25,
+        "unit": "cup",
+        "position": 14
+      },
+      {
+        "id": "a13d4132-bcb6-45f5-8ccf-5f3044c999ba",
+        "displayText": "1/4 cup grated Parmesan cheese",
+        "name": "parmesan cheese",
+        "quantity": 0.25,
+        "unit": "cup",
+        "position": 15
+      },
+      {
+        "id": "56d06887-6ebe-46ce-ad90-a8c96290928b",
+        "displayText": "1 tsp Italian seasoning",
+        "name": "seasoning",
+        "quantity": 1,
+        "unit": "tsp",
+        "position": 16
+      },
+      {
+        "id": "2179ab8d-8fa7-4489-adba-671d16ae0189",
+        "displayText": "2/3 cup milk",
+        "name": "milk",
+        "quantity": 0.6666667,
+        "unit": "cup",
+        "position": 17
+      },
+      {
+        "id": "c63bd5ad-c606-438f-b1c0-7deee2ead110",
+        "displayText": "-or-",
+        "name": "or",
+        "quantity": 1,
+        "unit": "serving",
+        "position": 18
+      },
+      {
+        "id": "17536bde-780f-4dab-a9ee-5791a8db3abb",
+        "displayText": "-or-",
+        "name": "or",
+        "quantity": 6,
+        "unit": "servings",
+        "position": 19
+      }
+    ],
+    "instructions": [
+      {
+        "id": "96d8e725-acaa-4c78-bf41-2bbb89b62bdb",
+        "text": "Brown ground beef in skillet; drain fat.",
+        "step": 1
+      },
+      {
+        "id": "b7e4f0e6-2ba9-4d70-8d3c-4246ab730e74",
+        "text": "Mix in pasta or pizza sauce and pepper flakes; set aside.",
+        "step": 2
+      },
+      {
+        "id": "1caca84e-7c29-4a2e-9495-e967688ce831",
+        "text": "Mix ricotta cheese with the herbs and Parmesan in a separate bowl; set aside.",
+        "step": 3
+      },
+      {
+        "id": "78dec95f-a687-4feb-9564-62dc3e0c281f",
+        "text": "Mix the dry ingredients for the biscuits.",
+        "step": 4
+      },
+      {
+        "id": "670f0a19-2084-42d0-8581-eb7a31e68972",
+        "text": "Add milk and stir until combined.",
+        "step": 5
+      },
+      {
+        "id": "e89da9f2-5a48-4faa-a9d4-01b2a714ce02",
+        "text": "Preheat oven to 375 degrees.  Spray a 13 x 9 pan with non-stick spray.  Drop biscuit dough by teaspoons in the bottom of pan, spacing evenly.  It's OK if there is space between the dough--it will expand as it's cooked.  Top with ground beef mixture and dot with the ricotta cheese mixture.",
+        "step": 6
+      },
+      {
+        "id": "c0edf98a-b6c2-480c-9e93-3072bf873686",
+        "text": "Bake at 375 for about 20 min or until biscuits are puffed and beginning to get golden brown.",
+        "step": 7
+      },
+      {
+        "id": "2f45317d-1b60-4c8c-b90c-d9fe3f259073",
+        "text": "Top with mozzarella and provolone cheeses and distribute pepperoni slices evenly over top, increase oven temperature to 425 degrees.  Return to oven and bake until cheeses are melted and beginning to bubble.  This should take about 10 minutes.",
+        "step": 8
+      },
+      {
+        "id": "5d0b3e3d-7597-4c4a-b933-a0a829641b90",
+        "text": "Remove from oven and let stand 5 minutes before slicing and serving.  May be topped with the additional Parmesan cheese.",
+        "step": 9
+      }
+    ],
+    "notes": [],
+    "updatedAt": "2026-06-27T22:12:41.701Z"
+  },
+  {
+    "id": "5ce16959-5a2d-4c03-888b-03abd189ac12",
+    "importedRecipeId": null,
+    "title": "Spiced Beef with Quinoa and Roasted Brussels Sprouts",
+    "description": "Seasoned ground beef served with fluffy quinoa and oven-roasted brussels sprouts.",
+    "imageUrl": null,
+    "sourceName": "AI meal planner",
+    "sourceUrl": null,
+    "authorName": null,
+    "origin": "CUSTOM",
+    "providerId": null,
+    "externalId": null,
+    "prepMinutes": null,
+    "cookMinutes": 40,
+    "servings": 4,
+    "tags": [
+      "beef",
+      "quinoa",
+      "roasted vegetables",
+      "healthy",
+      "weeknight",
+      "mediterranean",
+      "ai planned",
+      "generated"
+    ],
+    "ingredientCount": 8,
+    "noteCount": 4,
+    "ingredients": [
+      {
+        "id": "9e14c2bb-c9a5-44f7-8e6e-3ff2590e6f73",
+        "displayText": "1.2 lbs lean ground beef",
+        "name": "lean ground beef",
+        "quantity": 1.2,
+        "unit": "lbs",
+        "position": 1
+      },
+      {
+        "id": "d4299bb3-2e26-489c-abe9-78bf98ef37a2",
+        "displayText": "1.5 cups dry quinoa",
+        "name": "dry quinoa",
+        "quantity": 1.5,
+        "unit": "cups",
+        "position": 2
+      },
+      {
+        "id": "6ecaf430-335f-4a81-9089-67a520d4524a",
+        "displayText": "16 oz brussels sprouts, halved",
+        "name": "brussels sprouts, halved",
+        "quantity": 16,
+        "unit": "oz",
+        "position": 3
+      },
+      {
+        "id": "7979d560-1765-487b-a5a3-e3d7d6f89a2c",
+        "displayText": "2 tbsp olive oil",
+        "name": "olive oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "position": 4
+      },
+      {
+        "id": "a2d7452a-2827-4877-93e1-a5e4d2edded6",
+        "displayText": "1 tsp ground cumin",
+        "name": "ground cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "position": 5
+      },
+      {
+        "id": "81158284-c332-4d65-80c0-8fb1d8251bb9",
+        "displayText": "1 tsp smoked paprika",
+        "name": "smoked paprika",
+        "quantity": 1,
+        "unit": "tsp",
+        "position": 6
+      },
+      {
+        "id": "3a6d9a10-6d5c-44a4-a056-9c42e2ccd31f",
+        "displayText": "Salt and pepper to taste",
+        "name": "Salt and pepper to taste",
+        "quantity": null,
+        "unit": null,
+        "position": 7
+      },
+      {
+        "id": "45196cdd-e1dd-4682-a89d-2994e216dc50",
+        "displayText": "Juice of 1 lemon",
+        "name": "Juice of 1 lemon",
+        "quantity": null,
+        "unit": null,
+        "position": 8
+      }
+    ],
+    "instructions": [
+      {
+        "id": "458b1135-bb12-4348-97ef-79250ebcef6d",
+        "text": "Preheat oven to 425°F (220°C). Toss brussels sprouts with 1 tablespoon olive oil, salt, and pepper. Spread on a baking sheet and roast for 20-25 minutes until caramelized.",
+        "step": 1
+      },
+      {
+        "id": "55ccad39-75ee-433f-9811-94b1ab317f70",
+        "text": "Rinse quinoa and cook according to package instructions (about 15 minutes).",
+        "step": 2
+      },
+      {
+        "id": "48990942-5183-4c7a-9ea8-3ef7290601d4",
+        "text": "In a large skillet, heat remaining olive oil over medium heat. Add ground beef, cumin, smoked paprika, salt, and pepper. Cook until browned and cooked through, about 8-10 minutes.",
+        "step": 3
+      },
+      {
+        "id": "a00a84a6-4c34-4817-9e69-1ffda5355d21",
+        "text": "Remove beef from heat and stir in lemon juice.",
+        "step": 4
+      },
+      {
+        "id": "90386f08-9e1e-4274-80bf-917496a64d3d",
+        "text": "Serve spiced beef over cooked quinoa, with roasted brussels sprouts on the side.",
+        "step": 5
+      }
+    ],
+    "notes": [
+      {
+        "id": "550753d5-cbda-475e-9784-3920ccb4c623",
+        "text": "Uses beef as main protein, quinoa as grain, includes brussels sprouts as vegetable side, fits protein and calorie goals with moderate cook time.",
+        "createdAt": "2026-06-27T22:02:49.864Z"
+      },
+      {
+        "id": "da45744e-cddc-474d-863c-90d3bc3beeec",
+        "text": "Estimated calories: 680",
+        "createdAt": "2026-06-27T22:02:49.864Z"
+      },
+      {
+        "id": "29044dd5-f5e5-446e-a34b-95d7dab09972",
+        "text": "Estimated protein: 45g",
+        "createdAt": "2026-06-27T22:02:49.864Z"
+      },
+      {
+        "id": "29f95b68-c0d4-49c4-95fe-bca8cb2356db",
+        "text": "Calories and protein estimated based on 4 oz cooked beef per serving, 3/4 cup cooked quinoa, and roasted brussels sprouts.",
+        "createdAt": "2026-06-27T22:02:49.864Z"
+      }
+    ],
+    "updatedAt": "2026-06-27T22:02:49.864Z"
+  },
+  {
+    "id": "5a2d5882-00ff-4c4b-8815-cdafb2abdc66",
+    "importedRecipeId": null,
+    "title": "Lemon Herb Chicken Bowls",
+    "description": "A balanced lunch built around chicken, rice, broccoli, and peppers.",
+    "imageUrl": null,
+    "sourceName": "AI meal planner",
+    "sourceUrl": null,
+    "authorName": null,
+    "origin": "CUSTOM",
+    "providerId": null,
+    "externalId": null,
+    "prepMinutes": null,
+    "cookMinutes": 40,
+    "servings": 2,
+    "tags": [
+      "ai suggested",
+      "lunch",
+      "chicken",
+      "rice",
+      "meal prep",
+      "ai planned",
+      "saved_recipe"
+    ],
+    "ingredientCount": 6,
+    "noteCount": 3,
+    "ingredients": [
+      {
+        "id": "9b21578c-b490-4160-bb7f-81db92a887d9",
+        "displayText": "2 servings chicken",
+        "name": "chicken",
+        "quantity": null,
+        "unit": null,
+        "position": 1
+      },
+      {
+        "id": "f0d98de3-8f44-4e5e-8495-93e87075069d",
+        "displayText": "2 cups cooked rice",
+        "name": "cooked rice",
+        "quantity": null,
+        "unit": null,
+        "position": 2
+      },
+      {
+        "id": "b5ff2c3b-280f-41b2-873d-ad4f32c9a29e",
+        "displayText": "2 cups broccoli",
+        "name": "broccoli",
+        "quantity": null,
+        "unit": null,
+        "position": 3
+      },
+      {
+        "id": "b551dfb8-73e4-4802-95f4-87c8bac779b6",
+        "displayText": "2 cups peppers",
+        "name": "peppers",
+        "quantity": null,
+        "unit": null,
+        "position": 4
+      },
+      {
+        "id": "f04ebd62-5b14-4684-9f8e-8e16c2997add",
+        "displayText": "2 tbsp olive oil",
+        "name": "olive oil",
+        "quantity": null,
+        "unit": null,
+        "position": 5
+      },
+      {
+        "id": "77244140-ada7-4e60-adc0-ba1eb830c7b1",
+        "displayText": "1 lemon or splash of vinegar",
+        "name": "or splash of vinegar",
+        "quantity": null,
+        "unit": null,
+        "position": 6
+      }
+    ],
+    "instructions": [
+      {
+        "id": "88ce85f8-f26b-4461-a551-babdd0c5216b",
+        "text": "Cook or warm the rice and divide it across containers or plates.",
+        "step": 1
+      },
+      {
+        "id": "ed0a7d65-5a28-49c1-a24d-0a00d8b94943",
+        "text": "Season and cook the chicken until done.",
+        "step": 2
+      },
+      {
+        "id": "5a9f79a0-6c49-44fc-9980-ef2d0f9234a7",
+        "text": "Saute or roast broccoli and peppers with olive oil, salt, and pepper.",
+        "step": 3
+      },
+      {
+        "id": "d580ac0b-009e-49a0-bd80-2f881e2ec404",
+        "text": "Assemble bowls and finish with lemon or vinegar for brightness.",
+        "step": 4
+      }
+    ],
+    "notes": [
+      {
+        "id": "a1f3ceda-9a53-49b4-a3c5-39a7269974aa",
+        "text": "Matches the prompt with a protein-heavy base, a practical carb, varied vegetables, and a target cook time around 40 minutes.",
+        "createdAt": "2026-06-27T21:15:59.913Z"
+      },
+      {
+        "id": "24fb3efd-54e0-471f-808d-2ccdbeea4edf",
+        "text": "Estimated calories: 650",
+        "createdAt": "2026-06-27T21:15:59.913Z"
+      },
+      {
+        "id": "a3e4edc8-f9fa-482e-9b9d-d8163b3acef5",
+        "text": "Estimated protein: 42g",
+        "createdAt": "2026-06-27T21:15:59.913Z"
+      }
+    ],
+    "updatedAt": "2026-06-27T21:15:59.913Z"
+  },
+  {
+    "id": "2969835c-07ee-45e7-9751-3ac8a72693c0",
+    "importedRecipeId": "8d91a661-5965-45f9-a643-b64f00cca9f7",
+    "title": "Lemon Herb Salmon with Couscous",
+    "description": "A bright sheet-pan style dinner with flaky salmon, herbs, and quick couscous.",
+    "imageUrl": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=900&q=80",
+    "sourceName": "Demo Kitchen",
+    "sourceUrl": "https://example.com/recipes/lemon-herb-salmon",
+    "authorName": "Mara Ellis",
+    "origin": "IMPORTED",
+    "providerId": "demo",
+    "externalId": "lemon-herb-salmon",
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "servings": 4,
+    "tags": [
+      "dinner",
+      "fish",
+      "quick"
+    ],
+    "ingredientCount": 5,
+    "noteCount": 0,
+    "ingredients": [
+      {
+        "id": "43507ac6-3140-4f2b-8949-2d5f062bfcc2",
+        "displayText": "4 salmon fillets",
+        "name": "salmon fillets",
+        "quantity": 4,
+        "unit": null,
+        "position": 1
+      },
+      {
+        "id": "8bdd5170-9f4f-4c7e-aa20-03e1d06f14e7",
+        "displayText": "2 tbsp olive oil",
+        "name": "olive oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "position": 2
+      },
+      {
+        "id": "1bca016a-9d3e-400b-8be6-e52365dbbd6f",
+        "displayText": "1 lemon, sliced",
+        "name": "lemon",
+        "quantity": 1,
+        "unit": null,
+        "position": 3
+      },
+      {
+        "id": "56a92164-dade-428e-89f0-0429d5098c41",
+        "displayText": "1 cup couscous",
+        "name": "couscous",
+        "quantity": 1,
+        "unit": "cup",
+        "position": 4
+      },
+      {
+        "id": "1ddaa0a9-3b9c-4b7e-a224-89c21d381b59",
+        "displayText": "2 cups baby spinach",
+        "name": "baby spinach",
+        "quantity": 2,
+        "unit": "cups",
+        "position": 5
+      }
+    ],
+    "instructions": [
+      {
+        "id": "2de529ca-286a-430d-a3aa-fbd0999349c9",
+        "text": "Season salmon with olive oil, salt, pepper, and herbs.",
+        "step": 1
+      },
+      {
+        "id": "d1b5c0d3-5567-4bbd-a9f4-20fb7a35f268",
+        "text": "Roast the salmon with lemon slices until just cooked through.",
+        "step": 2
+      },
+      {
+        "id": "cf7cd250-6e7f-4fe8-b1fb-ae804e3e2a02",
+        "text": "Prepare couscous according to the package directions.",
+        "step": 3
+      },
+      {
+        "id": "ab527748-1271-4c1c-97d9-89786f95f0ac",
+        "text": "Fold spinach into the warm couscous and serve with salmon.",
+        "step": 4
+      }
+    ],
+    "notes": [],
+    "updatedAt": "2026-06-27T20:42:55.462Z"
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000001",
+    "title": "Lemon Herb Chicken Bowls",
+    "description": "Bright, flexible chicken bowls with rice, herbs, cucumber, and a quick yogurt sauce.",
+    "imageUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1200&q=80",
+    "sourceName": "Family Kitchen",
+    "sourceUrl": "",
+    "authorName": "Jon",
+    "prepMinutes": 20,
+    "cookMinutes": 25,
+    "servings": 4,
+    "tags": [
+      "weeknight",
+      "chicken",
+      "meal prep"
+    ],
+    "ingredients": [
+      {
+        "id": "20000000-0000-4000-8000-000000000001",
+        "displayText": "1 1/2 lb boneless chicken thighs",
+        "name": "boneless chicken thighs",
+        "quantity": 1.5,
+        "unit": "lb",
+        "position": 1
+      },
+      {
+        "id": "20000000-0000-4000-8000-000000000002",
+        "displayText": "2 lemons, zested and juiced",
+        "name": "lemons",
+        "quantity": 2,
+        "unit": "",
+        "position": 2
+      },
+      {
+        "id": "20000000-0000-4000-8000-000000000003",
+        "displayText": "2 cups cooked rice",
+        "name": "cooked rice",
+        "quantity": 2,
+        "unit": "cups",
+        "position": 3
+      },
+      {
+        "id": "20000000-0000-4000-8000-000000000004",
+        "displayText": "1 cucumber, diced",
+        "name": "cucumber",
+        "quantity": 1,
+        "unit": "",
+        "position": 4
+      }
+    ],
+    "instructions": [
+      {
+        "id": "30000000-0000-4000-8000-000000000001",
+        "step": 1,
+        "text": "Marinate chicken with lemon zest, lemon juice, olive oil, salt, pepper, and chopped herbs."
+      },
+      {
+        "id": "30000000-0000-4000-8000-000000000002",
+        "step": 2,
+        "text": "Sear chicken until browned and cooked through, then rest for five minutes."
+      },
+      {
+        "id": "30000000-0000-4000-8000-000000000003",
+        "step": 3,
+        "text": "Serve over rice with cucumber and yogurt sauce."
+      }
+    ],
+    "notes": [
+      {
+        "id": "40000000-0000-4000-8000-000000000001",
+        "text": "Good with extra dill and a little chili crisp on the side.",
+        "createdAt": "2026-06-27T12:00:00.000Z"
+      }
+    ],
+    "updatedAt": "2026-06-27T12:00:00.000Z"
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000002",
+    "title": "Roasted Tomato Rigatoni",
+    "description": "A pantry-friendly pasta with jammy roasted tomatoes, garlic, basil, and parmesan.",
+    "imageUrl": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=1200&q=80",
+    "sourceName": "Family Kitchen",
+    "sourceUrl": "",
+    "authorName": "Jon",
+    "prepMinutes": 10,
+    "cookMinutes": 35,
+    "servings": 4,
+    "tags": [
+      "pasta",
+      "vegetarian",
+      "weeknight"
+    ],
+    "ingredients": [
+      {
+        "id": "20000000-0000-4000-8000-000000000005",
+        "displayText": "12 oz rigatoni",
+        "name": "rigatoni",
+        "quantity": 12,
+        "unit": "oz",
+        "position": 1
+      },
+      {
+        "id": "20000000-0000-4000-8000-000000000006",
+        "displayText": "2 pints cherry tomatoes",
+        "name": "cherry tomatoes",
+        "quantity": 2,
+        "unit": "pints",
+        "position": 2
+      },
+      {
+        "id": "20000000-0000-4000-8000-000000000007",
+        "displayText": "4 cloves garlic, thinly sliced",
+        "name": "garlic",
+        "quantity": 4,
+        "unit": "cloves",
+        "position": 3
+      }
+    ],
+    "instructions": [
+      {
+        "id": "30000000-0000-4000-8000-000000000004",
+        "step": 1,
+        "text": "Roast tomatoes and garlic with olive oil and salt until collapsed and caramelized."
+      },
+      {
+        "id": "30000000-0000-4000-8000-000000000005",
+        "step": 2,
+        "text": "Cook pasta until al dente, reserving a cup of pasta water."
+      },
+      {
+        "id": "30000000-0000-4000-8000-000000000006",
+        "step": 3,
+        "text": "Toss pasta with tomatoes, parmesan, basil, and enough pasta water to make a glossy sauce."
+      }
+    ],
+    "notes": [
+      {
+        "id": "40000000-0000-4000-8000-000000000002",
+        "text": "Add sausage or white beans when we want more protein.",
+        "createdAt": "2026-06-27T12:00:00.000Z"
+      }
+    ],
+    "updatedAt": "2026-06-27T12:00:00.000Z"
+  }
+]

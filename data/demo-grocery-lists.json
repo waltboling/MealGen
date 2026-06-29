@@ -1,0 +1,1554 @@
+[
+  {
+    "id": "70000000-0000-4000-8000-000000000001",
+    "name": "Groceries for 2026-06-22",
+    "weekStartDate": "2026-06-22",
+    "mealPlanId": "50000000-0000-4000-8000-000000000001",
+    "items": [
+      {
+        "id": "4104c6bd-6d8e-4a69-891c-9ad1b762a9c0",
+        "name": "Plain Greek Yogurt",
+        "normalizedName": "plain greek yogurt",
+        "quantity": 6,
+        "unit": "tbsp",
+        "category": "Dairy",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Mediterranean Chicken Quinoa Bowl"
+        ],
+        "sourceSummary": "Mediterranean Chicken Quinoa Bowl (2 meals)"
+      },
+      {
+        "id": "7c3e44b0-0f8b-473d-88a9-b7d0436739fd",
+        "name": "Plain Greek Yogurt, 0.5 Cup",
+        "normalizedName": "plain greek yogurt, 0.5 cup",
+        "quantity": null,
+        "unit": null,
+        "category": "Dairy",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Mediterranean Chicken Quinoa Bowl"
+        ],
+        "sourceSummary": "Mediterranean Chicken Quinoa Bowl (1 meal)"
+      },
+      {
+        "id": "12d5715c-6db7-432f-983e-770631886217",
+        "name": "Boneless Skinless Chicken Breast",
+        "normalizedName": "boneless skinless chicken breast",
+        "quantity": 12,
+        "unit": "oz",
+        "category": "Meat & Seafood",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Mediterranean Chicken Quinoa Bowl"
+        ],
+        "sourceSummary": "Mediterranean Chicken Quinoa Bowl (1 meal)"
+      },
+      {
+        "id": "52eef55d-5849-4bbe-a438-e4e1d4158da5",
+        "name": "Boneless Skinless Chicken Thighs",
+        "normalizedName": "boneless skinless chicken thighs",
+        "quantity": 2.5,
+        "unit": "lb",
+        "category": "Meat & Seafood",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean-Style Spicy Chicken Rice Bowl",
+          "Japanese-Inspired Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Korean-Style Spicy Chicken Rice Bowl, Japanese-Inspired Chicken Rice Bowl (3 meals)"
+      },
+      {
+        "id": "7f4ef252-8233-4b08-adc7-120640bdc497",
+        "name": "Chicken",
+        "normalizedName": "chicken",
+        "quantity": null,
+        "unit": null,
+        "category": "Meat & Seafood",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Chicken Bowls"
+        ],
+        "sourceSummary": "Lemon Herb Chicken Bowls (1 meal)"
+      },
+      {
+        "id": "2000ded4-77a4-48dd-9359-60bcc6f146d1",
+        "name": "Chicken Breast, 300g",
+        "normalizedName": "chicken breast, 300g",
+        "quantity": null,
+        "unit": null,
+        "category": "Meat & Seafood",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Mediterranean Chicken Quinoa Bowl",
+          "Korean-Style Spicy Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Mediterranean Chicken Quinoa Bowl, Korean-Style Spicy Chicken Rice Bowl (2 meals)"
+      },
+      {
+        "id": "8e8f9b8c-fc69-4a89-af98-4e7365aed2d7",
+        "name": "Chicken Thighs",
+        "normalizedName": "chicken thighs",
+        "quantity": 4.5,
+        "unit": "lb",
+        "category": "Meat & Seafood",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Chicken Bowls"
+        ],
+        "sourceSummary": "Lemon Herb Chicken Bowls (3 meals)"
+      },
+      {
+        "id": "84d83426-722e-48df-8294-bef41fb38f35",
+        "name": "Grilled Lemon Herb Chicken Breast",
+        "normalizedName": "grilled lemon herb chicken breast",
+        "quantity": 200,
+        "unit": "g",
+        "category": "Meat & Seafood",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Mediterranean Chicken Quinoa Bowl"
+        ],
+        "sourceSummary": "Mediterranean Chicken Quinoa Bowl (1 meal)"
+      },
+      {
+        "id": "30a78083-54bc-43a9-9488-92bb890a0bd5",
+        "name": "Ground Pork",
+        "normalizedName": "ground pork",
+        "quantity": 12,
+        "unit": "oz",
+        "category": "Meat & Seafood",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean Pork Bowl with Couscous and Cauliflower"
+        ],
+        "sourceSummary": "Korean Pork Bowl with Couscous and Cauliflower (1 meal)"
+      },
+      {
+        "id": "188b60c5-8f81-4beb-8501-24dd95843fd6",
+        "name": "Lean Ground Beef",
+        "normalizedName": "lean ground beef",
+        "quantity": 1.25,
+        "unit": "lb",
+        "category": "Meat & Seafood",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Spiced Beef with Quinoa and Roasted Brussels Sprouts"
+        ],
+        "sourceSummary": "Spiced Beef with Quinoa and Roasted Brussels Sprouts (2 meals)"
+      },
+      {
+        "id": "45e3c8dc-8a34-43ac-bd38-41c0e305f953",
+        "name": "Pork Loin, Thinly Sliced",
+        "normalizedName": "pork loin, thinly sliced",
+        "quantity": 10,
+        "unit": "oz",
+        "category": "Meat & Seafood",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean Pork Bowl with Couscous and Cauliflower"
+        ],
+        "sourceSummary": "Korean Pork Bowl with Couscous and Cauliflower (1 meal)"
+      },
+      {
+        "id": "12f620b4-fbf6-4f87-bea0-81d79c613aa2",
+        "name": "Salmon Fillets",
+        "normalizedName": "salmon fillets",
+        "quantity": 12,
+        "unit": "count",
+        "category": "Meat & Seafood",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Salmon with Couscous"
+        ],
+        "sourceSummary": "Lemon Herb Salmon with Couscous (3 meals)"
+      },
+      {
+        "id": "2aad285c-00ed-4dcc-bc70-d0b08fd4d813",
+        "name": "Skinless Chicken Breasts",
+        "normalizedName": "skinless chicken breasts",
+        "quantity": 8,
+        "unit": "unit:boneless",
+        "category": "Meat & Seafood",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Grilled Chicken with Caponata"
+        ],
+        "sourceSummary": "Lemon Herb Grilled Chicken with Caponata (2 meals)"
+      },
+      {
+        "id": "a5fe001f-976a-4df5-85e8-fc28424ebc34",
+        "name": "Baby Spinach",
+        "normalizedName": "baby spinach",
+        "quantity": 6,
+        "unit": "cup",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Salmon with Couscous"
+        ],
+        "sourceSummary": "Lemon Herb Salmon with Couscous (3 meals)"
+      },
+      {
+        "id": "4fffda28-43d2-41b0-935e-c260cb1ddf55",
+        "name": "Broccoli",
+        "normalizedName": "broccoli",
+        "quantity": null,
+        "unit": null,
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Chicken Bowls"
+        ],
+        "sourceSummary": "Lemon Herb Chicken Bowls (1 meal)"
+      },
+      {
+        "id": "26ed1ffe-3f9b-4aa9-b6a3-9310633807d8",
+        "name": "Broccoli Florets",
+        "normalizedName": "broccoli florets",
+        "quantity": 2,
+        "unit": "cup",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean-Style Spicy Chicken Rice Bowl",
+          "Mediterranean Chicken Quinoa Bowl"
+        ],
+        "sourceSummary": "Korean-Style Spicy Chicken Rice Bowl, Mediterranean Chicken Quinoa Bowl (2 meals)"
+      },
+      {
+        "id": "27d5b847-21ca-45ad-9192-8b8ea47aa8d6",
+        "name": "Broccoli Florets, 1.5 Cups (150g)",
+        "normalizedName": "broccoli florets, 1.5 cups (150g)",
+        "quantity": null,
+        "unit": null,
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Mediterranean Chicken Quinoa Bowl",
+          "Korean-Style Spicy Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Mediterranean Chicken Quinoa Bowl, Korean-Style Spicy Chicken Rice Bowl (2 meals)"
+      },
+      {
+        "id": "90f6575e-5730-4dcb-a69c-fbd58ebc7743",
+        "name": "Brussels Sprouts, Halved",
+        "normalizedName": "brussels sprouts, halved",
+        "quantity": 12,
+        "unit": "oz",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Spiced Beef with Quinoa and Roasted Brussels Sprouts"
+        ],
+        "sourceSummary": "Spiced Beef with Quinoa and Roasted Brussels Sprouts (1 meal)"
+      },
+      {
+        "id": "f7c23496-6987-49c0-bf1a-b1c4d73baba9",
+        "name": "Brussels Sprouts, Halved",
+        "normalizedName": "brussels sprouts, halved",
+        "quantity": 2,
+        "unit": "cup",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Spiced Beef with Quinoa and Roasted Brussels Sprouts"
+        ],
+        "sourceSummary": "Spiced Beef with Quinoa and Roasted Brussels Sprouts (1 meal)"
+      },
+      {
+        "id": "e7c9dd55-90e0-4913-919a-8f48154fbf33",
+        "name": "Capers, Drained",
+        "normalizedName": "capers, drained",
+        "quantity": 4,
+        "unit": "tbsp",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Grilled Chicken with Caponata"
+        ],
+        "sourceSummary": "Lemon Herb Grilled Chicken with Caponata (2 meals)"
+      },
+      {
+        "id": "002d494e-d0f6-4f14-9d2e-5730a934b4a1",
+        "name": "Carrot, Julienned",
+        "normalizedName": "carrot, julienned",
+        "quantity": 1,
+        "unit": "medium",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Japanese-Inspired Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Japanese-Inspired Chicken Rice Bowl (1 meal)"
+      },
+      {
+        "id": "5bc9cdb0-4357-4ade-adba-691b996a5cb4",
+        "name": "Cauliflower Florets",
+        "normalizedName": "cauliflower florets",
+        "quantity": 2,
+        "unit": "cup",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean Pork Bowl with Couscous and Cauliflower"
+        ],
+        "sourceSummary": "Korean Pork Bowl with Couscous and Cauliflower (2 meals)"
+      },
+      {
+        "id": "d4810b9e-9e0b-4b4a-9e1b-30be3739aaca",
+        "name": "Chopped Broccoli Florets",
+        "normalizedName": "chopped broccoli florets",
+        "quantity": 1,
+        "unit": "cup",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean-Style Spicy Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Korean-Style Spicy Chicken Rice Bowl (1 meal)"
+      },
+      {
+        "id": "dc8a7077-9fc4-479b-8da3-9f52a69e76c3",
+        "name": "Chopped Celery",
+        "normalizedName": "chopped celery",
+        "quantity": 1,
+        "unit": "cup",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Grilled Chicken with Caponata"
+        ],
+        "sourceSummary": "Lemon Herb Grilled Chicken with Caponata (2 meals)"
+      },
+      {
+        "id": "205f861c-2f3c-4795-8722-3d56099c2211",
+        "name": "Clove, Minced",
+        "normalizedName": "clove, minced",
+        "quantity": 1,
+        "unit": "garlic",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Mediterranean Chicken Quinoa Bowl"
+        ],
+        "sourceSummary": "Mediterranean Chicken Quinoa Bowl (1 meal)"
+      },
+      {
+        "id": "2bea9bda-be4d-4348-8f94-b6fd36ebfe20",
+        "name": "Cloves Minced",
+        "normalizedName": "cloves minced",
+        "quantity": 6,
+        "unit": "unit:garlic",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Grilled Chicken with Caponata"
+        ],
+        "sourceSummary": "Lemon Herb Grilled Chicken with Caponata (2 meals)"
+      },
+      {
+        "id": "ab77c685-44c1-4d1a-8e72-d3b52ab3cfb7",
+        "name": "Cooked Quinoa",
+        "normalizedName": "cooked quinoa",
+        "quantity": 1,
+        "unit": "cup",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Mediterranean Chicken Quinoa Bowl"
+        ],
+        "sourceSummary": "Mediterranean Chicken Quinoa Bowl (1 meal)"
+      },
+      {
+        "id": "a8751ef9-acf9-41cf-baf4-7ebaf03f900d",
+        "name": "Couscous",
+        "normalizedName": "couscous",
+        "quantity": 4,
+        "unit": "cup",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Salmon with Couscous",
+          "Korean Pork Bowl with Couscous and Cauliflower"
+        ],
+        "sourceSummary": "Lemon Herb Salmon with Couscous, Korean Pork Bowl with Couscous and Cauliflower (4 meals)"
+      },
+      {
+        "id": "86ab0b44-821e-4966-b9b2-85ef1ab829bd",
+        "name": "Dried Oregano",
+        "normalizedName": "dried oregano",
+        "quantity": 2,
+        "unit": "tsp",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Grilled Chicken with Caponata"
+        ],
+        "sourceSummary": "Lemon Herb Grilled Chicken with Caponata (2 meals)"
+      },
+      {
+        "id": "2e146a0c-8725-4904-a5b7-f1da24f935ba",
+        "name": "Dried Oregano, 0.5 Tsp",
+        "normalizedName": "dried oregano, 0.5 tsp",
+        "quantity": null,
+        "unit": null,
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Mediterranean Chicken Quinoa Bowl"
+        ],
+        "sourceSummary": "Mediterranean Chicken Quinoa Bowl (1 meal)"
+      },
+      {
+        "id": "60df2eed-273a-4a06-9026-50fa5105e6c1",
+        "name": "Dry Couscous",
+        "normalizedName": "dry couscous",
+        "quantity": 1,
+        "unit": "cup",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean Pork Bowl with Couscous and Cauliflower"
+        ],
+        "sourceSummary": "Korean Pork Bowl with Couscous and Cauliflower (1 meal)"
+      },
+      {
+        "id": "fcbdd5d8-5ada-4a1b-8e5a-318f2049c1e6",
+        "name": "Dry Quinoa",
+        "normalizedName": "dry quinoa",
+        "quantity": 1,
+        "unit": "cup",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Spiced Beef with Quinoa and Roasted Brussels Sprouts"
+        ],
+        "sourceSummary": "Spiced Beef with Quinoa and Roasted Brussels Sprouts (1 meal)"
+      },
+      {
+        "id": "6cbbf272-42b0-4800-85e5-05a7c42acb0b",
+        "name": "Eggplant (about 1 Pound), Diced",
+        "normalizedName": "eggplant (about 1 pound), diced",
+        "quantity": 2,
+        "unit": "unit:large",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Grilled Chicken with Caponata"
+        ],
+        "sourceSummary": "Lemon Herb Grilled Chicken with Caponata (2 meals)"
+      },
+      {
+        "id": "b7375060-bc43-4744-abf4-859c62fd212a",
+        "name": "Fresh Parsley For Garnish",
+        "normalizedName": "fresh parsley for garnish",
+        "quantity": null,
+        "unit": null,
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Spiced Beef with Quinoa and Roasted Brussels Sprouts"
+        ],
+        "sourceSummary": "Spiced Beef with Quinoa and Roasted Brussels Sprouts (1 meal)"
+      },
+      {
+        "id": "564e74bd-5818-43ed-bd63-80420f1796e7",
+        "name": "Fresh Parsley, Chopped (optional)",
+        "normalizedName": "fresh parsley, chopped (optional)",
+        "quantity": null,
+        "unit": null,
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Mediterranean Chicken Quinoa Bowl"
+        ],
+        "sourceSummary": "Mediterranean Chicken Quinoa Bowl (1 meal)"
+      },
+      {
+        "id": "437ab5d7-e212-414f-b518-495a52dca071",
+        "name": "Ginger, Grated",
+        "normalizedName": "ginger, grated",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean Pork Bowl with Couscous and Cauliflower"
+        ],
+        "sourceSummary": "Korean Pork Bowl with Couscous and Cauliflower (1 meal)"
+      },
+      {
+        "id": "168b1433-9b5e-462c-a9d3-252ae5f65bde",
+        "name": "Gochugaru (korean Chili Flakes, Mild To Moderate Heat)",
+        "normalizedName": "gochugaru (korean chili flakes, mild to moderate heat)",
+        "quantity": 1,
+        "unit": "tbsp",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean Pork Bowl with Couscous and Cauliflower"
+        ],
+        "sourceSummary": "Korean Pork Bowl with Couscous and Cauliflower (1 meal)"
+      },
+      {
+        "id": "c4c37a05-f5f6-4656-a547-ad3067d01f67",
+        "name": "Gochujang (korean Chili Paste)",
+        "normalizedName": "gochujang (korean chili paste)",
+        "quantity": 4,
+        "unit": "tbsp",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean-Style Spicy Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Korean-Style Spicy Chicken Rice Bowl (2 meals)"
+      },
+      {
+        "id": "9ce9a2a2-fdba-436d-975f-d1e498db8430",
+        "name": "Gochujang (korean Chili Paste), 1 Tbsp",
+        "normalizedName": "gochujang (korean chili paste), 1 tbsp",
+        "quantity": null,
+        "unit": null,
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean-Style Spicy Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Korean-Style Spicy Chicken Rice Bowl (1 meal)"
+      },
+      {
+        "id": "ffac3a25-5aa2-4653-aaf1-0e9367304d37",
+        "name": "Grated Ginger",
+        "normalizedName": "grated ginger",
+        "quantity": 1,
+        "unit": "tbsp",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean Pork Bowl with Couscous and Cauliflower",
+          "Korean-Style Spicy Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Korean Pork Bowl with Couscous and Cauliflower, Korean-Style Spicy Chicken Rice Bowl (3 meals)"
+      },
+      {
+        "id": "376757aa-6cf9-41dd-8edc-07f94c64361e",
+        "name": "Ground Cumin",
+        "normalizedName": "ground cumin",
+        "quantity": 2,
+        "unit": "tsp",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Spiced Beef with Quinoa and Roasted Brussels Sprouts"
+        ],
+        "sourceSummary": "Spiced Beef with Quinoa and Roasted Brussels Sprouts (2 meals)"
+      },
+      {
+        "id": "4e20b72b-2ba4-4841-b72c-d76281183ad0",
+        "name": "Honey",
+        "normalizedName": "honey",
+        "quantity": 1,
+        "unit": "tbsp",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean-Style Spicy Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Korean-Style Spicy Chicken Rice Bowl (1 meal)"
+      },
+      {
+        "id": "b6c85fea-a6e4-4fa3-9551-dc69a7fcb392",
+        "name": "Honey, 1 Tsp",
+        "normalizedName": "honey, 1 tsp",
+        "quantity": null,
+        "unit": null,
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean-Style Spicy Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Korean-Style Spicy Chicken Rice Bowl (1 meal)"
+      },
+      {
+        "id": "6f9a1d65-5ced-4130-ab51-6eb866184863",
+        "name": "Low-sodium Soy Sauce, 2 Tbsp",
+        "normalizedName": "low-sodium soy sauce, 2 tbsp",
+        "quantity": null,
+        "unit": null,
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean-Style Spicy Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Korean-Style Spicy Chicken Rice Bowl (1 meal)"
+      },
+      {
+        "id": "1a08aa3e-ec9e-43a0-8c64-020583ba8e16",
+        "name": "Mirin",
+        "normalizedName": "mirin",
+        "quantity": 2,
+        "unit": "tbsp",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Japanese-Inspired Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Japanese-Inspired Chicken Rice Bowl (1 meal)"
+      },
+      {
+        "id": "68cd93f6-9460-4f3b-be5b-a07e639e930b",
+        "name": "Peppers",
+        "normalizedName": "peppers",
+        "quantity": null,
+        "unit": null,
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Chicken Bowls"
+        ],
+        "sourceSummary": "Lemon Herb Chicken Bowls (1 meal)"
+      },
+      {
+        "id": "153774bc-4c03-47ba-8fe9-b08e6cd7b110",
+        "name": "Pickled Ginger For Garnish (optional)",
+        "normalizedName": "pickled ginger for garnish (optional)",
+        "quantity": null,
+        "unit": null,
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Japanese-Inspired Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Japanese-Inspired Chicken Rice Bowl (1 meal)"
+      },
+      {
+        "id": "d553379d-2b3a-4bf6-ba82-b63b901e51d7",
+        "name": "Pitted Green Olives, Sliced",
+        "normalizedName": "pitted green olives, sliced",
+        "quantity": 1,
+        "unit": "cup",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Grilled Chicken with Caponata"
+        ],
+        "sourceSummary": "Lemon Herb Grilled Chicken with Caponata (2 meals)"
+      },
+      {
+        "id": "8a77cd82-48c5-4fda-9531-afc45e128439",
+        "name": "Quinoa, 1 Cup (170g) Cooked",
+        "normalizedName": "quinoa, 1 cup (170g) cooked",
+        "quantity": null,
+        "unit": null,
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Mediterranean Chicken Quinoa Bowl"
+        ],
+        "sourceSummary": "Mediterranean Chicken Quinoa Bowl (1 meal)"
+      },
+      {
+        "id": "58612d71-eef3-40fc-81d9-687d28c69bf0",
+        "name": "Quinoa, Rinsed",
+        "normalizedName": "quinoa, rinsed",
+        "quantity": 2,
+        "unit": "cup",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Mediterranean Chicken Quinoa Bowl",
+          "Spiced Beef with Quinoa and Roasted Brussels Sprouts"
+        ],
+        "sourceSummary": "Mediterranean Chicken Quinoa Bowl, Spiced Beef with Quinoa and Roasted Brussels Sprouts (2 meals)"
+      },
+      {
+        "id": "86e02bad-d117-48b7-aa44-df2894f707ed",
+        "name": "Roasted Red And Yellow Bell Peppers",
+        "normalizedName": "roasted red and yellow bell peppers",
+        "quantity": 1,
+        "unit": "cup",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Mediterranean Chicken Quinoa Bowl"
+        ],
+        "sourceSummary": "Mediterranean Chicken Quinoa Bowl (1 meal)"
+      },
+      {
+        "id": "bc65b3da-6f9f-4f0b-bfba-4b84c0301082",
+        "name": "Sake",
+        "normalizedName": "sake",
+        "quantity": 2,
+        "unit": "tbsp",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Japanese-Inspired Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Japanese-Inspired Chicken Rice Bowl (1 meal)"
+      },
+      {
+        "id": "cf2306cf-d2ec-4a27-95d8-da218b1e152a",
+        "name": "Salt To Taste",
+        "normalizedName": "salt to taste",
+        "quantity": null,
+        "unit": null,
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean-Style Spicy Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Korean-Style Spicy Chicken Rice Bowl (1 meal)"
+      },
+      {
+        "id": "b5ac66e9-07d5-40cb-972a-b3d3b65f91c2",
+        "name": "Scallions, Sliced (green Parts Only)",
+        "normalizedName": "scallions, sliced (green parts only)",
+        "quantity": 2,
+        "unit": null,
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Japanese-Inspired Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Japanese-Inspired Chicken Rice Bowl (1 meal)"
+      },
+      {
+        "id": "35361ca3-0b07-48fa-84cc-3cf64b92020e",
+        "name": "Sliced Bell Peppers",
+        "normalizedName": "sliced bell peppers",
+        "quantity": 2,
+        "unit": "cup",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean Pork Bowl with Couscous and Cauliflower",
+          "Korean-Style Spicy Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Korean Pork Bowl with Couscous and Cauliflower, Korean-Style Spicy Chicken Rice Bowl (2 meals)"
+      },
+      {
+        "id": "85aa56cc-d230-4639-a2e0-bf433b596d06",
+        "name": "Smoked Paprika",
+        "normalizedName": "smoked paprika",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Spiced Beef with Quinoa and Roasted Brussels Sprouts"
+        ],
+        "sourceSummary": "Spiced Beef with Quinoa and Roasted Brussels Sprouts (2 meals)"
+      },
+      {
+        "id": "455b12cc-b2c5-48b9-955d-f0522e26a505",
+        "name": "Soy Sauce",
+        "normalizedName": "soy sauce",
+        "quantity": 9,
+        "unit": "tbsp",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean Pork Bowl with Couscous and Cauliflower",
+          "Korean-Style Spicy Chicken Rice Bowl",
+          "Japanese-Inspired Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Korean Pork Bowl with Couscous and Cauliflower, Korean-Style Spicy Chicken Rice Bowl +1 (5 meals)"
+      },
+      {
+        "id": "f93e9a63-891f-4cb5-9fd3-43d9d62e1d7e",
+        "name": "Steamed Broccoli Florets",
+        "normalizedName": "steamed broccoli florets",
+        "quantity": 2,
+        "unit": "cup",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Mediterranean Chicken Quinoa Bowl",
+          "Japanese-Inspired Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Mediterranean Chicken Quinoa Bowl, Japanese-Inspired Chicken Rice Bowl (2 meals)"
+      },
+      {
+        "id": "c94773b1-f21f-4336-a6d8-be578a0d2143",
+        "name": "Tahini",
+        "normalizedName": "tahini",
+        "quantity": 3,
+        "unit": "tbsp",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Mediterranean Chicken Quinoa Bowl"
+        ],
+        "sourceSummary": "Mediterranean Chicken Quinoa Bowl (2 meals)"
+      },
+      {
+        "id": "69b6d994-193a-4558-8319-d029e6f5952b",
+        "name": "Tahini, 1 Tbsp",
+        "normalizedName": "tahini, 1 tbsp",
+        "quantity": null,
+        "unit": null,
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Mediterranean Chicken Quinoa Bowl"
+        ],
+        "sourceSummary": "Mediterranean Chicken Quinoa Bowl (1 meal)"
+      },
+      {
+        "id": "f600edb7-3f47-457b-a0de-60f92c99f946",
+        "name": "Extra Virgin Olive Oil",
+        "normalizedName": "extra virgin olive oil",
+        "quantity": 6,
+        "unit": "tbsp",
+        "category": "Pantry",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Grilled Chicken with Caponata"
+        ],
+        "sourceSummary": "Lemon Herb Grilled Chicken with Caponata (2 meals)"
+      },
+      {
+        "id": "ac95eeab-4203-4dcd-b0ba-63f4b519d4ff",
+        "name": "Jasmine Rice, Uncooked",
+        "normalizedName": "jasmine rice, uncooked",
+        "quantity": 1,
+        "unit": "cup",
+        "category": "Pantry",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean-Style Spicy Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Korean-Style Spicy Chicken Rice Bowl (1 meal)"
+      },
+      {
+        "id": "89880745-d4a0-4821-a020-7ca2f3b3f0f9",
+        "name": "Olive Oil",
+        "normalizedName": "olive oil",
+        "quantity": 10,
+        "unit": "tbsp",
+        "category": "Pantry",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Salmon with Couscous",
+          "Korean Pork Bowl with Couscous and Cauliflower",
+          "Spiced Beef with Quinoa and Roasted Brussels Sprouts",
+          "Mediterranean Chicken Quinoa Bowl"
+        ],
+        "sourceSummary": "Lemon Herb Salmon with Couscous, Korean Pork Bowl with Couscous and Cauliflower +2 (7 meals)"
+      },
+      {
+        "id": "f096caf5-03d5-4d6a-97c1-a4f5612a735c",
+        "name": "Olive Oil",
+        "normalizedName": "olive oil",
+        "quantity": null,
+        "unit": null,
+        "category": "Pantry",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Chicken Bowls"
+        ],
+        "sourceSummary": "Lemon Herb Chicken Bowls (1 meal)"
+      },
+      {
+        "id": "06b37a62-d95c-4e8b-90ba-f5c816b89205",
+        "name": "Olive Oil For Roasting",
+        "normalizedName": "olive oil for roasting",
+        "quantity": 1,
+        "unit": "tbsp",
+        "category": "Pantry",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Mediterranean Chicken Quinoa Bowl"
+        ],
+        "sourceSummary": "Mediterranean Chicken Quinoa Bowl (1 meal)"
+      },
+      {
+        "id": "aa027d97-525e-44f3-8b62-ed89d51e5544",
+        "name": "Olive Oil, 1.5 Tbsp",
+        "normalizedName": "olive oil, 1.5 tbsp",
+        "quantity": null,
+        "unit": null,
+        "category": "Pantry",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Mediterranean Chicken Quinoa Bowl"
+        ],
+        "sourceSummary": "Mediterranean Chicken Quinoa Bowl (1 meal)"
+      },
+      {
+        "id": "133de2b2-0347-41d3-be18-afb8f1f73840",
+        "name": "Or Splash Of Vinegar",
+        "normalizedName": "or splash of vinegar",
+        "quantity": null,
+        "unit": null,
+        "category": "Pantry",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Chicken Bowls"
+        ],
+        "sourceSummary": "Lemon Herb Chicken Bowls (1 meal)"
+      },
+      {
+        "id": "1b71623d-f0e3-478b-a20c-19e14eee9d5a",
+        "name": "Red Wine Vinegar",
+        "normalizedName": "red wine vinegar",
+        "quantity": 8,
+        "unit": "tbsp",
+        "category": "Pantry",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Grilled Chicken with Caponata"
+        ],
+        "sourceSummary": "Lemon Herb Grilled Chicken with Caponata (2 meals)"
+      },
+      {
+        "id": "ae98d897-800f-4754-a040-1f53926d26ce",
+        "name": "Rice",
+        "normalizedName": "rice",
+        "quantity": 6,
+        "unit": "cup",
+        "category": "Pantry",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Chicken Bowls"
+        ],
+        "sourceSummary": "Lemon Herb Chicken Bowls (3 meals)"
+      },
+      {
+        "id": "f54ea03e-6fef-47d2-9292-fabaec179b2a",
+        "name": "Rice",
+        "normalizedName": "rice",
+        "quantity": null,
+        "unit": null,
+        "category": "Pantry",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Chicken Bowls"
+        ],
+        "sourceSummary": "Lemon Herb Chicken Bowls (1 meal)"
+      },
+      {
+        "id": "d41b73d5-ae9c-4fbe-868c-874c2683d67f",
+        "name": "Rigatoni",
+        "normalizedName": "rigatoni",
+        "quantity": 1.5,
+        "unit": "lb",
+        "category": "Pantry",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Roasted Tomato Rigatoni"
+        ],
+        "sourceSummary": "Roasted Tomato Rigatoni (2 meals)"
+      },
+      {
+        "id": "a9afd014-3276-4269-ba03-7c9b0cecfe06",
+        "name": "Sesame Oil",
+        "normalizedName": "sesame oil",
+        "quantity": 1.667,
+        "unit": "tbsp",
+        "category": "Pantry",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean-Style Spicy Chicken Rice Bowl",
+          "Korean Pork Bowl with Couscous and Cauliflower"
+        ],
+        "sourceSummary": "Korean-Style Spicy Chicken Rice Bowl, Korean Pork Bowl with Couscous and Cauliflower (3 meals)"
+      },
+      {
+        "id": "8783f2ec-f0af-45fd-8c75-9c2d401eff0e",
+        "name": "Sesame Oil, 1 Tsp",
+        "normalizedName": "sesame oil, 1 tsp",
+        "quantity": null,
+        "unit": null,
+        "category": "Pantry",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean-Style Spicy Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Korean-Style Spicy Chicken Rice Bowl (1 meal)"
+      },
+      {
+        "id": "cc518d41-3f42-4f23-b2e3-ce01d070cc29",
+        "name": "Steamed White Rice, 1.5 Cups (300g)",
+        "normalizedName": "steamed white rice, 1.5 cups (300g)",
+        "quantity": null,
+        "unit": null,
+        "category": "Pantry",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean-Style Spicy Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Korean-Style Spicy Chicken Rice Bowl (1 meal)"
+      },
+      {
+        "id": "9230bd5f-0df7-49f2-92a0-ac189f083bf0",
+        "name": "Sugar",
+        "normalizedName": "sugar",
+        "quantity": 3,
+        "unit": "tbsp",
+        "category": "Pantry",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Grilled Chicken with Caponata",
+          "Japanese-Inspired Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Lemon Herb Grilled Chicken with Caponata, Japanese-Inspired Chicken Rice Bowl (3 meals)"
+      },
+      {
+        "id": "89321a28-7681-4d41-b38f-b055f8d7b34f",
+        "name": "Uncooked Japanese Short-grain Rice",
+        "normalizedName": "uncooked japanese short-grain rice",
+        "quantity": 2,
+        "unit": "cup",
+        "category": "Pantry",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Japanese-Inspired Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Japanese-Inspired Chicken Rice Bowl (1 meal)"
+      },
+      {
+        "id": "52d54215-d1a8-4a3a-a4d5-555e0b2fc725",
+        "name": "Uncooked Jasmine Rice",
+        "normalizedName": "uncooked jasmine rice",
+        "quantity": 1,
+        "unit": "cup",
+        "category": "Pantry",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean-Style Spicy Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Korean-Style Spicy Chicken Rice Bowl (1 meal)"
+      },
+      {
+        "id": "e0c30f43-7497-428f-8d19-97e89d7b5ccc",
+        "name": "Vegetable Oil",
+        "normalizedName": "vegetable oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "category": "Pantry",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Japanese-Inspired Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Japanese-Inspired Chicken Rice Bowl (1 meal)"
+      },
+      {
+        "id": "41363f72-4ab9-4b7a-800b-4568366524a5",
+        "name": "Bell Pepper, Diced",
+        "normalizedName": "bell pepper, diced",
+        "quantity": 2,
+        "unit": "unit:red",
+        "category": "Produce",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Grilled Chicken with Caponata"
+        ],
+        "sourceSummary": "Lemon Herb Grilled Chicken with Caponata (2 meals)"
+      },
+      {
+        "id": "c836eabe-33c5-4030-b9e8-99f5170024f6",
+        "name": "Bell Pepper, Quartered",
+        "normalizedName": "bell pepper, quartered",
+        "quantity": 1,
+        "unit": "red",
+        "category": "Produce",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Mediterranean Chicken Quinoa Bowl"
+        ],
+        "sourceSummary": "Mediterranean Chicken Quinoa Bowl (1 meal)"
+      },
+      {
+        "id": "3ea4a3bc-4e98-4974-a8ad-d7b136706482",
+        "name": "Bell Pepper, Sliced",
+        "normalizedName": "bell pepper, sliced",
+        "quantity": 2,
+        "unit": "unit:red",
+        "category": "Produce",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean-Style Spicy Chicken Rice Bowl",
+          "Korean Pork Bowl with Couscous and Cauliflower"
+        ],
+        "sourceSummary": "Korean-Style Spicy Chicken Rice Bowl, Korean Pork Bowl with Couscous and Cauliflower (2 meals)"
+      },
+      {
+        "id": "68407700-f0e1-4ef0-8c09-ac7ab19ee0a1",
+        "name": "Black Pepper To Taste",
+        "normalizedName": "black pepper to taste",
+        "quantity": null,
+        "unit": null,
+        "category": "Produce",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean-Style Spicy Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Korean-Style Spicy Chicken Rice Bowl (1 meal)"
+      },
+      {
+        "id": "e85bfe4d-9767-4039-835a-e3689b8a79cf",
+        "name": "Cucumber",
+        "normalizedName": "cucumber",
+        "quantity": 3,
+        "unit": "count",
+        "category": "Produce",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Chicken Bowls"
+        ],
+        "sourceSummary": "Lemon Herb Chicken Bowls (3 meals)"
+      },
+      {
+        "id": "780bdc9d-43d5-4550-a546-dbe6b398d015",
+        "name": "Fresh Basil For Garnish",
+        "normalizedName": "fresh basil for garnish",
+        "quantity": null,
+        "unit": null,
+        "category": "Produce",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Grilled Chicken with Caponata"
+        ],
+        "sourceSummary": "Lemon Herb Grilled Chicken with Caponata (2 meals)"
+      },
+      {
+        "id": "62adba60-b974-42c8-b51d-b1688329abdc",
+        "name": "Garlic",
+        "normalizedName": "garlic",
+        "quantity": 8,
+        "unit": "unit:cloves",
+        "category": "Produce",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Roasted Tomato Rigatoni"
+        ],
+        "sourceSummary": "Roasted Tomato Rigatoni (2 meals)"
+      },
+      {
+        "id": "2203da20-8ff2-4aa5-b812-6af8d4d5a3bd",
+        "name": "Garlic Powder, 0.5 Tsp",
+        "normalizedName": "garlic powder, 0.5 tsp",
+        "quantity": null,
+        "unit": null,
+        "category": "Produce",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Mediterranean Chicken Quinoa Bowl"
+        ],
+        "sourceSummary": "Mediterranean Chicken Quinoa Bowl (1 meal)"
+      },
+      {
+        "id": "848b1e24-a132-482b-a905-5f32bf03f18d",
+        "name": "Garlic, 2 Cloves Minced",
+        "normalizedName": "garlic, 2 cloves minced",
+        "quantity": null,
+        "unit": null,
+        "category": "Produce",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean-Style Spicy Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Korean-Style Spicy Chicken Rice Bowl (1 meal)"
+      },
+      {
+        "id": "15f12f58-8726-4a33-b4ef-e380d0c58cee",
+        "name": "Garlic, Minced",
+        "normalizedName": "garlic, minced",
+        "quantity": 1,
+        "unit": "clove",
+        "category": "Produce",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Mediterranean Chicken Quinoa Bowl"
+        ],
+        "sourceSummary": "Mediterranean Chicken Quinoa Bowl (1 meal)"
+      },
+      {
+        "id": "7bc7d863-c893-4fff-949a-a3d343a46014",
+        "name": "Green Onion (green Part Only), 1 Stalk Chopped",
+        "normalizedName": "green onion (green part only), 1 stalk chopped",
+        "quantity": null,
+        "unit": null,
+        "category": "Produce",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean-Style Spicy Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Korean-Style Spicy Chicken Rice Bowl (1 meal)"
+      },
+      {
+        "id": "0f1ef901-2c68-436d-9a94-c86ea9ee927c",
+        "name": "Juice And Zest Of 1 Large Lemon",
+        "normalizedName": "juice and zest of 1 large lemon",
+        "quantity": null,
+        "unit": null,
+        "category": "Produce",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Grilled Chicken with Caponata"
+        ],
+        "sourceSummary": "Lemon Herb Grilled Chicken with Caponata (2 meals)"
+      },
+      {
+        "id": "ae09127e-5de1-45e3-a9fb-a8b615a67fc7",
+        "name": "Lemon",
+        "normalizedName": "lemon",
+        "quantity": 9,
+        "unit": "count",
+        "category": "Produce",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Lemon Herb Chicken Bowls",
+          "Lemon Herb Salmon with Couscous"
+        ],
+        "sourceSummary": "Lemon Herb Chicken Bowls, Lemon Herb Salmon with Couscous (6 meals)"
+      },
+      {
+        "id": "1ca28f54-2968-4c7e-a9ef-9ac84bdf3856",
+        "name": "Lemon Juice",
+        "normalizedName": "lemon juice",
+        "quantity": 1,
+        "unit": "tbsp",
+        "category": "Produce",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Mediterranean Chicken Quinoa Bowl"
+        ],
+        "sourceSummary": "Mediterranean Chicken Quinoa Bowl (1 meal)"
+      },
+      {
+        "id": "2adbf565-4078-4ea1-b392-3dabd7fe6e64",
+        "name": "Lemon Juice, 1 Tbsp",
+        "normalizedName": "lemon juice, 1 tbsp",
+        "quantity": null,
+        "unit": null,
+        "category": "Produce",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Mediterranean Chicken Quinoa Bowl"
+        ],
+        "sourceSummary": "Mediterranean Chicken Quinoa Bowl (1 meal)"
+      },
+      {
+        "id": "e6213b90-1b42-4e86-bbb1-adfae9a5d6b1",
+        "name": "Lemon, Zested And Juiced",
+        "normalizedName": "lemon, zested and juiced",
+        "quantity": 1,
+        "unit": null,
+        "category": "Produce",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Mediterranean Chicken Quinoa Bowl"
+        ],
+        "sourceSummary": "Mediterranean Chicken Quinoa Bowl (1 meal)"
+      },
+      {
+        "id": "d9a511b9-bf44-4ec4-8b1d-4eae73960966",
+        "name": "Minced Garlic",
+        "normalizedName": "minced garlic",
+        "quantity": 1.667,
+        "unit": "tbsp",
+        "category": "Produce",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean Pork Bowl with Couscous and Cauliflower",
+          "Korean-Style Spicy Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Korean Pork Bowl with Couscous and Cauliflower, Korean-Style Spicy Chicken Rice Bowl (4 meals)"
+      },
+      {
+        "id": "09c5f171-6b77-4cb9-8bbe-1c0cb39f4ec6",
+        "name": "Red Bell Pepper, 1 Medium",
+        "normalizedName": "red bell pepper, 1 medium",
+        "quantity": null,
+        "unit": null,
+        "category": "Produce",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Mediterranean Chicken Quinoa Bowl",
+          "Korean-Style Spicy Chicken Rice Bowl"
+        ],
+        "sourceSummary": "Mediterranean Chicken Quinoa Bowl, Korean-Style Spicy Chicken Rice Bowl (2 meals)"
+      },
+      {
+        "id": "f09d31f0-ed46-40ef-97bf-f798f1f90538",
+        "name": "Salt And Black Pepper To Taste",
+        "normalizedName": "salt and black pepper to taste",
+        "quantity": null,
+        "unit": null,
+        "category": "Produce",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean Pork Bowl with Couscous and Cauliflower"
+        ],
+        "sourceSummary": "Korean Pork Bowl with Couscous and Cauliflower (1 meal)"
+      },
+      {
+        "id": "50a51756-7f67-4a43-8ce2-bf7b4a201860",
+        "name": "Salt And Pepper To Taste",
+        "normalizedName": "salt and pepper to taste",
+        "quantity": null,
+        "unit": null,
+        "category": "Produce",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Korean Pork Bowl with Couscous and Cauliflower",
+          "Spiced Beef with Quinoa and Roasted Brussels Sprouts",
+          "Mediterranean Chicken Quinoa Bowl",
+          "Korean-Style Spicy Chicken Rice Bowl",
+          "Lemon Herb Grilled Chicken with Caponata"
+        ],
+        "sourceSummary": "Korean Pork Bowl with Couscous and Cauliflower, Spiced Beef with Quinoa and Roasted Brussels Sprouts +3 (8 meals)"
+      },
+      {
+        "id": "efedae2c-e8a1-4b95-9a34-696928aa22b2",
+        "name": "Salt, Pepper To Taste",
+        "normalizedName": "salt, pepper to taste",
+        "quantity": null,
+        "unit": null,
+        "category": "Produce",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Mediterranean Chicken Quinoa Bowl"
+        ],
+        "sourceSummary": "Mediterranean Chicken Quinoa Bowl (1 meal)"
+      },
+      {
+        "id": "b29f0c1b-e1b3-4213-b0c7-f5fbf450aff4",
+        "name": "Tomato",
+        "normalizedName": "tomato",
+        "quantity": 4,
+        "unit": "unit:pints",
+        "category": "Produce",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Roasted Tomato Rigatoni"
+        ],
+        "sourceSummary": "Roasted Tomato Rigatoni (2 meals)"
+      }
+    ]
+  },
+  {
+    "id": "99a5f7a7-8b01-4a9b-9071-43d9c0fc6459",
+    "name": "Groceries for 2026-06-29",
+    "weekStartDate": "2026-06-29",
+    "mealPlanId": "9c3729fa-0d35-4f50-bc31-f3e97b1d618a",
+    "items": [
+      {
+        "id": "0e01f79a-6d2a-4268-8bf7-b4a5ab1ff988",
+        "name": "Ground Beef",
+        "normalizedName": "ground beef",
+        "quantity": 1.2,
+        "unit": "lb",
+        "category": "Meat & Seafood",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Spiced Beef with Quinoa and Roasted Brussels Sprouts"
+        ],
+        "sourceSummary": "Spiced Beef with Quinoa and Roasted Brussels Sprouts (1 meal)"
+      },
+      {
+        "id": "df3cbb89-cc7f-426a-8350-3a48209d8661",
+        "name": "Ground Cumin",
+        "normalizedName": "ground cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Spiced Beef with Quinoa and Roasted Brussels Sprouts"
+        ],
+        "sourceSummary": "Spiced Beef with Quinoa and Roasted Brussels Sprouts (1 meal)"
+      },
+      {
+        "id": "de691ad4-87f5-4144-9474-50169ab3b6c9",
+        "name": "Quinoa",
+        "normalizedName": "quinoa",
+        "quantity": 1.5,
+        "unit": "cup",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Spiced Beef with Quinoa and Roasted Brussels Sprouts"
+        ],
+        "sourceSummary": "Spiced Beef with Quinoa and Roasted Brussels Sprouts (1 meal)"
+      },
+      {
+        "id": "a260880a-dcb1-4d93-9311-a7298d970eb4",
+        "name": "Smoked Paprika",
+        "normalizedName": "smoked paprika",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "Other",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Spiced Beef with Quinoa and Roasted Brussels Sprouts"
+        ],
+        "sourceSummary": "Spiced Beef with Quinoa and Roasted Brussels Sprouts (1 meal)"
+      },
+      {
+        "id": "201c42c1-dfd5-4c9f-8fcd-dd88390a5d44",
+        "name": "Olive Oil",
+        "normalizedName": "olive oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "category": "Pantry",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Spiced Beef with Quinoa and Roasted Brussels Sprouts"
+        ],
+        "sourceSummary": "Spiced Beef with Quinoa and Roasted Brussels Sprouts (1 meal)"
+      },
+      {
+        "id": "59532b2f-e0b9-4baf-8edf-138c5e0120af",
+        "name": "Brussels Sprouts",
+        "normalizedName": "brussels sprouts",
+        "quantity": 1,
+        "unit": "lb",
+        "category": "Produce",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Spiced Beef with Quinoa and Roasted Brussels Sprouts"
+        ],
+        "sourceSummary": "Spiced Beef with Quinoa and Roasted Brussels Sprouts (1 meal)"
+      },
+      {
+        "id": "66c9f9f0-1cc0-4215-b38c-dbf45a6afcc1",
+        "name": "Lemon",
+        "normalizedName": "lemon",
+        "quantity": null,
+        "unit": null,
+        "category": "Produce",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Spiced Beef with Quinoa and Roasted Brussels Sprouts"
+        ],
+        "sourceSummary": "Spiced Beef with Quinoa and Roasted Brussels Sprouts (1 meal)"
+      },
+      {
+        "id": "995e8fea-606b-4ff4-a1c7-fc156c561a22",
+        "name": "Salt And Pepper",
+        "normalizedName": "salt and pepper",
+        "quantity": null,
+        "unit": null,
+        "category": "Produce",
+        "checked": false,
+        "source": "GENERATED",
+        "sourceRecipeNames": [
+          "Spiced Beef with Quinoa and Roasted Brussels Sprouts"
+        ],
+        "sourceSummary": "Spiced Beef with Quinoa and Roasted Brussels Sprouts (1 meal)"
+      }
+    ]
+  }
+]

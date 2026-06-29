@@ -1,0 +1,18 @@
+[
+  {
+    "id": "70000000-0000-4000-8000-000000000001",
+    "type": "WEBSITE",
+    "name": "Demo Kitchen",
+    "url": "https://example.com",
+    "rankingBoost": 30,
+    "notes": "Reliable demo recipes with clean ingredient structure."
+  },
+  {
+    "id": "70000000-0000-4000-8000-000000000002",
+    "type": "CREATOR",
+    "name": "Nico Rivera",
+    "url": null,
+    "rankingBoost": 15,
+    "notes": "Good vegetarian weeknight recipes."
+  }
+]

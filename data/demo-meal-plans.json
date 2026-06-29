@@ -1,0 +1,327 @@
+[
+  {
+    "id": "50000000-0000-4000-8000-000000000001",
+    "weekStartDate": "2026-06-22",
+    "status": "DRAFT",
+    "notes": "",
+    "meals": [
+      {
+        "id": "60000000-0000-4000-8000-000000000001",
+        "recipeId": "10000000-0000-4000-8000-000000000001",
+        "mealType": "DINNER",
+        "plannedForDate": "2026-06-23",
+        "servings": 4,
+        "notes": "Make extra rice for lunches.",
+        "participantMemberIds": [
+          "00000000-0000-4000-8000-000000000101",
+          "00000000-0000-4000-8000-000000000102"
+        ]
+      },
+      {
+        "id": "60000000-0000-4000-8000-000000000002",
+        "recipeId": "10000000-0000-4000-8000-000000000002",
+        "mealType": "DINNER",
+        "plannedForDate": "2026-06-25",
+        "servings": 4,
+        "notes": "",
+        "participantMemberIds": [
+          "00000000-0000-4000-8000-000000000101",
+          "00000000-0000-4000-8000-000000000102",
+          "00000000-0000-4000-8000-000000000103"
+        ]
+      },
+      {
+        "id": "5ab35f2e-ec1f-440a-9e6b-55288e7481a6",
+        "recipeId": "10000000-0000-4000-8000-000000000001",
+        "mealType": "DINNER",
+        "plannedForDate": "2026-06-22",
+        "servings": 4,
+        "notes": null,
+        "participantMemberIds": [
+          "00000000-0000-4000-8000-000000000101",
+          "00000000-0000-4000-8000-000000000102",
+          "00000000-0000-4000-8000-000000000103"
+        ]
+      },
+      {
+        "id": "e4befddc-ab4d-4de9-8026-73626812e6ae",
+        "recipeId": "10000000-0000-4000-8000-000000000001",
+        "mealType": "DINNER",
+        "plannedForDate": "2026-06-24",
+        "servings": 4,
+        "notes": null,
+        "participantMemberIds": [
+          "00000000-0000-4000-8000-000000000101",
+          "00000000-0000-4000-8000-000000000102",
+          "00000000-0000-4000-8000-000000000103"
+        ]
+      },
+      {
+        "id": "7145cafe-8c42-4bb8-a242-7198bc7b9ad3",
+        "recipeId": "2969835c-07ee-45e7-9751-3ac8a72693c0",
+        "mealType": "DINNER",
+        "plannedForDate": "2026-06-22",
+        "servings": 4,
+        "notes": null,
+        "participantMemberIds": [
+          "00000000-0000-4000-8000-000000000101",
+          "00000000-0000-4000-8000-000000000102",
+          "00000000-0000-4000-8000-000000000104",
+          "00000000-0000-4000-8000-000000000103"
+        ]
+      },
+      {
+        "id": "c8918313-0d89-40a2-9a9d-750a64f969d6",
+        "recipeId": "10000000-0000-4000-8000-000000000002",
+        "mealType": "DINNER",
+        "plannedForDate": "2026-06-22",
+        "servings": 4,
+        "notes": null,
+        "participantMemberIds": [
+          "00000000-0000-4000-8000-000000000101",
+          "00000000-0000-4000-8000-000000000102",
+          "00000000-0000-4000-8000-000000000104",
+          "00000000-0000-4000-8000-000000000103"
+        ]
+      },
+      {
+        "id": "10f97026-bea2-4b67-8e6d-1d8f86faa2db",
+        "recipeId": "2969835c-07ee-45e7-9751-3ac8a72693c0",
+        "mealType": "BREAKFAST",
+        "plannedForDate": "2026-06-22",
+        "servings": 4,
+        "notes": null,
+        "participantMemberIds": [
+          "00000000-0000-4000-8000-000000000101",
+          "00000000-0000-4000-8000-000000000102",
+          "00000000-0000-4000-8000-000000000104",
+          "00000000-0000-4000-8000-000000000103"
+        ]
+      },
+      {
+        "id": "8e8a362a-65ca-4436-b04e-fdb91c98a891",
+        "recipeId": "2969835c-07ee-45e7-9751-3ac8a72693c0",
+        "mealType": "BREAKFAST",
+        "plannedForDate": "2026-06-22",
+        "servings": 4,
+        "notes": null,
+        "participantMemberIds": [
+          "00000000-0000-4000-8000-000000000101",
+          "00000000-0000-4000-8000-000000000102",
+          "00000000-0000-4000-8000-000000000104",
+          "00000000-0000-4000-8000-000000000103"
+        ]
+      },
+      {
+        "id": "2eb88300-9e20-4127-af3f-0c06dd39a2ad",
+        "recipeId": "5a2d5882-00ff-4c4b-8815-cdafb2abdc66",
+        "mealType": "LUNCH",
+        "plannedForDate": "2026-06-22",
+        "servings": 2,
+        "notes": "Added from Plan with AI",
+        "participantMemberIds": [
+          "00000000-0000-4000-8000-000000000101",
+          "00000000-0000-4000-8000-000000000102"
+        ]
+      },
+      {
+        "id": "d8552ebf-d918-42d7-8184-fbced90862f1",
+        "recipeId": "1cf77415-c335-4629-a89f-8e0ca784e312",
+        "mealType": "LUNCH",
+        "plannedForDate": null,
+        "servings": 2,
+        "notes": "Added from Plan with AI",
+        "participantMemberIds": [
+          "00000000-0000-4000-8000-000000000101",
+          "00000000-0000-4000-8000-000000000102"
+        ]
+      },
+      {
+        "id": "065b2667-8c3d-461b-b0a4-0899fc995f8f",
+        "recipeId": "89a6af15-204c-4d7a-ab89-393794bb0a45",
+        "mealType": "LUNCH",
+        "plannedForDate": null,
+        "servings": 2,
+        "notes": "Added from Plan with AI",
+        "participantMemberIds": [
+          "00000000-0000-4000-8000-000000000101",
+          "00000000-0000-4000-8000-000000000102"
+        ]
+      },
+      {
+        "id": "899eaca5-8bd4-4ce2-9851-1b887c36c5c1",
+        "recipeId": "10b938d1-ac4e-43c8-85dd-0c0206227402",
+        "mealType": "LUNCH",
+        "plannedForDate": null,
+        "servings": 2,
+        "notes": "Added from Plan with AI",
+        "participantMemberIds": [
+          "00000000-0000-4000-8000-000000000101",
+          "00000000-0000-4000-8000-000000000102"
+        ]
+      },
+      {
+        "id": "516c109d-9d33-499e-b84d-77c13d785e6e",
+        "recipeId": "c9fc459f-680c-49ca-af7d-85eab70ef052",
+        "mealType": "LUNCH",
+        "plannedForDate": null,
+        "servings": 2,
+        "notes": "Added from Plan with AI",
+        "participantMemberIds": [
+          "00000000-0000-4000-8000-000000000101",
+          "00000000-0000-4000-8000-000000000102"
+        ]
+      },
+      {
+        "id": "1c73c92f-f61b-4d9e-ad33-4feed8b5484b",
+        "recipeId": "f9205e4e-2b01-4816-b2ad-1c75a2f2e4b9",
+        "mealType": "LUNCH",
+        "plannedForDate": null,
+        "servings": 2,
+        "notes": "Added from Plan with AI",
+        "participantMemberIds": [
+          "00000000-0000-4000-8000-000000000101",
+          "00000000-0000-4000-8000-000000000102"
+        ]
+      },
+      {
+        "id": "f15af085-885c-4dc4-96c4-831ce4a96070",
+        "recipeId": "2e179dbd-1b54-48e1-a254-8f78139cc87d",
+        "mealType": "LUNCH",
+        "plannedForDate": null,
+        "servings": 2,
+        "notes": "Added from Plan with AI",
+        "participantMemberIds": [
+          "00000000-0000-4000-8000-000000000101",
+          "00000000-0000-4000-8000-000000000102"
+        ]
+      },
+      {
+        "id": "fb418e80-825f-4f70-8420-07674235793c",
+        "recipeId": "9748f195-4975-4f3d-9020-1b1e9977b165",
+        "mealType": "DINNER",
+        "plannedForDate": null,
+        "servings": 4,
+        "notes": "Added from Plan with AI",
+        "participantMemberIds": [
+          "00000000-0000-4000-8000-000000000101",
+          "00000000-0000-4000-8000-000000000102"
+        ]
+      },
+      {
+        "id": "a1088663-e5c6-4176-bd5a-53665ea704ed",
+        "recipeId": "9748f195-4975-4f3d-9020-1b1e9977b165",
+        "mealType": "LUNCH",
+        "plannedForDate": null,
+        "servings": 4,
+        "notes": null,
+        "participantMemberIds": [
+          "00000000-0000-4000-8000-000000000101"
+        ]
+      },
+      {
+        "id": "fc522b5f-a2d5-44b1-8f26-fbea92df0590",
+        "recipeId": "f63e8a37-e698-4984-ac0f-d85329a73960",
+        "mealType": "DINNER",
+        "plannedForDate": "2026-06-28",
+        "servings": 4,
+        "notes": "Added from Plan with AI",
+        "participantMemberIds": [
+          "00000000-0000-4000-8000-000000000101",
+          "00000000-0000-4000-8000-000000000102",
+          "00000000-0000-4000-8000-000000000104",
+          "00000000-0000-4000-8000-000000000103"
+        ]
+      },
+      {
+        "id": "99c41548-7b96-4632-aeaa-8c395fbcb9b6",
+        "recipeId": "ce355cf3-2126-4c58-b406-acaefbd4d649",
+        "mealStrategyId": "16656672-6ffb-4b37-bdda-244ee25526ce",
+        "mealType": "LUNCH",
+        "plannedForDate": null,
+        "servings": 2,
+        "notes": "Added from Plan with AI",
+        "participantMemberIds": [
+          "00000000-0000-4000-8000-000000000101",
+          "00000000-0000-4000-8000-000000000102",
+          "00000000-0000-4000-8000-000000000104",
+          "00000000-0000-4000-8000-000000000103"
+        ]
+      },
+      {
+        "id": "c5c43a8c-4403-4ef9-a6d2-597fb4806a7d",
+        "recipeId": "39cb49b4-b6b1-4901-b520-14e7392b7403",
+        "mealStrategyId": "16656672-6ffb-4b37-bdda-244ee25526ce",
+        "mealType": "LUNCH",
+        "plannedForDate": null,
+        "servings": 2,
+        "notes": "Added from Plan with AI",
+        "participantMemberIds": [
+          "00000000-0000-4000-8000-000000000101",
+          "00000000-0000-4000-8000-000000000102",
+          "00000000-0000-4000-8000-000000000104",
+          "00000000-0000-4000-8000-000000000103"
+        ]
+      },
+      {
+        "id": "21b65df2-0e55-4d6b-80ee-90cbf445a65a",
+        "recipeId": "994b215b-bb2a-4bdb-90d8-342007625367",
+        "mealStrategyId": "16656672-6ffb-4b37-bdda-244ee25526ce",
+        "mealType": "LUNCH",
+        "plannedForDate": null,
+        "servings": 2,
+        "notes": "Added from Plan with AI",
+        "participantMemberIds": [
+          "00000000-0000-4000-8000-000000000101",
+          "00000000-0000-4000-8000-000000000102",
+          "00000000-0000-4000-8000-000000000104",
+          "00000000-0000-4000-8000-000000000103"
+        ]
+      },
+      {
+        "id": "65abb59a-e939-42cd-92f0-6beb7859d921",
+        "recipeId": "ca2d6d3c-87c4-4b1a-b768-3211a2c88742",
+        "mealStrategyId": "16656672-6ffb-4b37-bdda-244ee25526ce",
+        "mealType": "LUNCH",
+        "plannedForDate": null,
+        "servings": 2,
+        "notes": "Added from Plan with AI",
+        "participantMemberIds": [
+          "00000000-0000-4000-8000-000000000101",
+          "00000000-0000-4000-8000-000000000102",
+          "00000000-0000-4000-8000-000000000104",
+          "00000000-0000-4000-8000-000000000103"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9c3729fa-0d35-4f50-bc31-f3e97b1d618a",
+    "weekStartDate": "2026-06-29",
+    "status": "DRAFT",
+    "notes": null,
+    "meals": [
+      {
+        "id": "f5b999fa-ee57-4653-bb76-7c9f3a1fed05",
+        "recipeId": "5ce16959-5a2d-4c03-888b-03abd189ac12",
+        "mealType": "DINNER",
+        "plannedForDate": "2026-06-29",
+        "servings": 4,
+        "notes": "Added from Plan with AI",
+        "participantMemberIds": [
+          "00000000-0000-4000-8000-000000000101",
+          "00000000-0000-4000-8000-000000000102",
+          "00000000-0000-4000-8000-000000000104",
+          "00000000-0000-4000-8000-000000000103"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5178a665-07d8-4888-a5de-5d75dcec7279",
+    "weekStartDate": "2026-07-06",
+    "status": "DRAFT",
+    "notes": null,
+    "meals": []
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "f266ae40-53c5-4069-8a8a-969c5bab19df",
+    "name": "Breakfasts",
+    "mealType": "BREAKFAST",
+    "weeklyTarget": 5,
+    "defaultServings": 4,
+    "prompt": "Generate practical breakfasts for the week. Favor balanced meals with protein, fiber, and enough variety that the week does not feel repetitive.",
+    "maxCookTimeMinutes": 25,
+    "calorieMin": null,
+    "calorieMax": null,
+    "proteinGoal": 25,
+    "preferredProteins": [
+      "eggs",
+      "greek yogurt",
+      "turkey sausage",
+      "cottage cheese"
+    ],
+    "preferredBaseCarbs": [
+      "oats",
+      "whole grain toast",
+      "potatoes",
+      "fruit"
+    ],
+    "vegetables": [
+      "spinach",
+      "peppers",
+      "tomatoes"
+    ],
+    "avoidIngredients": [],
+    "sourceTypes": [
+      "ai_generated"
+    ],
+    "active": false
+  },
+  {
+    "id": "16656672-6ffb-4b37-bdda-244ee25526ce",
+    "name": "Lunches",
+    "mealType": "LUNCH",
+    "weeklyTarget": 5,
+    "defaultServings": 2,
+    "prompt": "Generate weekday lunches that are 500-700 calories, protein-focused, include a healthy carb base, a preferred protein, and a vegetable side. Keep them interesting and practical for meal prep.",
+    "maxCookTimeMinutes": 40,
+    "calorieMin": 500,
+    "calorieMax": 700,
+    "proteinGoal": 35,
+    "preferredProteins": [
+      "chicken",
+      "beef",
+      "pork",
+      "salmon"
+    ],
+    "preferredBaseCarbs": [
+      "rice",
+      "quinoa",
+      "potatoes",
+      "couscous"
+    ],
+    "vegetables": [
+      "broccoli",
+      "peppers",
+      "cauliflower",
+      "spinach",
+      "green beans"
+    ],
+    "avoidIngredients": [],
+    "sourceTypes": [
+      "ai_generated"
+    ],
+    "active": true
+  },
+  {
+    "id": "64e951c7-08fc-41c1-bb9a-0b0320ba94ee",
+    "name": "Dinners",
+    "mealType": "DINNER",
+    "weeklyTarget": 5,
+    "defaultServings": 4,
+    "prompt": "Generate reliable weekday dinners with balanced protein, vegetables, and satisfying carbs. Favor meals that feel fresh but are realistic after work.",
+    "maxCookTimeMinutes": 45,
+    "calorieMin": null,
+    "calorieMax": null,
+    "proteinGoal": 35,
+    "preferredProteins": [
+      "chicken",
+      "beef",
+      "pork",
+      "fish"
+    ],
+    "preferredBaseCarbs": [
+      "rice",
+      "pasta",
+      "potatoes",
+      "quinoa"
+    ],
+    "vegetables": [
+      "broccoli",
+      "salads",
+      "roasted vegetables",
+      "green beans"
+    ],
+    "avoidIngredients": [],
+    "sourceTypes": [
+      "ai_generated"
+    ],
+    "active": true
+  }
+]
