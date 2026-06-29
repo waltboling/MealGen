@@ -1,6 +1,7 @@
 import { randomUUID } from "node:crypto";
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { Prisma } from "@prisma/client";
 import { prisma } from "@/lib/db/prisma";
 import type {
   MealPlanMealInput,
@@ -98,6 +99,13 @@ function emptyDemoPlan(weekStartDate: string): DemoMealPlanRecord {
   };
 }
 
+function isUniqueConstraintError(error: unknown) {
+  return (
+    error instanceof Prisma.PrismaClientKnownRequestError &&
+    error.code === "P2002"
+  );
+}
+
 export class MealPlanRepository {
   async getWeekStartForMeal(
     householdId: string,
@@ -146,32 +154,61 @@ export class MealPlanRepository {
       return hydrateDemoPlan(plan);
     }
 
-    const plan = await prisma.mealPlan.upsert({
-      where: {
-        householdId_weekStartDate: {
+    const weekStart = new Date(`${weekStartDate}T00:00:00.000Z`);
+    const plan = await prisma.mealPlan
+      .upsert({
+        where: {
+          householdId_weekStartDate: {
+            householdId,
+            weekStartDate: weekStart
+          }
+        },
+        update: {},
+        create: {
           householdId,
-          weekStartDate: new Date(`${weekStartDate}T00:00:00.000Z`)
-        }
-      },
-      update: {},
-      create: {
-        householdId,
-        weekStartDate: new Date(`${weekStartDate}T00:00:00.000Z`)
-      },
-      include: {
-        meals: {
-          include: {
-            recipe: true,
-            participants: {
-              include: {
-                householdMember: true
+          weekStartDate: weekStart
+        },
+        include: {
+          meals: {
+            include: {
+              recipe: true,
+              participants: {
+                include: {
+                  householdMember: true
+                }
               }
+            },
+            orderBy: [{ plannedForDate: "asc" }, { createdAt: "asc" }]
+          }
+        }
+      })
+      .catch(async (error: unknown) => {
+        if (!isUniqueConstraintError(error)) {
+          throw error;
+        }
+
+        return prisma.mealPlan.findUniqueOrThrow({
+          where: {
+            householdId_weekStartDate: {
+              householdId,
+              weekStartDate: weekStart
             }
           },
-          orderBy: [{ plannedForDate: "asc" }, { createdAt: "asc" }]
-        }
-      }
-    });
+          include: {
+            meals: {
+              include: {
+                recipe: true,
+                participants: {
+                  include: {
+                    householdMember: true
+                  }
+                }
+              },
+              orderBy: [{ plannedForDate: "asc" }, { createdAt: "asc" }]
+            }
+          }
+        });
+      });
 
     return {
       id: plan.id,

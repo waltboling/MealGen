@@ -108,8 +108,11 @@ export default async function DashboardPage({ searchParams }: DashboardPageProps
   const dashboardMealType = getString(params.dashboardMealType) || "DINNER";
   const dashboardServings = getString(params.dashboardServings) || "4";
   const days = getWeekDays(weekStartDate);
-  const [plan, groceryList, members, savedRecipes] = await Promise.all([
-    mealPlanningService.getOrCreateWeeklyPlan(context, weekStartDate),
+  const plan = await mealPlanningService.getOrCreateWeeklyPlan(
+    context,
+    weekStartDate
+  );
+  const [groceryList, members, savedRecipes] = await Promise.all([
     groceryListService.regenerateForWeek(context, weekStartDate),
     householdService.listMembers(context, weekStartDate),
     recipeService.listRecipes(context)

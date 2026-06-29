@@ -90,6 +90,13 @@ function normalizeItemView(item: GroceryListItemView): GroceryListItemView {
   };
 }
 
+function isUniqueConstraintError(error: unknown) {
+  return (
+    error instanceof Prisma.PrismaClientKnownRequestError &&
+    error.code === "P2002"
+  );
+}
+
 async function getDemoList(weekStartDate: string) {
   const lists = await readDemoGroceryLists();
   const mealPlans = await readDemoMealPlans();
@@ -139,19 +146,35 @@ export class GroceryListRepository {
       return toView(list);
     }
 
-    const mealPlan = await prisma.mealPlan.upsert({
-      where: {
-        householdId_weekStartDate: {
+    const weekStart = new Date(`${weekStartDate}T00:00:00.000Z`);
+    const mealPlan = await prisma.mealPlan
+      .upsert({
+        where: {
+          householdId_weekStartDate: {
+            householdId,
+            weekStartDate: weekStart
+          }
+        },
+        update: {},
+        create: {
           householdId,
-          weekStartDate: new Date(`${weekStartDate}T00:00:00.000Z`)
+          weekStartDate: weekStart
         }
-      },
-      update: {},
-      create: {
-        householdId,
-        weekStartDate: new Date(`${weekStartDate}T00:00:00.000Z`)
-      }
-    });
+      })
+      .catch(async (error: unknown) => {
+        if (!isUniqueConstraintError(error)) {
+          throw error;
+        }
+
+        return prisma.mealPlan.findUniqueOrThrow({
+          where: {
+            householdId_weekStartDate: {
+              householdId,
+              weekStartDate: weekStart
+            }
+          }
+        });
+      });
     const groceryList = await prisma.groceryList.upsert({
       where: { mealPlanId: mealPlan.id },
       update: {},
@@ -233,30 +256,57 @@ export class GroceryListRepository {
       return toView(list);
     }
 
-    const mealPlan = await prisma.mealPlan.upsert({
-      where: {
-        householdId_weekStartDate: {
+    const weekStart = new Date(`${weekStartDate}T00:00:00.000Z`);
+    const mealPlan = await prisma.mealPlan
+      .upsert({
+        where: {
+          householdId_weekStartDate: {
+            householdId,
+            weekStartDate: weekStart
+          }
+        },
+        update: {},
+        create: {
           householdId,
-          weekStartDate: new Date(`${weekStartDate}T00:00:00.000Z`)
-        }
-      },
-      update: {},
-      create: {
-        householdId,
-        weekStartDate: new Date(`${weekStartDate}T00:00:00.000Z`)
-      },
-      include: {
-        meals: {
-          include: {
-            recipe: {
-              include: {
-                ingredients: true
+          weekStartDate: weekStart
+        },
+        include: {
+          meals: {
+            include: {
+              recipe: {
+                include: {
+                  ingredients: true
+                }
               }
             }
           }
         }
-      }
-    });
+      })
+      .catch(async (error: unknown) => {
+        if (!isUniqueConstraintError(error)) {
+          throw error;
+        }
+
+        return prisma.mealPlan.findUniqueOrThrow({
+          where: {
+            householdId_weekStartDate: {
+              householdId,
+              weekStartDate: weekStart
+            }
+          },
+          include: {
+            meals: {
+              include: {
+                recipe: {
+                  include: {
+                    ingredients: true
+                  }
+                }
+              }
+            }
+          }
+        });
+      });
     const groceryList = await prisma.groceryList.upsert({
       where: { mealPlanId: mealPlan.id },
       update: {},
