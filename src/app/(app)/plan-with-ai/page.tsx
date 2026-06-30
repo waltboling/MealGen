@@ -38,6 +38,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
+import { SubmitButton } from "@/components/ui/submit-button";
 import { PageHeader } from "@/components/layout/page-header";
 import { getCurrentHouseholdOrRedirect } from "@/lib/auth/current-household";
 import { getCurrentWeekStart, getWeekDays } from "@/lib/date/week";
@@ -622,10 +623,10 @@ export default async function PlanWithAiPage({
                       </div>
                     ) : (
                       <div className="flex flex-wrap gap-2">
-                        <Button type="submit">
+                        <SubmitButton pendingLabel="Adding to week...">
                           <CalendarPlus className="size-4" />
                           Save and Add to Week
-                        </Button>
+                        </SubmitButton>
                         <Button type="button" variant="outline">
                           Reject
                         </Button>

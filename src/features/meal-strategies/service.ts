@@ -113,6 +113,7 @@ export class MealStrategyService {
     return [
       `Meal strategy: ${strategy.name}.`,
       strategy.prompt,
+      "Treat the strategy guidance and structured fields as the weekly source of truth. Household taste profiles are constraints and inspiration, not instructions to reuse favorite cuisines or previous meal themes.",
       `Meal type: ${strategy.mealType}.`,
       `Create options that help fill ${strategy.weeklyTarget} meals for the week.`,
       calorieText(strategy),
@@ -123,6 +124,7 @@ export class MealStrategyService {
       listText("Vegetables or sides to include", strategy.vegetables),
       listText("Avoid ingredients", strategy.avoidIngredients),
       profileContext ? `Household taste profiles:\n${profileContext}` : null,
+      "Only use favorite cuisines when they support this strategy or the current prompt. Do not prioritize them over preferred proteins, carb bases, vegetables, avoid ingredients, calories, protein, or cook time.",
       "Return varied meals. Avoid near-duplicates. Keep portions, calories, protein estimates, ingredient quantities, and instructions internally consistent."
     ]
       .filter(Boolean)
@@ -157,7 +159,7 @@ export class MealStrategyService {
       avoidIngredients: input.strategy.avoidIngredients,
       useHouseholdPreferences: true,
       usePantryStaples: true,
-      useSavedRecipes: true
+      useSavedRecipes: false
     };
   }
 }

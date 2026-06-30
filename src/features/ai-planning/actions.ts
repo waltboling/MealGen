@@ -96,7 +96,6 @@ export async function acceptAiMealAction(formData: FormData) {
   const accepted = await aiPlanningService.acceptMeal(context, input);
   revalidatePath("/dashboard");
   revalidatePath("/weekly-planner");
-  revalidatePath("/grocery-lists");
   revalidatePath("/recipes");
   redirect(
     safeAiMealReturnTo(

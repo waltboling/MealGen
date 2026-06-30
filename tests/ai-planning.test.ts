@@ -103,9 +103,12 @@ describe("mock AI planning provider", () => {
     assert.equal(result.providerId, "mock");
     assert.equal(result.suggestions.length, 2);
     assert.equal(result.suggestions[0].mealType, "LUNCH");
-    assert.equal(result.suggestions[0].cuisine, "Mexican");
+    assert.equal(result.suggestions[0].cuisine, null);
     assert.ok(result.suggestions[0].ingredients.length > 0);
     assert.ok(result.suggestions[0].ingredients.some((ingredient) => ingredient.quantity != null));
+    assert.ok(result.suggestions[0].ingredients.some((ingredient) => ingredient.name === "chicken"));
+    assert.ok(result.suggestions[0].ingredients.some((ingredient) => ingredient.name === "rice"));
+    assert.ok(result.suggestions[0].matchedHouseholdPreferences.includes("Mexican"));
     assert.ok(result.suggestions[0].nutritionEstimateNote.includes("estimated"));
     assert.ok(result.suggestions[0].warnings.some((warning) => warning.includes("tree nuts")));
   });

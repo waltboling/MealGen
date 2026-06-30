@@ -39,6 +39,18 @@ export class OpenAiPlanningProvider implements AiPlanningProvider {
       throw new Error("OPENAI_API_KEY is not configured.");
     }
 
+    const plannerPayload = {
+      priorityRules: [
+        "Current request and structured fields outrank household profile favorites, saved recipes, and prior meals.",
+        "Use preferredProteins as main proteins when supplied.",
+        "Use preferredBaseCarbs as main carb bases when supplied.",
+        "Use requested vegetables before adding other vegetables.",
+        "Avoid ingredients listed in avoidIngredients and household allergies.",
+        "Do not reuse older cuisines or themes unless current request asks for them."
+      ],
+      ...input
+    };
+
     const response = await fetch("https://api.openai.com/v1/responses", {
       method: "POST",
       headers: {
@@ -53,6 +65,12 @@ export class OpenAiPlanningProvider implements AiPlanningProvider {
             content:
               [
                 "You are a meal-planning engine for a household meal planner.",
+                "The current request and structured planning fields are the highest-priority requirements. Household taste profiles, saved recipes, favorite cuisines, and older meal history are secondary context only.",
+                "Do not carry forward cuisines, ingredients, or themes from prior requests unless they appear in the current request or structured fields.",
+                "When preferredProteins are supplied, every suggestion should use one of those proteins as its main protein unless an allergy or avoid rule prevents it.",
+                "When preferredBaseCarbs are supplied, every suggestion should include at least one of those carb bases as the main starch or base.",
+                "When vegetables are supplied, use those vegetables or clearly compatible variants before adding other vegetables.",
+                "If the current prompt conflicts with profile favorites, follow the current prompt and note the assumption in whyItMatches or assumptions.",
                 "Return only valid JSON with this exact shape:",
                 "{ providerId: string, warnings: string[], suggestions: Array<{ id: string, title: string, mealType: BREAKFAST|LUNCH|DINNER|SNACK|MEAL_PREP|OTHER, cuisine: string|null, shortDescription: string, whyItMatches: string, estimatedCookTimeMinutes: number|null, estimatedCalories: number|null, estimatedProteinGrams: number|null, servings: number, ingredients: Array<{ displayText: string, name: string, quantity: number|null, unit: string|null }>, instructions: string[], tags: string[], matchedHouseholdPreferences: string[], warnings: string[], assumptions: string[], nutritionEstimateNote: string, sourceType: generated|saved_recipe|imported_recipe, sourceRecipeId: string|null, sourceUrl: string|null }> }.",
                 "Do not invent external source attribution.",
@@ -66,7 +84,7 @@ export class OpenAiPlanningProvider implements AiPlanningProvider {
           },
           {
             role: "user",
-            content: JSON.stringify(input)
+            content: JSON.stringify(plannerPayload)
           }
         ],
         text: {

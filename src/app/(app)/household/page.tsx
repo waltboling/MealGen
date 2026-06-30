@@ -2,6 +2,7 @@ import type React from "react";
 import Link from "next/link";
 import { ShieldCheck, UserRoundPlus } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { ChiliPepperIcon } from "@/components/ui/chili-pepper-icon";
 import {
   Card,
@@ -13,6 +14,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
+import { CopyInviteLinkButton } from "@/components/household/copy-invite-link-button";
 import { PageHeader } from "@/components/layout/page-header";
 import {
   createMealProfileAction,
@@ -85,7 +87,7 @@ function StatusMessage({ status }: { status?: string }) {
 
   const messages: Record<string, string> = {
     "household-updated": "Household settings saved.",
-    "invite-created": "Invitation added.",
+    "invite-created": "Invitation added. Copy the invite link below and send it directly.",
     "role-updated": "Access role updated.",
     "profile-created": "Meal profile added.",
     "profile-updated": "Meal profile saved.",
@@ -359,7 +361,7 @@ function MemberProfileCard({
   const isGuest = profile.profileType === "GUEST";
 
   return (
-    <Card>
+    <Card id={isSelf ? "my-profile" : undefined}>
       <CardHeader>
         <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
           <div className="flex min-w-0 items-center gap-3">
@@ -548,7 +550,7 @@ export default async function HouseholdSettingsPage({
                 </Label>
                 <SubmitButton>
                   <UserRoundPlus className="size-4" />
-                  Invite
+                  Create invite
                 </SubmitButton>
               </form>
             }
@@ -616,26 +618,41 @@ export default async function HouseholdSettingsPage({
 
               <div className="space-y-2">
                 <h3 className="font-medium">Invitations</h3>
+                <p className="text-muted-foreground">
+                  MealGen creates invite links and codes here. Automatic invite
+                  emails are not connected yet, so copy the link and send it
+                  directly.
+                </p>
                 {settings.invitations.length > 0 ? (
                   <div className="space-y-2">
                     {settings.invitations.map((invite) => (
                       <div
                         key={invite.id}
-                        className="flex flex-wrap items-center gap-2 text-muted-foreground"
+                        className="flex flex-col gap-3 rounded-md border border-border p-3 text-muted-foreground sm:flex-row sm:items-center sm:justify-between"
                       >
-                        <span>{invite.email}</span>
-                        <Badge variant="outline">{invite.role}</Badge>
-                        <Badge variant="outline">{invite.status}</Badge>
+                        <div className="space-y-2">
+                          <div className="font-medium text-foreground">
+                            {invite.email}
+                          </div>
+                          <div className="flex flex-wrap gap-2">
+                            <Badge variant="outline">{invite.role}</Badge>
+                            <Badge variant="outline">{invite.status}</Badge>
+                            {invite.token ? (
+                              <Badge variant="outline">Code: {invite.token}</Badge>
+                            ) : null}
+                          </div>
+                        </div>
                         {invite.token ? (
-                          <>
-                            <Badge variant="outline">Code: {invite.token}</Badge>
-                            <Link
-                              href={`/signup?inviteCode=${encodeURIComponent(invite.token)}`}
-                              className="font-medium text-primary"
-                            >
-                              Invite link
-                            </Link>
-                          </>
+                          <div className="flex flex-wrap gap-2">
+                            <CopyInviteLinkButton inviteCode={invite.token} />
+                            <Button asChild variant="outline" size="sm">
+                              <Link
+                                href={`/signup?inviteCode=${encodeURIComponent(invite.token)}`}
+                              >
+                                Open link
+                              </Link>
+                            </Button>
+                          </div>
                         ) : null}
                       </div>
                     ))}

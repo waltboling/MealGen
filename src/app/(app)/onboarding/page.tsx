@@ -34,8 +34,8 @@ export default async function OnboardingPage() {
   return (
     <div className="space-y-6">
       <PageHeader
-        title="Set up your household"
-        description="Create a new household or join one with an invite code, then add your taste profile."
+        title="Choose your household path"
+        description="Start a new household, or join an existing household with an invite code."
       />
 
       <div className="grid gap-5 xl:grid-cols-[1.4fr_0.8fr]">
@@ -72,7 +72,7 @@ export default async function OnboardingPage() {
               Join household
             </CardTitle>
             <CardDescription>
-              Use an invite code from someone in your household.
+              Already invited? Accept the invite before creating your taste profile.
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -91,7 +91,7 @@ export default async function OnboardingPage() {
               </Button>
             </form>
             <p className="mt-4 text-sm text-muted-foreground">
-              If you received an invite link, you can open it directly instead.
+              Invite links open this join flow automatically.
             </p>
             <p className="mt-4 text-sm text-muted-foreground">
               Signed in with the wrong account?{" "}

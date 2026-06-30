@@ -156,7 +156,6 @@ async function addRecipeIdToWeek(
   });
   revalidatePath("/dashboard");
   revalidatePath("/weekly-planner");
-  revalidatePath("/grocery-lists");
   revalidatePath("/recipes");
 
   return weekStartDate;

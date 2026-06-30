@@ -22,11 +22,19 @@ function getLoginErrorMessage(error?: string, message?: string) {
   }
 
   if (error === "invalid") {
-    return "Please enter a valid email and password.";
+    return "Enter your email and password to sign in.";
   }
 
-  if (error === "auth") {
-    return "We could not sign you in with those credentials.";
+  if (error === "invalid-email") {
+    return "Enter a valid email address, like name@example.com.";
+  }
+
+  if (error === "short-password") {
+    return "Passwords are at least 6 characters. Check that the full password was entered.";
+  }
+
+  if (error === "invalid-credentials") {
+    return "That email and password combination did not work. Check for typos, or use “Reset it” if you forgot your password.";
   }
 
   if (error === "email-not-confirmed") {
@@ -133,7 +141,11 @@ export default async function LoginPage({ searchParams }: LoginPageProps) {
         <div className="mt-5 rounded-md border border-border bg-muted/40 p-3 text-sm text-muted-foreground">
           Have a household code but no account yet?{" "}
           <Link
-            href={`/signup${params.inviteCode ? `?inviteCode=${encodeURIComponent(params.inviteCode)}` : ""}`}
+            href={
+              params.inviteCode
+                ? `/signup?inviteCode=${encodeURIComponent(params.inviteCode)}`
+                : "/signup?mode=join"
+            }
             className="font-medium text-primary"
           >
             Create an account to join

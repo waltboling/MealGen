@@ -34,6 +34,34 @@ async function getRequestOrigin() {
   return headerStore.get("origin") ?? "http://127.0.0.1:3011";
 }
 
+function validationIssueCode(error: z.ZodError) {
+  const field = error.issues[0]?.path[0];
+
+  if (field === "email") {
+    return "invalid-email";
+  }
+
+  if (field === "password") {
+    return "short-password";
+  }
+
+  if (field === "name") {
+    return "missing-name";
+  }
+
+  return "invalid";
+}
+
+function signUpModeParams(inviteCode?: string) {
+  const normalizedCode = inviteCode?.trim();
+
+  if (!normalizedCode) {
+    return "";
+  }
+
+  return `&inviteCode=${encodeURIComponent(normalizedCode)}`;
+}
+
 export async function signInAction(formData: FormData) {
   const envStatus = getEnvironmentStatus();
 
@@ -52,7 +80,7 @@ export async function signInAction(formData: FormData) {
   });
 
   if (!parsed.success) {
-    redirect("/login?error=invalid");
+    redirect(`/login?error=${validationIssueCode(parsed.error)}`);
   }
 
   const supabase = await createSupabaseServerClient();
@@ -70,7 +98,7 @@ export async function signInAction(formData: FormData) {
       );
     }
 
-    redirect("/login?error=auth");
+    redirect("/login?error=invalid-credentials");
   }
 
   redirect(await getPostAuthRedirect(data.user.id, parsed.data.inviteCode));
@@ -93,14 +121,22 @@ export async function signUpAction(formData: FormData) {
     password: formData.get("password"),
     inviteCode: formData.get("inviteCode")
   });
+  const rawInviteCode = formData.get("inviteCode")?.toString();
 
   if (!parsed.success) {
-    redirect("/signup?error=invalid");
+    redirect(
+      `/signup?error=${validationIssueCode(parsed.error)}${signUpModeParams(rawInviteCode)}`
+    );
+  }
+
+  const inviteCode = parsed.data.inviteCode?.trim();
+
+  if (rawInviteCode !== undefined && !inviteCode) {
+    redirect("/signup?mode=join&error=missing-invite-code");
   }
 
   const supabase = await createSupabaseServerClient();
   const origin = await getRequestOrigin();
-  const inviteCode = parsed.data.inviteCode?.trim();
   const nextPath = inviteCode
     ? `/onboarding/join?code=${encodeURIComponent(inviteCode)}`
     : "/onboarding";
@@ -116,7 +152,13 @@ export async function signUpAction(formData: FormData) {
   });
 
   if (error) {
-    redirect("/signup?error=auth");
+    const message = error.message.toLowerCase();
+    const errorCode =
+      message.includes("already") || message.includes("registered")
+        ? "email-in-use"
+        : "signup-failed";
+
+    redirect(`/signup?error=${errorCode}${signUpModeParams(inviteCode)}`);
   }
 
   if (!data.user) {

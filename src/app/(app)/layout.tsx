@@ -1,4 +1,5 @@
 import { redirect } from "next/navigation";
+import Link from "next/link";
 import { AppNav } from "@/components/layout/app-nav";
 import { MobileNav } from "@/components/layout/mobile-nav";
 import { Button } from "@/components/ui/button";
@@ -19,12 +20,32 @@ async function getUser() {
   }
 }
 
+function initialsFor(value?: string | null) {
+  const source = value?.trim();
+
+  if (!source) {
+    return "ME";
+  }
+
+  return source
+    .split(/\s+|@/)
+    .filter(Boolean)
+    .map((part: string) => part[0])
+    .join("")
+    .slice(0, 2)
+    .toUpperCase();
+}
+
 export default async function AppLayout({
   children
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   const envStatus = getEnvironmentStatus();
+  const demoUser = {
+    name: "Jon",
+    email: "jon@example.com"
+  };
 
   if (!envStatus.ok) {
     return (
@@ -42,10 +63,16 @@ export default async function AppLayout({
   if (isDemoMode()) {
     return (
       <div className="flex min-h-screen bg-background">
-        <AppNav />
+        <AppNav userName={demoUser.name} userEmail={demoUser.email} />
         <main className="min-w-0 flex-1 px-5 py-6 pb-24 sm:px-8 lg:px-10 lg:pb-10">
           <div className="mx-auto max-w-6xl">
-            <div className="mb-4 flex justify-end lg:hidden">
+            <div className="mb-4 flex items-center justify-between gap-3 lg:hidden">
+              <Link
+                href="/household#my-profile"
+                className="grid size-10 place-items-center rounded-full bg-primary text-sm font-semibold text-primary-foreground"
+              >
+                JB
+              </Link>
               <form action={signOutAction}>
                 <Button type="submit" variant="outline" size="sm">
                   Sign out
@@ -68,10 +95,19 @@ export default async function AppLayout({
 
   return (
     <div className="flex min-h-screen bg-background">
-      <AppNav />
+      <AppNav
+        userName={user.user_metadata?.name ?? null}
+        userEmail={user.email ?? null}
+      />
       <main className="min-w-0 flex-1 px-5 py-6 pb-24 sm:px-8 lg:px-10 lg:pb-10">
         <div className="mx-auto max-w-6xl">
-          <div className="mb-4 flex justify-end lg:hidden">
+          <div className="mb-4 flex items-center justify-between gap-3 lg:hidden">
+            <Link
+              href="/household#my-profile"
+              className="grid size-10 place-items-center rounded-full bg-primary text-sm font-semibold text-primary-foreground"
+            >
+              {initialsFor(user.user_metadata?.name ?? user.email)}
+            </Link>
             <form action={signOutAction}>
               <Button type="submit" variant="outline" size="sm">
                 Sign out

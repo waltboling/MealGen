@@ -29,7 +29,7 @@ function ingredient(
   return { displayText, name, quantity, unit };
 }
 
-function inferCuisine(prompt: string, profiles: AiPlanningProviderInput["profiles"]) {
+function inferCuisine(prompt: string) {
   const normalized = prompt.toLowerCase();
   const cuisines = [
     "korean",
@@ -47,7 +47,7 @@ function inferCuisine(prompt: string, profiles: AiPlanningProviderInput["profile
     return titleCase(match);
   }
 
-  return profiles.flatMap((profile) => profile.favoriteCuisines)[0] ?? null;
+  return null;
 }
 
 function cuisineSeasoning(cuisine: string | null) {
@@ -105,7 +105,7 @@ export class MockAiPlanningProvider implements AiPlanningProvider {
     const avoidWarnings = request.avoidIngredients.map(
       (item) => `Avoiding ${item} per request.`
     );
-    const cuisine = inferCuisine(request.prompt, profiles);
+    const cuisine = inferCuisine(request.prompt);
     const seasoning = cuisineSeasoning(cuisine);
     const suggestions: AiMealSuggestion[] = Array.from(
       { length: request.numberOfMeals },
